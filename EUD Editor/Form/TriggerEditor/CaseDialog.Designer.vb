@@ -79,7 +79,7 @@ Partial Class CaseDialog
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(95, 38)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -93,7 +93,7 @@ Partial Class CaseDialog
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(96, 38)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Panel1
@@ -115,7 +115,7 @@ Partial Class CaseDialog
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(79, 19)
         Me.CheckBox1.TabIndex = 2
-        Me.CheckBox1.Text = "Break사용"
+        Me.CheckBox1.Text = "使用Break"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'NumericUpDown1
@@ -133,7 +133,7 @@ Partial Class CaseDialog
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(46, 15)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "수치"
+        Me.Label1.Text = "数值"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'CaseDialog
@@ -145,7 +145,7 @@ Partial Class CaseDialog
         Me.ClientSize = New System.Drawing.Size(191, 104)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

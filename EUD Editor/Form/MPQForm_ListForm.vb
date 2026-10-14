@@ -227,7 +227,7 @@ Public Class MPQForm_ListForm
                             My.Computer.Audio.Play(mpq.ReaddatFile(ListValue), AudioPlayMode.Background)
                         End If
                     Catch ex As Exception
-                        MsgBox("웨이브 재생에 실패했습니다.", MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
+                        MsgBox("播放音频文件失败。", MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
 
                     End Try
                 Case 1 'smk

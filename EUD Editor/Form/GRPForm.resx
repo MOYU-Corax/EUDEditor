@@ -232,7 +232,7 @@
     <value>53</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
-    <value>리맵핑</value>
+    <value>重映射</value>
   </data>
   <data name="&gt;&gt;Label1.Name" xml:space="preserve">
     <value>Label1</value>
@@ -247,7 +247,7 @@
     <value>1</value>
   </data>
   <data name="Button3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>맑은 고딕, 8.25pt</value>
+    <value>微软雅黑, 8.25pt</value>
   </data>
   <data name="Button3.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 17</value>
@@ -262,7 +262,7 @@
     <value>54</value>
   </data>
   <data name="Button3.Text" xml:space="preserve">
-    <value>GRP추출</value>
+    <value>GRP提取</value>
   </data>
   <data name="Button3.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageAboveText</value>
@@ -316,7 +316,7 @@
     <value>57</value>
   </data>
   <data name="GroupBox1.Text" xml:space="preserve">
-    <value>GRP 리스트</value>
+    <value>GRP列表</value>
   </data>
   <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
     <value>GroupBox1</value>
@@ -343,7 +343,7 @@
     <value>55</value>
   </data>
   <data name="Label2.Text" xml:space="preserve">
-    <value>팔레트</value>
+    <value>调色板</value>
   </data>
   <data name="&gt;&gt;Label2.Name" xml:space="preserve">
     <value>Label2</value>
@@ -418,7 +418,7 @@
     <value>58</value>
   </data>
   <data name="GroupBox2.Text" xml:space="preserve">
-    <value>View 옵션</value>
+    <value>View 选项</value>
   </data>
   <data name="&gt;&gt;GroupBox2.Name" xml:space="preserve">
     <value>GroupBox2</value>
@@ -466,7 +466,7 @@
     <value>59</value>
   </data>
   <data name="GroupBox3.Text" xml:space="preserve">
-    <value>GRP 미리보기</value>
+    <value>GRP预览</value>
   </data>
   <data name="&gt;&gt;GroupBox3.Name" xml:space="preserve">
     <value>GroupBox3</value>
@@ -490,7 +490,7 @@
     <value>19</value>
   </data>
   <data name="Button6.Text" xml:space="preserve">
-    <value>인덱스</value>
+    <value>索引</value>
   </data>
   <data name="&gt;&gt;Button6.Name" xml:space="preserve">
     <value>Button6</value>
@@ -514,7 +514,7 @@
     <value>18</value>
   </data>
   <data name="Button5.Text" xml:space="preserve">
-    <value>삭제</value>
+    <value>删除</value>
   </data>
   <data name="&gt;&gt;Button5.Name" xml:space="preserve">
     <value>Button5</value>
@@ -538,7 +538,7 @@
     <value>17</value>
   </data>
   <data name="Button4.Text" xml:space="preserve">
-    <value>추가</value>
+    <value>添加</value>
   </data>
   <data name="&gt;&gt;Button4.Name" xml:space="preserve">
     <value>Button4</value>
@@ -562,7 +562,7 @@
     <value>60</value>
   </data>
   <data name="GroupBox4.Text" xml:space="preserve">
-    <value>사용된 Image</value>
+    <value>已使用的 Image</value>
   </data>
   <data name="&gt;&gt;GroupBox4.Name" xml:space="preserve">
     <value>GroupBox4</value>
@@ -577,7 +577,7 @@
     <value>3</value>
   </data>
   <data name="Button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>맑은 고딕, 8.25pt</value>
+    <value>微软雅黑, 8.25pt</value>
   </data>
   <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>78, 17</value>
@@ -592,7 +592,7 @@
     <value>12</value>
   </data>
   <data name="Button1.Text" xml:space="preserve">
-    <value>외부파일</value>
+    <value>外部文件</value>
   </data>
   <data name="Button1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageAboveText</value>
@@ -613,7 +613,7 @@
     <value>False</value>
   </data>
   <data name="Button2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>맑은 고딕, 8.25pt</value>
+    <value>微软雅黑, 8.25pt</value>
   </data>
   <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>144, 17</value>
@@ -628,7 +628,7 @@
     <value>13</value>
   </data>
   <data name="Button2.Text" xml:space="preserve">
-    <value>삭제</value>
+    <value>删除</value>
   </data>
   <data name="Button2.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageAboveText</value>
@@ -655,7 +655,7 @@
     <value>61</value>
   </data>
   <data name="GroupBox5.Text" xml:space="preserve">
-    <value>GRP목록</value>
+    <value>GRP列表</value>
   </data>
   <data name="&gt;&gt;GroupBox5.Name" xml:space="preserve">
     <value>GroupBox5</value>
@@ -709,7 +709,7 @@
     <value>Fill</value>
   </data>
   <data name="ListBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>맑은 고딕, 6.75pt</value>
+    <value>微软雅黑, 6.75pt</value>
   </data>
   <data name="ListBox2.HorizontalScrollbar" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -748,7 +748,7 @@
     <value>63</value>
   </data>
   <data name="GroupBox6.Text" xml:space="preserve">
-    <value>GRP사용목록</value>
+    <value>GRP使用列表</value>
   </data>
   <data name="&gt;&gt;GroupBox6.Name" xml:space="preserve">
     <value>GroupBox6</value>
@@ -796,7 +796,7 @@
     <value>800, 409</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>맑은 고딕, 9pt</value>
+    <value>微软雅黑, 9pt</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>

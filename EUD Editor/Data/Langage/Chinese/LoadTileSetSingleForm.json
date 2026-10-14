@@ -1,0 +1,23 @@
+﻿{
+    "GroupBox5": "通行&&高度&&可建造设置工具",
+    "TabDefacult": "默认值",
+    "TabPage1": "可通行",
+    "TabPage2": "可建造",
+    "TabPage3": "不可通行",
+    "TabPage5": "低",
+    "TabPage6": "中",
+    "TabPage7": "高",
+    "GroupBox4": "图形信息",
+    "RadioButton1": "使用整个 Tileset",
+    "GroupBox6": "类型",
+    "RadioButton4": "引用式",
+    "RadioButton3": "赋值式",
+    "GroupBox3": "文件",
+    "Button4": "保存",
+    "Button3": "清空",
+    "Button2": "打开",
+    "RadioButton2": "部分修改",
+    "GroupBox1": "文件",
+    "Button5": "清空",
+    "Button1": "打开"
+}

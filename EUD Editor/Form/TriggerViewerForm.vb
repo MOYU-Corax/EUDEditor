@@ -5,7 +5,7 @@ Imports System.IO
 
 Public Class TriggerViewerForm
     Dim savestatus As Boolean = True
-    Dim formname As String = "트리거 뷰어"
+    Dim formname As String = "触发器查看器"
 
 
     Dim viewcomment As Boolean = True
@@ -56,9 +56,9 @@ Public Class TriggerViewerForm
 
     'Public DafacultStyle As Style = New TextStyle(Brushes.Black, Nothing, FontStyle.Italic)
     Private Sub updatame_text()
-        Me.Text = Me.Text.Replace(" (수정됨)", "")
+        Me.Text = Me.Text.Replace(" (已修改)", "")
         If savestatus = False Then
-            Me.Text = Me.Text & " (수정됨)"
+            Me.Text = Me.Text & " (已修改)"
         End If
     End Sub
 
@@ -581,7 +581,7 @@ Public Class TriggerViewerForm
 
 
 
-        Me.Text = formname & "    액션 수 : " & LasttriggerCount
+        Me.Text = formname & "    动作数 : " & LasttriggerCount
 
         Return stringb.ToString
     End Function

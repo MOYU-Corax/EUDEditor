@@ -23,12 +23,12 @@ Partial Class DatEditForm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim ListViewItem13 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("저그")
-        Dim ListViewItem14 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("테란")
-        Dim ListViewItem15 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("플토")
-        Dim ListViewItem16 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("저그")
-        Dim ListViewItem17 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("테란")
-        Dim ListViewItem18 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("플토")
+        Dim ListViewItem13 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("虫族")
+        Dim ListViewItem14 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("人族")
+        Dim ListViewItem15 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("神族")
+        Dim ListViewItem16 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("虫族")
+        Dim ListViewItem17 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("人族")
+        Dim ListViewItem18 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("神族")
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DatEditForm))
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Label27 = New System.Windows.Forms.Label()
@@ -785,7 +785,7 @@ Partial Class DatEditForm
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(31, 15)
         Me.Label27.TabIndex = 3
-        Me.Label27.Text = "필터"
+        Me.Label27.Text = "筛选"
         '
         'TextBox2
         '
@@ -804,7 +804,7 @@ Partial Class DatEditForm
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(50, 19)
         Me.CheckBox5.TabIndex = 5
-        Me.CheckBox5.Text = "수정"
+        Me.CheckBox5.Text = "修改"
         Me.CheckBox5.UseVisualStyleBackColor = True
         '
         'TableLayoutPanel1
@@ -894,7 +894,7 @@ Partial Class DatEditForm
         Me.초기화ToolStripMenuItem.Name = "초기화ToolStripMenuItem"
         Me.초기화ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
         Me.초기화ToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
-        Me.초기화ToolStripMenuItem.Text = "초기화"
+        Me.초기화ToolStripMenuItem.Text = "重置"
         '
         'ToolStripSeparator1
         '
@@ -906,14 +906,14 @@ Partial Class DatEditForm
         Me.복사ToolStripMenuItem.Name = "복사ToolStripMenuItem"
         Me.복사ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
         Me.복사ToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
-        Me.복사ToolStripMenuItem.Text = "복사"
+        Me.복사ToolStripMenuItem.Text = "复制"
         '
         '붙여넣기ToolStripMenuItem
         '
         Me.붙여넣기ToolStripMenuItem.Name = "붙여넣기ToolStripMenuItem"
         Me.붙여넣기ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
         Me.붙여넣기ToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
-        Me.붙여넣기ToolStripMenuItem.Text = "붙여넣기"
+        Me.붙여넣기ToolStripMenuItem.Text = "粘贴"
         '
         'ToolStripSeparator2
         '
@@ -925,14 +925,14 @@ Partial Class DatEditForm
         Me.데이터로내보내기ToolStripMenuItem.Name = "데이터로내보내기ToolStripMenuItem"
         Me.데이터로내보내기ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.E), System.Windows.Forms.Keys)
         Me.데이터로내보내기ToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
-        Me.데이터로내보내기ToolStripMenuItem.Text = "mdat로 내보내기"
+        Me.데이터로내보내기ToolStripMenuItem.Text = "导出为 mdat"
         '
         '데이터불러오기ToolStripMenuItem
         '
         Me.데이터불러오기ToolStripMenuItem.Name = "데이터불러오기ToolStripMenuItem"
         Me.데이터불러오기ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Q), System.Windows.Forms.Keys)
         Me.데이터불러오기ToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
-        Me.데이터불러오기ToolStripMenuItem.Text = "mdat 불러오기"
+        Me.데이터불러오기ToolStripMenuItem.Text = "导入 mdat"
         '
         'Button5
         '
@@ -942,7 +942,7 @@ Partial Class DatEditForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(227, 25)
         Me.Button5.TabIndex = 15
-        Me.Button5.Text = "접기"
+        Me.Button5.Text = "折叠"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'ListBox1
@@ -950,7 +950,7 @@ Partial Class DatEditForm
         Me.ListBox1.BackColor = System.Drawing.SystemColors.WindowText
         Me.ListBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable
-        Me.ListBox1.Font = New System.Drawing.Font("맑은 고딕", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.ListBox1.Font = New System.Drawing.Font("微软雅黑", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.ListBox1.ForeColor = System.Drawing.SystemColors.Window
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Location = New System.Drawing.Point(0, 0)
@@ -971,7 +971,7 @@ Partial Class DatEditForm
         Me.MainTAB.Controls.Add(Me.TabPage15)
         Me.MainTAB.Controls.Add(Me.TabPage16)
         Me.MainTAB.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.MainTAB.Font = New System.Drawing.Font("맑은 고딕", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.MainTAB.Font = New System.Drawing.Font("微软雅黑", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.MainTAB.HotTrack = True
         Me.MainTAB.Location = New System.Drawing.Point(227, 24)
         Me.MainTAB.Margin = New System.Windows.Forms.Padding(0)
@@ -989,7 +989,7 @@ Partial Class DatEditForm
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Size = New System.Drawing.Size(512, 469)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "유닛"
+        Me.TabPage1.Text = "单位"
         '
         'FlowLayoutPanel2
         '
@@ -1057,7 +1057,7 @@ Partial Class DatEditForm
         Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage9.Size = New System.Drawing.Size(504, 416)
         Me.TabPage9.TabIndex = 0
-        Me.TabPage9.Text = "기본정보"
+        Me.TabPage9.Text = "基本信息"
         '
         'GroupBox5
         '
@@ -1070,7 +1070,7 @@ Partial Class DatEditForm
         Me.GroupBox5.Size = New System.Drawing.Size(117, 79)
         Me.GroupBox5.TabIndex = 3
         Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "탑승공간"
+        Me.GroupBox5.Text = "载员空间"
         '
         'TextBox18
         '
@@ -1089,7 +1089,7 @@ Partial Class DatEditForm
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(55, 13)
         Me.Label18.TabIndex = 12
-        Me.Label18.Text = "제공량"
+        Me.Label18.Text = "提供量"
         Me.Label18.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox17
@@ -1109,7 +1109,7 @@ Partial Class DatEditForm
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(55, 13)
         Me.Label17.TabIndex = 10
-        Me.Label17.Text = "필요량"
+        Me.Label17.Text = "需求量"
         Me.Label17.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox6
@@ -1123,7 +1123,7 @@ Partial Class DatEditForm
         Me.GroupBox6.Size = New System.Drawing.Size(118, 79)
         Me.GroupBox6.TabIndex = 3
         Me.GroupBox6.TabStop = False
-        Me.GroupBox6.Text = "점수"
+        Me.GroupBox6.Text = "分数"
         '
         'TextBox20
         '
@@ -1142,7 +1142,7 @@ Partial Class DatEditForm
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(55, 13)
         Me.Label20.TabIndex = 12
-        Me.Label20.Text = "파괴시"
+        Me.Label20.Text = "被摧毁时"
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox19
@@ -1162,7 +1162,7 @@ Partial Class DatEditForm
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(55, 13)
         Me.Label19.TabIndex = 10
-        Me.Label19.Text = "생산시"
+        Me.Label19.Text = "生产时"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox7
@@ -1173,7 +1173,7 @@ Partial Class DatEditForm
         Me.GroupBox7.Size = New System.Drawing.Size(486, 50)
         Me.GroupBox7.TabIndex = 3
         Me.GroupBox7.TabStop = False
-        Me.GroupBox7.Text = "기타정보"
+        Me.GroupBox7.Text = "其他信息"
         '
         'FlowLayoutPanel6
         '
@@ -1198,7 +1198,7 @@ Partial Class DatEditForm
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(51, 13)
         Me.Label21.TabIndex = 12
-        Me.Label21.Text = "유닛크기"
+        Me.Label21.Text = "单位大小"
         Me.Label21.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox21
@@ -1219,7 +1219,7 @@ Partial Class DatEditForm
         Me.ComboBox6.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.IntegralHeight = False
-        Me.ComboBox6.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox6.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox6.Location = New System.Drawing.Point(96, 3)
         Me.ComboBox6.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox6.Name = "ComboBox6"
@@ -1235,7 +1235,7 @@ Partial Class DatEditForm
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(29, 13)
         Me.Label22.TabIndex = 15
-        Me.Label22.Text = "시야"
+        Me.Label22.Text = "视野"
         Me.Label22.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox22
@@ -1257,7 +1257,7 @@ Partial Class DatEditForm
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(62, 13)
         Me.Label23.TabIndex = 17
-        Me.Label23.Text = "부가사거리"
+        Me.Label23.Text = "索敌射程"
         Me.Label23.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox23
@@ -1283,7 +1283,7 @@ Partial Class DatEditForm
         Me.GroupBox4.Size = New System.Drawing.Size(179, 79)
         Me.GroupBox4.TabIndex = 4
         Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "인구량"
+        Me.GroupBox4.Text = "人口"
         '
         'ListView3
         '
@@ -1320,7 +1320,7 @@ Partial Class DatEditForm
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(55, 13)
         Me.Label16.TabIndex = 10
-        Me.Label16.Text = "공급인구"
+        Me.Label16.Text = "提供人口"
         Me.Label16.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox15
@@ -1340,7 +1340,7 @@ Partial Class DatEditForm
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(55, 13)
         Me.Label15.TabIndex = 8
-        Me.Label15.Text = "필요인구"
+        Me.Label15.Text = "所需人口"
         Me.Label15.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox3
@@ -1365,7 +1365,7 @@ Partial Class DatEditForm
         Me.GroupBox3.TabIndex = 3
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Tag = "Ground Weapon"
-        Me.GroupBox3.Text = "무기"
+        Me.GroupBox3.Text = "武器"
         '
         'ComboBox4
         '
@@ -1397,7 +1397,7 @@ Partial Class DatEditForm
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(55, 13)
         Me.Label13.TabIndex = 27
-        Me.Label13.Text = "타격수"
+        Me.Label13.Text = "打击数"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox14
@@ -1417,7 +1417,7 @@ Partial Class DatEditForm
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(55, 13)
         Me.Label14.TabIndex = 25
-        Me.Label14.Text = "타격수"
+        Me.Label14.Text = "打击数"
         Me.Label14.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Button4
@@ -1427,7 +1427,7 @@ Partial Class DatEditForm
         Me.Button4.Size = New System.Drawing.Size(42, 23)
         Me.Button4.TabIndex = 24
         Me.Button4.Tag = "Air Weapon"
-        Me.Button4.Text = "확인"
+        Me.Button4.Text = "确定"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'PictureBox3
@@ -1472,7 +1472,7 @@ Partial Class DatEditForm
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(55, 13)
         Me.Label12.TabIndex = 20
-        Me.Label12.Text = "공중무기"
+        Me.Label12.Text = "空中武器"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Button3
@@ -1482,7 +1482,7 @@ Partial Class DatEditForm
         Me.Button3.Size = New System.Drawing.Size(42, 23)
         Me.Button3.TabIndex = 19
         Me.Button3.Tag = "Ground Weapon"
-        Me.Button3.Text = "확인"
+        Me.Button3.Text = "确定"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'PictureBox2
@@ -1512,7 +1512,7 @@ Partial Class DatEditForm
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(55, 13)
         Me.Label11.TabIndex = 15
-        Me.Label11.Text = "지상무기"
+        Me.Label11.Text = "地面武器"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox2
@@ -1531,7 +1531,7 @@ Partial Class DatEditForm
         Me.GroupBox2.Size = New System.Drawing.Size(166, 124)
         Me.GroupBox2.TabIndex = 2
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "생산비용"
+        Me.GroupBox2.Text = "生产费用"
         '
         'Label5
         '
@@ -1539,7 +1539,7 @@ Partial Class DatEditForm
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(60, 13)
         Me.Label5.TabIndex = 14
-        Me.Label5.Text = "브르드워"
+        Me.Label5.Text = "母巢之战"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'NumericUpDown2
@@ -1565,7 +1565,7 @@ Partial Class DatEditForm
         Me.CheckBox2.Size = New System.Drawing.Size(48, 17)
         Me.CheckBox2.TabIndex = 12
         Me.CheckBox2.Tag = "Broodwar Unit Flag"
-        Me.CheckBox2.Text = "사용"
+        Me.CheckBox2.Text = "使用"
         Me.CheckBox2.UseVisualStyleBackColor = False
         '
         'TextBox10
@@ -1585,7 +1585,7 @@ Partial Class DatEditForm
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(55, 13)
         Me.Label10.TabIndex = 10
-        Me.Label10.Text = "시간"
+        Me.Label10.Text = "时间"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox9
@@ -1605,7 +1605,7 @@ Partial Class DatEditForm
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(55, 13)
         Me.Label9.TabIndex = 8
-        Me.Label9.Text = "가스"
+        Me.Label9.Text = "瓦斯"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox5
@@ -1625,7 +1625,7 @@ Partial Class DatEditForm
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(55, 13)
         Me.Label8.TabIndex = 6
-        Me.Label8.Text = "미네랄"
+        Me.Label8.Text = "水晶"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox1
@@ -1648,7 +1648,7 @@ Partial Class DatEditForm
         Me.GroupBox1.Size = New System.Drawing.Size(314, 124)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "유닛 생체 수치"
+        Me.GroupBox1.Text = "单位基础数值"
         '
         'ComboBox1
         '
@@ -1669,7 +1669,7 @@ Partial Class DatEditForm
         Me.Button51.Size = New System.Drawing.Size(42, 23)
         Me.Button51.TabIndex = 20
         Me.Button51.Tag = "Armor Upgrade"
-        Me.Button51.Text = "확인"
+        Me.Button51.Text = "确定"
         Me.Button51.UseVisualStyleBackColor = True
         '
         'Label2
@@ -1678,7 +1678,7 @@ Partial Class DatEditForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(55, 13)
         Me.Label2.TabIndex = 15
-        Me.Label2.Text = "쉴드"
+        Me.Label2.Text = "护盾"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'PictureBox1
@@ -1711,7 +1711,7 @@ Partial Class DatEditForm
         Me.CheckBox1.Size = New System.Drawing.Size(48, 17)
         Me.CheckBox1.TabIndex = 10
         Me.CheckBox1.Tag = "Shield Enable"
-        Me.CheckBox1.Text = "사용"
+        Me.CheckBox1.Text = "使用"
         Me.CheckBox1.UseVisualStyleBackColor = False
         '
         'TextBox4
@@ -1765,7 +1765,7 @@ Partial Class DatEditForm
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(55, 13)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "방어구"
+        Me.Label4.Text = "护甲升级"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label3
@@ -1774,7 +1774,7 @@ Partial Class DatEditForm
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(55, 13)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "방어력"
+        Me.Label3.Text = "防御力"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label1
@@ -1783,7 +1783,7 @@ Partial Class DatEditForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(59, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "체력"
+        Me.Label1.Text = "生命"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TabPage10
@@ -1795,7 +1795,7 @@ Partial Class DatEditForm
         Me.TabPage10.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage10.Size = New System.Drawing.Size(504, 416)
         Me.TabPage10.TabIndex = 1
-        Me.TabPage10.Text = "고급정보"
+        Me.TabPage10.Text = "高级信息"
         Me.TabPage10.UseVisualStyleBackColor = True
         '
         'GroupBox9
@@ -1823,7 +1823,7 @@ Partial Class DatEditForm
         Me.GroupBox9.Size = New System.Drawing.Size(489, 161)
         Me.GroupBox9.TabIndex = 29
         Me.GroupBox9.TabStop = False
-        Me.GroupBox9.Text = "기타정보"
+        Me.GroupBox9.Text = "其他信息"
         '
         'TextBox107
         '
@@ -1842,7 +1842,7 @@ Partial Class DatEditForm
         Me.Label126.Name = "Label126"
         Me.Label126.Size = New System.Drawing.Size(70, 13)
         Me.Label126.TabIndex = 31
-        Me.Label126.Text = "알수없음"
+        Me.Label126.Text = "未知"
         Me.Label126.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'PictureBox7
@@ -1881,7 +1881,7 @@ Partial Class DatEditForm
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(70, 13)
         Me.Label28.TabIndex = 15
-        Me.Label28.Text = "감염유닛"
+        Me.Label28.Text = "感染单位"
         Me.Label28.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox24
@@ -1929,7 +1929,7 @@ Partial Class DatEditForm
         Me.ComboBox7.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox7.FormattingEnabled = True
         Me.ComboBox7.IntegralHeight = False
-        Me.ComboBox7.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox7.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox7.Location = New System.Drawing.Point(145, 15)
         Me.ComboBox7.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox7.Name = "ComboBox7"
@@ -1944,7 +1944,7 @@ Partial Class DatEditForm
         Me.Button6.Size = New System.Drawing.Size(42, 23)
         Me.Button6.TabIndex = 26
         Me.Button6.Tag = "Subunit 2"
-        Me.Button6.Text = "확인"
+        Me.Button6.Text = "确定"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Label29
@@ -1953,7 +1953,7 @@ Partial Class DatEditForm
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(70, 13)
         Me.Label29.TabIndex = 18
-        Me.Label29.Text = "부가유닛1"
+        Me.Label29.Text = "附属单位1"
         Me.Label29.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Button2
@@ -1963,7 +1963,7 @@ Partial Class DatEditForm
         Me.Button2.Size = New System.Drawing.Size(42, 23)
         Me.Button2.TabIndex = 25
         Me.Button2.Tag = "Subunit 1"
-        Me.Button2.Text = "확인"
+        Me.Button2.Text = "确定"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'TextBox25
@@ -1984,7 +1984,7 @@ Partial Class DatEditForm
         Me.Button1.Size = New System.Drawing.Size(42, 23)
         Me.Button1.TabIndex = 24
         Me.Button1.Tag = "Infestation"
-        Me.Button1.Text = "확인"
+        Me.Button1.Text = "确定"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'ComboBox8
@@ -1994,7 +1994,7 @@ Partial Class DatEditForm
         Me.ComboBox8.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox8.FormattingEnabled = True
         Me.ComboBox8.IntegralHeight = False
-        Me.ComboBox8.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox8.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox8.Location = New System.Drawing.Point(145, 54)
         Me.ComboBox8.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox8.Name = "ComboBox8"
@@ -2009,7 +2009,7 @@ Partial Class DatEditForm
         Me.ComboBox9.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox9.FormattingEnabled = True
         Me.ComboBox9.IntegralHeight = False
-        Me.ComboBox9.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox9.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox9.Location = New System.Drawing.Point(145, 90)
         Me.ComboBox9.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox9.Name = "ComboBox9"
@@ -2023,7 +2023,7 @@ Partial Class DatEditForm
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(70, 13)
         Me.Label30.TabIndex = 21
-        Me.Label30.Text = "부가유닛2"
+        Me.Label30.Text = "附属单位2"
         Me.Label30.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox26
@@ -2045,7 +2045,7 @@ Partial Class DatEditForm
         Me.GroupBox8.Size = New System.Drawing.Size(486, 200)
         Me.GroupBox8.TabIndex = 28
         Me.GroupBox8.TabStop = False
-        Me.GroupBox8.Text = "스페셜어빌리티플래그"
+        Me.GroupBox8.Text = "特殊能力标志"
         '
         'ListView2
         '
@@ -2082,7 +2082,7 @@ Partial Class DatEditForm
         Me.TabPage11.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage11.Size = New System.Drawing.Size(504, 416)
         Me.TabPage11.TabIndex = 2
-        Me.TabPage11.Text = "사운드"
+        Me.TabPage11.Text = "声音"
         Me.TabPage11.UseVisualStyleBackColor = True
         '
         'GroupBox10
@@ -2125,7 +2125,7 @@ Partial Class DatEditForm
         Me.GroupBox10.Size = New System.Drawing.Size(486, 394)
         Me.GroupBox10.TabIndex = 29
         Me.GroupBox10.TabStop = False
-        Me.GroupBox10.Text = "사운드"
+        Me.GroupBox10.Text = "声音"
         '
         'Label64
         '
@@ -2133,7 +2133,7 @@ Partial Class DatEditForm
         Me.Label64.Name = "Label64"
         Me.Label64.Size = New System.Drawing.Size(100, 13)
         Me.Label64.TabIndex = 59
-        Me.Label64.Text = "짜증냄"
+        Me.Label64.Text = "抱怨"
         Me.Label64.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label63
@@ -2142,7 +2142,7 @@ Partial Class DatEditForm
         Me.Label63.Name = "Label63"
         Me.Label63.Size = New System.Drawing.Size(100, 13)
         Me.Label63.TabIndex = 58
-        Me.Label63.Text = "물어봄"
+        Me.Label63.Text = "询问"
         Me.Label63.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label62
@@ -2151,7 +2151,7 @@ Partial Class DatEditForm
         Me.Label62.Name = "Label62"
         Me.Label62.Size = New System.Drawing.Size(100, 13)
         Me.Label62.TabIndex = 57
-        Me.Label62.Text = "대답"
+        Me.Label62.Text = "应答"
         Me.Label62.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label61
@@ -2160,7 +2160,7 @@ Partial Class DatEditForm
         Me.Label61.Name = "Label61"
         Me.Label61.Size = New System.Drawing.Size(100, 13)
         Me.Label61.TabIndex = 56
-        Me.Label61.Text = "기다림"
+        Me.Label61.Text = "就绪"
         Me.Label61.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TableLayoutPanel3
@@ -2185,7 +2185,7 @@ Partial Class DatEditForm
         '
         Me.ListBox5.BackColor = System.Drawing.SystemColors.WindowText
         Me.ListBox5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ListBox5.Font = New System.Drawing.Font("맑은 고딕", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.ListBox5.Font = New System.Drawing.Font("微软雅黑", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.ListBox5.ForeColor = System.Drawing.SystemColors.Window
         Me.ListBox5.FormattingEnabled = True
         Me.ListBox5.Location = New System.Drawing.Point(0, 140)
@@ -2198,7 +2198,7 @@ Partial Class DatEditForm
         '
         Me.ListBox4.BackColor = System.Drawing.SystemColors.WindowText
         Me.ListBox4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ListBox4.Font = New System.Drawing.Font("맑은 고딕", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.ListBox4.Font = New System.Drawing.Font("微软雅黑", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.ListBox4.ForeColor = System.Drawing.SystemColors.Window
         Me.ListBox4.FormattingEnabled = True
         Me.ListBox4.Location = New System.Drawing.Point(0, 80)
@@ -2211,7 +2211,7 @@ Partial Class DatEditForm
         '
         Me.ListBox3.BackColor = System.Drawing.SystemColors.WindowText
         Me.ListBox3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ListBox3.Font = New System.Drawing.Font("맑은 고딕", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.ListBox3.Font = New System.Drawing.Font("微软雅黑", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.ListBox3.ForeColor = System.Drawing.SystemColors.Window
         Me.ListBox3.FormattingEnabled = True
         Me.ListBox3.Items.AddRange(New Object() {"ㅁㄴㅁㄴㅁㄴㄴㅁ"})
@@ -2225,7 +2225,7 @@ Partial Class DatEditForm
         '
         Me.ListBox2.BackColor = System.Drawing.SystemColors.WindowText
         Me.ListBox2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ListBox2.Font = New System.Drawing.Font("맑은 고딕", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.ListBox2.Font = New System.Drawing.Font("微软雅黑", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.ListBox2.ForeColor = System.Drawing.SystemColors.Window
         Me.ListBox2.FormattingEnabled = True
         Me.ListBox2.Items.AddRange(New Object() {"ㅁㄴㅇㅁㄴㅇㅁㄴㅇㄴㅁㅇ", "ㅁㄴㅇ", "ㅁㅇ", "ㄴㅁㅇ", "ㅁㅇㄴㅁㅇ"})
@@ -2242,7 +2242,7 @@ Partial Class DatEditForm
         Me.Button12.Size = New System.Drawing.Size(42, 23)
         Me.Button12.TabIndex = 52
         Me.Button12.Tag = "Piss Sound End"
-        Me.Button12.Text = "확인"
+        Me.Button12.Text = "确定"
         Me.Button12.UseVisualStyleBackColor = True
         '
         'Label36
@@ -2251,7 +2251,7 @@ Partial Class DatEditForm
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(100, 13)
         Me.Label36.TabIndex = 49
-        Me.Label36.Text = "짜증냄(마지막)"
+        Me.Label36.Text = "抱怨(最后一次)"
         Me.Label36.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox15
@@ -2261,7 +2261,7 @@ Partial Class DatEditForm
         Me.ComboBox15.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox15.FormattingEnabled = True
         Me.ComboBox15.IntegralHeight = False
-        Me.ComboBox15.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox15.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox15.Location = New System.Drawing.Point(163, 164)
         Me.ComboBox15.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox15.Name = "ComboBox15"
@@ -2287,7 +2287,7 @@ Partial Class DatEditForm
         Me.Button13.Size = New System.Drawing.Size(42, 23)
         Me.Button13.TabIndex = 48
         Me.Button13.Tag = "Piss Sound Start"
-        Me.Button13.Text = "확인"
+        Me.Button13.Text = "确定"
         Me.Button13.UseVisualStyleBackColor = True
         '
         'Label37
@@ -2296,7 +2296,7 @@ Partial Class DatEditForm
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(100, 13)
         Me.Label37.TabIndex = 45
-        Me.Label37.Text = "짜증냄(1번쨰)"
+        Me.Label37.Text = "抱怨(第1次)"
         Me.Label37.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox16
@@ -2306,7 +2306,7 @@ Partial Class DatEditForm
         Me.ComboBox16.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox16.FormattingEnabled = True
         Me.ComboBox16.IntegralHeight = False
-        Me.ComboBox16.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox16.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox16.Location = New System.Drawing.Point(163, 140)
         Me.ComboBox16.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox16.Name = "ComboBox16"
@@ -2332,7 +2332,7 @@ Partial Class DatEditForm
         Me.Button10.Size = New System.Drawing.Size(42, 23)
         Me.Button10.TabIndex = 44
         Me.Button10.Tag = "What Sound End"
-        Me.Button10.Text = "확인"
+        Me.Button10.Text = "确定"
         Me.Button10.UseVisualStyleBackColor = True
         '
         'Label34
@@ -2341,7 +2341,7 @@ Partial Class DatEditForm
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(100, 13)
         Me.Label34.TabIndex = 41
-        Me.Label34.Text = "물어봄(마지막)"
+        Me.Label34.Text = "询问(最后一次)"
         Me.Label34.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox13
@@ -2351,7 +2351,7 @@ Partial Class DatEditForm
         Me.ComboBox13.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox13.FormattingEnabled = True
         Me.ComboBox13.IntegralHeight = False
-        Me.ComboBox13.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox13.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox13.Location = New System.Drawing.Point(163, 116)
         Me.ComboBox13.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox13.Name = "ComboBox13"
@@ -2377,7 +2377,7 @@ Partial Class DatEditForm
         Me.Button11.Size = New System.Drawing.Size(42, 23)
         Me.Button11.TabIndex = 40
         Me.Button11.Tag = "What Sound Start"
-        Me.Button11.Text = "확인"
+        Me.Button11.Text = "确定"
         Me.Button11.UseVisualStyleBackColor = True
         '
         'Label35
@@ -2386,7 +2386,7 @@ Partial Class DatEditForm
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(100, 13)
         Me.Label35.TabIndex = 37
-        Me.Label35.Text = "물어봄(1번쨰)"
+        Me.Label35.Text = "询问(第1次)"
         Me.Label35.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox14
@@ -2396,7 +2396,7 @@ Partial Class DatEditForm
         Me.ComboBox14.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox14.FormattingEnabled = True
         Me.ComboBox14.IntegralHeight = False
-        Me.ComboBox14.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox14.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox14.Location = New System.Drawing.Point(163, 92)
         Me.ComboBox14.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox14.Name = "ComboBox14"
@@ -2422,7 +2422,7 @@ Partial Class DatEditForm
         Me.Button9.Size = New System.Drawing.Size(42, 23)
         Me.Button9.TabIndex = 36
         Me.Button9.Tag = "Yes Sound End"
-        Me.Button9.Text = "확인"
+        Me.Button9.Text = "确定"
         Me.Button9.UseVisualStyleBackColor = True
         '
         'Label33
@@ -2431,7 +2431,7 @@ Partial Class DatEditForm
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(100, 13)
         Me.Label33.TabIndex = 33
-        Me.Label33.Text = "대답(마지막)"
+        Me.Label33.Text = "应答(最后一次)"
         Me.Label33.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox12
@@ -2441,7 +2441,7 @@ Partial Class DatEditForm
         Me.ComboBox12.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox12.FormattingEnabled = True
         Me.ComboBox12.IntegralHeight = False
-        Me.ComboBox12.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox12.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox12.Location = New System.Drawing.Point(163, 68)
         Me.ComboBox12.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox12.Name = "ComboBox12"
@@ -2467,7 +2467,7 @@ Partial Class DatEditForm
         Me.Button8.Size = New System.Drawing.Size(42, 23)
         Me.Button8.TabIndex = 32
         Me.Button8.Tag = "Yes Sound Start"
-        Me.Button8.Text = "확인"
+        Me.Button8.Text = "确定"
         Me.Button8.UseVisualStyleBackColor = True
         '
         'Label32
@@ -2476,7 +2476,7 @@ Partial Class DatEditForm
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(100, 13)
         Me.Label32.TabIndex = 29
-        Me.Label32.Text = "대답(1번째)"
+        Me.Label32.Text = "应答(第1次)"
         Me.Label32.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox11
@@ -2486,7 +2486,7 @@ Partial Class DatEditForm
         Me.ComboBox11.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox11.FormattingEnabled = True
         Me.ComboBox11.IntegralHeight = False
-        Me.ComboBox11.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox11.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox11.Location = New System.Drawing.Point(163, 44)
         Me.ComboBox11.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox11.Name = "ComboBox11"
@@ -2512,7 +2512,7 @@ Partial Class DatEditForm
         Me.Button7.Size = New System.Drawing.Size(42, 23)
         Me.Button7.TabIndex = 28
         Me.Button7.Tag = "Ready Sound"
-        Me.Button7.Text = "확인"
+        Me.Button7.Text = "确定"
         Me.Button7.UseVisualStyleBackColor = True
         '
         'Label31
@@ -2521,7 +2521,7 @@ Partial Class DatEditForm
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(100, 13)
         Me.Label31.TabIndex = 25
-        Me.Label31.Text = "기다림"
+        Me.Label31.Text = "就绪"
         Me.Label31.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox10
@@ -2531,7 +2531,7 @@ Partial Class DatEditForm
         Me.ComboBox10.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox10.FormattingEnabled = True
         Me.ComboBox10.IntegralHeight = False
-        Me.ComboBox10.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox10.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox10.Location = New System.Drawing.Point(163, 20)
         Me.ComboBox10.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox10.Name = "ComboBox10"
@@ -2568,7 +2568,7 @@ Partial Class DatEditForm
         Me.TabPage12.Name = "TabPage12"
         Me.TabPage12.Size = New System.Drawing.Size(504, 416)
         Me.TabPage12.TabIndex = 3
-        Me.TabPage12.Text = "그래픽"
+        Me.TabPage12.Text = "图形"
         Me.TabPage12.UseVisualStyleBackColor = True
         '
         'Label60
@@ -2578,7 +2578,7 @@ Partial Class DatEditForm
         Me.Label60.Name = "Label60"
         Me.Label60.Size = New System.Drawing.Size(51, 13)
         Me.Label60.TabIndex = 42
-        Me.Label60.Text = "생산모습"
+        Me.Label60.Text = "建造外观"
         '
         'CheckBox4
         '
@@ -2593,7 +2593,7 @@ Partial Class DatEditForm
         Me.CheckBox4.Size = New System.Drawing.Size(85, 17)
         Me.CheckBox4.TabIndex = 34
         Me.CheckBox4.Tag = "Broodwar Unit Flag"
-        Me.CheckBox4.Text = "프레임 재생"
+        Me.CheckBox4.Text = "帧播放"
         Me.CheckBox4.UseVisualStyleBackColor = False
         '
         'GroupBox17
@@ -2607,7 +2607,7 @@ Partial Class DatEditForm
         Me.GroupBox17.Size = New System.Drawing.Size(126, 67)
         Me.GroupBox17.TabIndex = 33
         Me.GroupBox17.TabStop = False
-        Me.GroupBox17.Text = "건설크기"
+        Me.GroupBox17.Text = "建造尺寸"
         '
         'NumericUpDown9
         '
@@ -2627,7 +2627,7 @@ Partial Class DatEditForm
         Me.Label51.Name = "Label51"
         Me.Label51.Size = New System.Drawing.Size(41, 13)
         Me.Label51.TabIndex = 34
-        Me.Label51.Text = "세로(Y)"
+        Me.Label51.Text = "纵向(Y)"
         Me.Label51.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'NumericUpDown10
@@ -2648,7 +2648,7 @@ Partial Class DatEditForm
         Me.Label52.Name = "Label52"
         Me.Label52.Size = New System.Drawing.Size(42, 13)
         Me.Label52.TabIndex = 32
-        Me.Label52.Text = "가로(X)"
+        Me.Label52.Text = "横向(X)"
         Me.Label52.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'CheckBox3
@@ -2664,7 +2664,7 @@ Partial Class DatEditForm
         Me.CheckBox3.Size = New System.Drawing.Size(81, 17)
         Me.CheckBox3.TabIndex = 19
         Me.CheckBox3.Tag = "Broodwar Unit Flag"
-        Me.CheckBox3.Text = "보조선보기"
+        Me.CheckBox3.Text = "显示辅助线"
         Me.CheckBox3.UseVisualStyleBackColor = False
         '
         'NumericUpDown11
@@ -2687,7 +2687,7 @@ Partial Class DatEditForm
         Me.Label59.Name = "Label59"
         Me.Label59.Size = New System.Drawing.Size(18, 13)
         Me.Label59.TabIndex = 17
-        Me.Label59.Text = "색"
+        Me.Label59.Text = "颜色"
         '
         'GroupBox13
         '
@@ -2700,7 +2700,7 @@ Partial Class DatEditForm
         Me.GroupBox13.Size = New System.Drawing.Size(126, 67)
         Me.GroupBox13.TabIndex = 2
         Me.GroupBox13.TabStop = False
-        Me.GroupBox13.Text = "애드온 위치"
+        Me.GroupBox13.Text = "附加建筑位置"
         '
         'NumericUpDown7
         '
@@ -2721,7 +2721,7 @@ Partial Class DatEditForm
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(70, 13)
         Me.Label47.TabIndex = 29
-        Me.Label47.Text = "세로(Y)"
+        Me.Label47.Text = "纵向(Y)"
         Me.Label47.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'NumericUpDown8
@@ -2743,7 +2743,7 @@ Partial Class DatEditForm
         Me.Label48.Name = "Label48"
         Me.Label48.Size = New System.Drawing.Size(70, 13)
         Me.Label48.TabIndex = 26
-        Me.Label48.Text = "가로(X)"
+        Me.Label48.Text = "横向(X)"
         Me.Label48.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox12
@@ -2761,7 +2761,7 @@ Partial Class DatEditForm
         Me.GroupBox12.Size = New System.Drawing.Size(126, 116)
         Me.GroupBox12.TabIndex = 1
         Me.GroupBox12.TabStop = False
-        Me.GroupBox12.Text = "유닛 크기(픽셀)"
+        Me.GroupBox12.Text = "单位大小(像素)"
         '
         'NumericUpDown6
         '
@@ -2780,7 +2780,7 @@ Partial Class DatEditForm
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(40, 13)
         Me.Label46.TabIndex = 23
-        Me.Label46.Text = "하"
+        Me.Label46.Text = "下"
         Me.Label46.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'NumericUpDown5
@@ -2800,7 +2800,7 @@ Partial Class DatEditForm
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(40, 13)
         Me.Label45.TabIndex = 20
-        Me.Label45.Text = "상"
+        Me.Label45.Text = "上"
         Me.Label45.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'NumericUpDown4
@@ -2820,7 +2820,7 @@ Partial Class DatEditForm
         Me.Label44.Name = "Label44"
         Me.Label44.Size = New System.Drawing.Size(40, 13)
         Me.Label44.TabIndex = 17
-        Me.Label44.Text = "우"
+        Me.Label44.Text = "右"
         Me.Label44.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'NumericUpDown3
@@ -2840,7 +2840,7 @@ Partial Class DatEditForm
         Me.Label43.Name = "Label43"
         Me.Label43.Size = New System.Drawing.Size(40, 13)
         Me.Label43.TabIndex = 14
-        Me.Label43.Text = "좌"
+        Me.Label43.Text = "左"
         Me.Label43.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox11
@@ -2869,7 +2869,7 @@ Partial Class DatEditForm
         Me.GroupBox11.Size = New System.Drawing.Size(486, 117)
         Me.GroupBox11.TabIndex = 0
         Me.GroupBox11.TabStop = False
-        Me.GroupBox11.Text = "유닛그림 정보"
+        Me.GroupBox11.Text = "单位图形信息"
         '
         'PictureBox10
         '
@@ -2888,7 +2888,7 @@ Partial Class DatEditForm
         Me.ComboBox21.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox21.FormattingEnabled = True
         Me.ComboBox21.IntegralHeight = False
-        Me.ComboBox21.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox21.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox21.Location = New System.Drawing.Point(390, 90)
         Me.ComboBox21.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox21.Name = "ComboBox21"
@@ -2913,7 +2913,7 @@ Partial Class DatEditForm
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(66, 13)
         Me.Label42.TabIndex = 52
-        Me.Label42.Text = "생산시 방향"
+        Me.Label42.Text = "生产时方向"
         Me.Label42.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox20
@@ -2923,7 +2923,7 @@ Partial Class DatEditForm
         Me.ComboBox20.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox20.FormattingEnabled = True
         Me.ComboBox20.IntegralHeight = False
-        Me.ComboBox20.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox20.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox20.Location = New System.Drawing.Point(114, 90)
         Me.ComboBox20.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox20.Name = "ComboBox20"
@@ -2948,7 +2948,7 @@ Partial Class DatEditForm
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(70, 13)
         Me.Label41.TabIndex = 49
-        Me.Label41.Text = "높이"
+        Me.Label41.Text = "高度"
         Me.Label41.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Button14
@@ -2958,7 +2958,7 @@ Partial Class DatEditForm
         Me.Button14.Size = New System.Drawing.Size(42, 23)
         Me.Button14.TabIndex = 48
         Me.Button14.Tag = "Portrait"
-        Me.Button14.Text = "확인"
+        Me.Button14.Text = "确定"
         Me.Button14.UseVisualStyleBackColor = True
         '
         'Label38
@@ -2967,7 +2967,7 @@ Partial Class DatEditForm
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(70, 13)
         Me.Label38.TabIndex = 45
-        Me.Label38.Text = "얼굴사진"
+        Me.Label38.Text = "头像"
         Me.Label38.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox17
@@ -2977,7 +2977,7 @@ Partial Class DatEditForm
         Me.ComboBox17.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox17.FormattingEnabled = True
         Me.ComboBox17.IntegralHeight = False
-        Me.ComboBox17.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox17.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox17.Location = New System.Drawing.Point(121, 63)
         Me.ComboBox17.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox17.Name = "ComboBox17"
@@ -3003,7 +3003,7 @@ Partial Class DatEditForm
         Me.Button15.Size = New System.Drawing.Size(42, 23)
         Me.Button15.TabIndex = 44
         Me.Button15.Tag = "Construction Animation"
-        Me.Button15.Text = "확인"
+        Me.Button15.Text = "确定"
         Me.Button15.UseVisualStyleBackColor = True
         '
         'Label39
@@ -3012,7 +3012,7 @@ Partial Class DatEditForm
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(70, 13)
         Me.Label39.TabIndex = 41
-        Me.Label39.Text = "생산모습"
+        Me.Label39.Text = "建造外观"
         Me.Label39.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox18
@@ -3022,7 +3022,7 @@ Partial Class DatEditForm
         Me.ComboBox18.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox18.FormattingEnabled = True
         Me.ComboBox18.IntegralHeight = False
-        Me.ComboBox18.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox18.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox18.Location = New System.Drawing.Point(148, 38)
         Me.ComboBox18.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox18.Name = "ComboBox18"
@@ -3048,7 +3048,7 @@ Partial Class DatEditForm
         Me.Button16.Size = New System.Drawing.Size(42, 23)
         Me.Button16.TabIndex = 40
         Me.Button16.Tag = "Graphics"
-        Me.Button16.Text = "확인"
+        Me.Button16.Text = "确定"
         Me.Button16.UseVisualStyleBackColor = True
         '
         'Label40
@@ -3057,7 +3057,7 @@ Partial Class DatEditForm
         Me.Label40.Name = "Label40"
         Me.Label40.Size = New System.Drawing.Size(70, 13)
         Me.Label40.TabIndex = 37
-        Me.Label40.Text = "그래픽"
+        Me.Label40.Text = "图形"
         Me.Label40.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox19
@@ -3067,7 +3067,7 @@ Partial Class DatEditForm
         Me.ComboBox19.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox19.FormattingEnabled = True
         Me.ComboBox19.IntegralHeight = False
-        Me.ComboBox19.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox19.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox19.Location = New System.Drawing.Point(114, 14)
         Me.ComboBox19.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox19.Name = "ComboBox19"
@@ -3118,7 +3118,7 @@ Partial Class DatEditForm
         Me.TabPage13.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage13.Size = New System.Drawing.Size(504, 416)
         Me.TabPage13.TabIndex = 4
-        Me.TabPage13.Text = "맵에디트적용"
+        Me.TabPage13.Text = "地图编辑器应用"
         Me.TabPage13.UseVisualStyleBackColor = True
         '
         'GroupBox16
@@ -3135,7 +3135,7 @@ Partial Class DatEditForm
         Me.GroupBox16.Size = New System.Drawing.Size(406, 81)
         Me.GroupBox16.TabIndex = 31
         Me.GroupBox16.TabStop = False
-        Me.GroupBox16.Text = "문자 정보"
+        Me.GroupBox16.Text = "文本信息"
         '
         'Button45
         '
@@ -3143,7 +3143,7 @@ Partial Class DatEditForm
         Me.Button45.Name = "Button45"
         Me.Button45.Size = New System.Drawing.Size(55, 23)
         Me.Button45.TabIndex = 32
-        Me.Button45.Text = "수정"
+        Me.Button45.Text = "修改"
         Me.Button45.UseVisualStyleBackColor = True
         '
         'Label50
@@ -3152,7 +3152,7 @@ Partial Class DatEditForm
         Me.Label50.Name = "Label50"
         Me.Label50.Size = New System.Drawing.Size(70, 13)
         Me.Label50.TabIndex = 43
-        Me.Label50.Text = "문자열"
+        Me.Label50.Text = "字符串"
         Me.Label50.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox23
@@ -3162,7 +3162,7 @@ Partial Class DatEditForm
         Me.ComboBox23.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox23.FormattingEnabled = True
         Me.ComboBox23.IntegralHeight = False
-        Me.ComboBox23.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox23.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox23.Location = New System.Drawing.Point(126, 48)
         Me.ComboBox23.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox23.Name = "ComboBox23"
@@ -3187,7 +3187,7 @@ Partial Class DatEditForm
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(70, 13)
         Me.Label49.TabIndex = 40
-        Me.Label49.Text = "계급"
+        Me.Label49.Text = "军衔"
         Me.Label49.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox22
@@ -3197,7 +3197,7 @@ Partial Class DatEditForm
         Me.ComboBox22.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox22.FormattingEnabled = True
         Me.ComboBox22.IntegralHeight = False
-        Me.ComboBox22.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox22.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox22.Location = New System.Drawing.Point(126, 21)
         Me.ComboBox22.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox22.Name = "ComboBox22"
@@ -3224,7 +3224,7 @@ Partial Class DatEditForm
         Me.GroupBox15.Size = New System.Drawing.Size(100, 161)
         Me.GroupBox15.TabIndex = 30
         Me.GroupBox15.TabStop = False
-        Me.GroupBox15.Text = "소속된 그룹"
+        Me.GroupBox15.Text = "所属组"
         '
         'ListView6
         '
@@ -3248,7 +3248,7 @@ Partial Class DatEditForm
         Me.GroupBox14.Size = New System.Drawing.Size(306, 161)
         Me.GroupBox14.TabIndex = 29
         Me.GroupBox14.TabStop = False
-        Me.GroupBox14.Text = "소속된 능력"
+        Me.GroupBox14.Text = "所属能力"
         '
         'ListView5
         '
@@ -3272,7 +3272,7 @@ Partial Class DatEditForm
         Me.TabPage14.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage14.Size = New System.Drawing.Size(504, 416)
         Me.TabPage14.TabIndex = 5
-        Me.TabPage14.Text = "인공지능행동"
+        Me.TabPage14.Text = "人工智能行为"
         Me.TabPage14.UseVisualStyleBackColor = True
         '
         'GroupBox18
@@ -3311,7 +3311,7 @@ Partial Class DatEditForm
         Me.GroupBox18.Size = New System.Drawing.Size(486, 318)
         Me.GroupBox18.TabIndex = 0
         Me.GroupBox18.TabStop = False
-        Me.GroupBox18.Text = "인공지능행동"
+        Me.GroupBox18.Text = "人工智能行为"
         '
         'ListView7
         '
@@ -3382,7 +3382,7 @@ Partial Class DatEditForm
         Me.Label58.Name = "Label58"
         Me.Label58.Size = New System.Drawing.Size(100, 13)
         Me.Label58.TabIndex = 65
-        Me.Label58.Text = "우클릭행동"
+        Me.Label58.Text = "右键行为"
         Me.Label58.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox29
@@ -3392,7 +3392,7 @@ Partial Class DatEditForm
         Me.ComboBox29.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox29.FormattingEnabled = True
         Me.ComboBox29.IntegralHeight = False
-        Me.ComboBox29.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox29.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox29.Location = New System.Drawing.Point(151, 202)
         Me.ComboBox29.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox29.Name = "ComboBox29"
@@ -3418,7 +3418,7 @@ Partial Class DatEditForm
         Me.Button17.Size = New System.Drawing.Size(42, 23)
         Me.Button17.TabIndex = 64
         Me.Button17.Tag = "Attack Move"
-        Me.Button17.Text = "확인"
+        Me.Button17.Text = "确定"
         Me.Button17.UseVisualStyleBackColor = True
         '
         'Label53
@@ -3427,7 +3427,7 @@ Partial Class DatEditForm
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(100, 13)
         Me.Label53.TabIndex = 61
-        Me.Label53.Text = "공격 & 이동"
+        Me.Label53.Text = "攻击 & 移动"
         Me.Label53.TextAlign = System.Drawing.ContentAlignment.TopRight
         Me.Label53.UseMnemonic = False
         '
@@ -3438,7 +3438,7 @@ Partial Class DatEditForm
         Me.ComboBox24.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox24.FormattingEnabled = True
         Me.ComboBox24.IntegralHeight = False
-        Me.ComboBox24.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox24.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox24.Location = New System.Drawing.Point(190, 163)
         Me.ComboBox24.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox24.Name = "ComboBox24"
@@ -3464,7 +3464,7 @@ Partial Class DatEditForm
         Me.Button18.Size = New System.Drawing.Size(42, 23)
         Me.Button18.TabIndex = 60
         Me.Button18.Tag = "Attack Unit"
-        Me.Button18.Text = "확인"
+        Me.Button18.Text = "确定"
         Me.Button18.UseVisualStyleBackColor = True
         '
         'Label54
@@ -3473,7 +3473,7 @@ Partial Class DatEditForm
         Me.Label54.Name = "Label54"
         Me.Label54.Size = New System.Drawing.Size(100, 13)
         Me.Label54.TabIndex = 57
-        Me.Label54.Text = "유닛 공격"
+        Me.Label54.Text = "攻击单位"
         Me.Label54.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox25
@@ -3483,7 +3483,7 @@ Partial Class DatEditForm
         Me.ComboBox25.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox25.FormattingEnabled = True
         Me.ComboBox25.IntegralHeight = False
-        Me.ComboBox25.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox25.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox25.Location = New System.Drawing.Point(190, 128)
         Me.ComboBox25.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox25.Name = "ComboBox25"
@@ -3509,7 +3509,7 @@ Partial Class DatEditForm
         Me.Button19.Size = New System.Drawing.Size(42, 23)
         Me.Button19.TabIndex = 56
         Me.Button19.Tag = "Return to Idle"
-        Me.Button19.Text = "확인"
+        Me.Button19.Text = "确定"
         Me.Button19.UseVisualStyleBackColor = True
         '
         'Label55
@@ -3518,7 +3518,7 @@ Partial Class DatEditForm
         Me.Label55.Name = "Label55"
         Me.Label55.Size = New System.Drawing.Size(100, 13)
         Me.Label55.TabIndex = 53
-        Me.Label55.Text = "평상시"
+        Me.Label55.Text = "平时"
         Me.Label55.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox26
@@ -3528,7 +3528,7 @@ Partial Class DatEditForm
         Me.ComboBox26.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox26.FormattingEnabled = True
         Me.ComboBox26.IntegralHeight = False
-        Me.ComboBox26.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox26.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox26.Location = New System.Drawing.Point(190, 93)
         Me.ComboBox26.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox26.Name = "ComboBox26"
@@ -3554,7 +3554,7 @@ Partial Class DatEditForm
         Me.Button20.Size = New System.Drawing.Size(42, 23)
         Me.Button20.TabIndex = 52
         Me.Button20.Tag = "Human AI Idle"
-        Me.Button20.Text = "확인"
+        Me.Button20.Text = "确定"
         Me.Button20.UseVisualStyleBackColor = True
         '
         'Label56
@@ -3563,7 +3563,7 @@ Partial Class DatEditForm
         Me.Label56.Name = "Label56"
         Me.Label56.Size = New System.Drawing.Size(100, 13)
         Me.Label56.TabIndex = 49
-        Me.Label56.Text = "사람 기본"
+        Me.Label56.Text = "人类默认"
         Me.Label56.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox27
@@ -3573,7 +3573,7 @@ Partial Class DatEditForm
         Me.ComboBox27.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox27.FormattingEnabled = True
         Me.ComboBox27.IntegralHeight = False
-        Me.ComboBox27.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox27.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox27.Location = New System.Drawing.Point(190, 58)
         Me.ComboBox27.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox27.Name = "ComboBox27"
@@ -3599,7 +3599,7 @@ Partial Class DatEditForm
         Me.Button21.Size = New System.Drawing.Size(42, 23)
         Me.Button21.TabIndex = 48
         Me.Button21.Tag = "Comp AI Idle"
-        Me.Button21.Text = "확인"
+        Me.Button21.Text = "确定"
         Me.Button21.UseVisualStyleBackColor = True
         '
         'Label57
@@ -3608,7 +3608,7 @@ Partial Class DatEditForm
         Me.Label57.Name = "Label57"
         Me.Label57.Size = New System.Drawing.Size(100, 13)
         Me.Label57.TabIndex = 45
-        Me.Label57.Text = "컴퓨터 기본"
+        Me.Label57.Text = "电脑默认"
         Me.Label57.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox28
@@ -3618,7 +3618,7 @@ Partial Class DatEditForm
         Me.ComboBox28.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox28.FormattingEnabled = True
         Me.ComboBox28.IntegralHeight = False
-        Me.ComboBox28.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox28.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox28.Location = New System.Drawing.Point(190, 23)
         Me.ComboBox28.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox28.Name = "ComboBox28"
@@ -3652,7 +3652,7 @@ Partial Class DatEditForm
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Size = New System.Drawing.Size(512, 469)
         Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "무기"
+        Me.TabPage2.Text = "武器"
         '
         'GroupBox24
         '
@@ -3662,7 +3662,7 @@ Partial Class DatEditForm
         Me.GroupBox24.Size = New System.Drawing.Size(94, 172)
         Me.GroupBox24.TabIndex = 16
         Me.GroupBox24.TabStop = False
-        Me.GroupBox24.Text = "대상종류"
+        Me.GroupBox24.Text = "目标类型"
         '
         'ListView8
         '
@@ -3709,7 +3709,7 @@ Partial Class DatEditForm
         Me.GroupBox23.Size = New System.Drawing.Size(396, 217)
         Me.GroupBox23.TabIndex = 15
         Me.GroupBox23.TabStop = False
-        Me.GroupBox23.Text = "그래픽 정보"
+        Me.GroupBox23.Text = "图形信息"
         '
         'PictureBox19
         '
@@ -3751,7 +3751,7 @@ Partial Class DatEditForm
         Me.Label82.Name = "Label82"
         Me.Label82.Size = New System.Drawing.Size(67, 13)
         Me.Label82.TabIndex = 47
-        Me.Label82.Text = "발사회전값"
+        Me.Label82.Text = "发射旋转值"
         Me.Label82.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox66
@@ -3771,7 +3771,7 @@ Partial Class DatEditForm
         Me.Label83.Name = "Label83"
         Me.Label83.Size = New System.Drawing.Size(67, 13)
         Me.Label83.TabIndex = 45
-        Me.Label83.Text = "공격가능각도"
+        Me.Label83.Text = "攻击角度"
         Me.Label83.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox65
@@ -3791,7 +3791,7 @@ Partial Class DatEditForm
         Me.Label80.Name = "Label80"
         Me.Label80.Size = New System.Drawing.Size(100, 13)
         Me.Label80.TabIndex = 43
-        Me.Label80.Text = "발사높이"
+        Me.Label80.Text = "发射高度"
         Me.Label80.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox67
@@ -3811,7 +3811,7 @@ Partial Class DatEditForm
         Me.Label81.Name = "Label81"
         Me.Label81.Size = New System.Drawing.Size(100, 13)
         Me.Label81.TabIndex = 41
-        Me.Label81.Text = "발사위치"
+        Me.Label81.Text = "发射位置"
         Me.Label81.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'PictureBox18
@@ -3867,7 +3867,7 @@ Partial Class DatEditForm
         Me.Label79.Name = "Label79"
         Me.Label79.Size = New System.Drawing.Size(67, 13)
         Me.Label79.TabIndex = 37
-        Me.Label79.Text = "아이콘"
+        Me.Label79.Text = "图标"
         Me.Label79.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Button22
@@ -3877,7 +3877,7 @@ Partial Class DatEditForm
         Me.Button22.Size = New System.Drawing.Size(42, 23)
         Me.Button22.TabIndex = 36
         Me.Button22.Tag = "Graphics"
-        Me.Button22.Text = "확인"
+        Me.Button22.Text = "确定"
         Me.Button22.UseVisualStyleBackColor = True
         '
         'TextBox62
@@ -3897,7 +3897,7 @@ Partial Class DatEditForm
         Me.Label78.Name = "Label78"
         Me.Label78.Size = New System.Drawing.Size(100, 13)
         Me.Label78.TabIndex = 34
-        Me.Label78.Text = "잔여시간"
+        Me.Label78.Text = "剩余时间"
         Me.Label78.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox35
@@ -3907,7 +3907,7 @@ Partial Class DatEditForm
         Me.ComboBox35.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox35.FormattingEnabled = True
         Me.ComboBox35.IntegralHeight = False
-        Me.ComboBox35.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox35.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox35.Location = New System.Drawing.Point(147, 35)
         Me.ComboBox35.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox35.Name = "ComboBox35"
@@ -3932,7 +3932,7 @@ Partial Class DatEditForm
         Me.Label77.Name = "Label77"
         Me.Label77.Size = New System.Drawing.Size(67, 13)
         Me.Label77.TabIndex = 31
-        Me.Label77.Text = "그래픽"
+        Me.Label77.Text = "图形"
         Me.Label77.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox34
@@ -3942,7 +3942,7 @@ Partial Class DatEditForm
         Me.ComboBox34.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox34.FormattingEnabled = True
         Me.ComboBox34.IntegralHeight = False
-        Me.ComboBox34.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox34.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox34.Location = New System.Drawing.Point(113, 12)
         Me.ComboBox34.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox34.Name = "ComboBox34"
@@ -3967,7 +3967,7 @@ Partial Class DatEditForm
         Me.Label76.Name = "Label76"
         Me.Label76.Size = New System.Drawing.Size(67, 13)
         Me.Label76.TabIndex = 28
-        Me.Label76.Text = "투사방식"
+        Me.Label76.Text = "投射方式"
         Me.Label76.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox22
@@ -3983,7 +3983,7 @@ Partial Class DatEditForm
         Me.GroupBox22.Size = New System.Drawing.Size(95, 97)
         Me.GroupBox22.TabIndex = 14
         Me.GroupBox22.TabStop = False
-        Me.GroupBox22.Text = "스플레시범위"
+        Me.GroupBox22.Text = "溅射范围"
         '
         'Label73
         '
@@ -3991,7 +3991,7 @@ Partial Class DatEditForm
         Me.Label73.Name = "Label73"
         Me.Label73.Size = New System.Drawing.Size(39, 13)
         Me.Label73.TabIndex = 23
-        Me.Label73.Text = "외곽"
+        Me.Label73.Text = "外圈"
         Me.Label73.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox57
@@ -4011,7 +4011,7 @@ Partial Class DatEditForm
         Me.Label71.Name = "Label71"
         Me.Label71.Size = New System.Drawing.Size(39, 13)
         Me.Label71.TabIndex = 21
-        Me.Label71.Text = "중간"
+        Me.Label71.Text = "中圈"
         Me.Label71.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox55
@@ -4031,7 +4031,7 @@ Partial Class DatEditForm
         Me.Label72.Name = "Label72"
         Me.Label72.Size = New System.Drawing.Size(39, 13)
         Me.Label72.TabIndex = 19
-        Me.Label72.Text = "안쪽"
+        Me.Label72.Text = "内圈"
         Me.Label72.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox56
@@ -4056,7 +4056,7 @@ Partial Class DatEditForm
         Me.GroupBox21.Size = New System.Drawing.Size(112, 72)
         Me.GroupBox21.TabIndex = 13
         Me.GroupBox21.TabStop = False
-        Me.GroupBox21.Text = "사거리"
+        Me.GroupBox21.Text = "射程"
         '
         'Label68
         '
@@ -4064,7 +4064,7 @@ Partial Class DatEditForm
         Me.Label68.Name = "Label68"
         Me.Label68.Size = New System.Drawing.Size(32, 13)
         Me.Label68.TabIndex = 17
-        Me.Label68.Text = "최대"
+        Me.Label68.Text = "最大"
         Me.Label68.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox44
@@ -4084,7 +4084,7 @@ Partial Class DatEditForm
         Me.Label67.Name = "Label67"
         Me.Label67.Size = New System.Drawing.Size(32, 13)
         Me.Label67.TabIndex = 15
-        Me.Label67.Text = "최소"
+        Me.Label67.Text = "最小"
         Me.Label67.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox43
@@ -4113,7 +4113,7 @@ Partial Class DatEditForm
         Me.GroupBox20.Size = New System.Drawing.Size(396, 80)
         Me.GroupBox20.TabIndex = 12
         Me.GroupBox20.TabStop = False
-        Me.GroupBox20.Text = "무기 화면정보"
+        Me.GroupBox20.Text = "武器显示信息"
         '
         'Button47
         '
@@ -4121,7 +4121,7 @@ Partial Class DatEditForm
         Me.Button47.Name = "Button47"
         Me.Button47.Size = New System.Drawing.Size(45, 23)
         Me.Button47.TabIndex = 35
-        Me.Button47.Text = "수정"
+        Me.Button47.Text = "修改"
         Me.Button47.UseVisualStyleBackColor = True
         '
         'Button46
@@ -4130,7 +4130,7 @@ Partial Class DatEditForm
         Me.Button46.Name = "Button46"
         Me.Button46.Size = New System.Drawing.Size(45, 23)
         Me.Button46.TabIndex = 34
-        Me.Button46.Text = "수정"
+        Me.Button46.Text = "修改"
         Me.Button46.UseVisualStyleBackColor = True
         '
         'ComboBox33
@@ -4140,7 +4140,7 @@ Partial Class DatEditForm
         Me.ComboBox33.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox33.FormattingEnabled = True
         Me.ComboBox33.IntegralHeight = False
-        Me.ComboBox33.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox33.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox33.Location = New System.Drawing.Point(120, 43)
         Me.ComboBox33.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox33.Name = "ComboBox33"
@@ -4165,7 +4165,7 @@ Partial Class DatEditForm
         Me.Label75.Name = "Label75"
         Me.Label75.Size = New System.Drawing.Size(67, 13)
         Me.Label75.TabIndex = 31
-        Me.Label75.Text = "에러메세지"
+        Me.Label75.Text = "错误信息"
         Me.Label75.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox32
@@ -4175,7 +4175,7 @@ Partial Class DatEditForm
         Me.ComboBox32.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox32.FormattingEnabled = True
         Me.ComboBox32.IntegralHeight = False
-        Me.ComboBox32.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox32.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox32.Location = New System.Drawing.Point(120, 20)
         Me.ComboBox32.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox32.Name = "ComboBox32"
@@ -4200,7 +4200,7 @@ Partial Class DatEditForm
         Me.Label74.Name = "Label74"
         Me.Label74.Size = New System.Drawing.Size(67, 13)
         Me.Label74.TabIndex = 28
-        Me.Label74.Text = "이름"
+        Me.Label74.Text = "名称"
         Me.Label74.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox19
@@ -4232,7 +4232,7 @@ Partial Class DatEditForm
         Me.GroupBox19.Size = New System.Drawing.Size(379, 152)
         Me.GroupBox19.TabIndex = 11
         Me.GroupBox19.TabStop = False
-        Me.GroupBox19.Text = "타격정보"
+        Me.GroupBox19.Text = "打击信息"
         '
         'Button52
         '
@@ -4241,7 +4241,7 @@ Partial Class DatEditForm
         Me.Button52.Size = New System.Drawing.Size(42, 23)
         Me.Button52.TabIndex = 28
         Me.Button52.Tag = "Damage Upgrade"
-        Me.Button52.Text = "확인"
+        Me.Button52.Text = "确定"
         Me.Button52.UseVisualStyleBackColor = True
         '
         'ComboBox31
@@ -4251,7 +4251,7 @@ Partial Class DatEditForm
         Me.ComboBox31.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox31.FormattingEnabled = True
         Me.ComboBox31.IntegralHeight = False
-        Me.ComboBox31.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox31.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox31.Location = New System.Drawing.Point(247, 74)
         Me.ComboBox31.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox31.Name = "ComboBox31"
@@ -4276,7 +4276,7 @@ Partial Class DatEditForm
         Me.Label70.Name = "Label70"
         Me.Label70.Size = New System.Drawing.Size(70, 13)
         Me.Label70.TabIndex = 25
-        Me.Label70.Text = "사용안됨"
+        Me.Label70.Text = "未使用"
         Me.Label70.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox30
@@ -4286,7 +4286,7 @@ Partial Class DatEditForm
         Me.ComboBox30.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox30.FormattingEnabled = True
         Me.ComboBox30.IntegralHeight = False
-        Me.ComboBox30.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox30.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox30.Location = New System.Drawing.Point(247, 46)
         Me.ComboBox30.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox30.Name = "ComboBox30"
@@ -4311,7 +4311,7 @@ Partial Class DatEditForm
         Me.Label69.Name = "Label69"
         Me.Label69.Size = New System.Drawing.Size(70, 13)
         Me.Label69.TabIndex = 22
-        Me.Label69.Text = "폭발형"
+        Me.Label69.Text = "爆炸类型"
         Me.Label69.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox3
@@ -4321,7 +4321,7 @@ Partial Class DatEditForm
         Me.ComboBox3.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.IntegralHeight = False
-        Me.ComboBox3.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox3.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox3.Location = New System.Drawing.Point(247, 18)
         Me.ComboBox3.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox3.Name = "ComboBox3"
@@ -4346,7 +4346,7 @@ Partial Class DatEditForm
         Me.Label66.Name = "Label66"
         Me.Label66.Size = New System.Drawing.Size(70, 13)
         Me.Label66.TabIndex = 19
-        Me.Label66.Text = "데미지형식"
+        Me.Label66.Text = "伤害类型"
         Me.Label66.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'PictureBox16
@@ -4391,7 +4391,7 @@ Partial Class DatEditForm
         Me.Label65.Name = "Label65"
         Me.Label65.Size = New System.Drawing.Size(67, 13)
         Me.Label65.TabIndex = 15
-        Me.Label65.Text = "업글"
+        Me.Label65.Text = "升级"
         Me.Label65.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label7
@@ -4400,7 +4400,7 @@ Partial Class DatEditForm
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(67, 13)
         Me.Label7.TabIndex = 13
-        Me.Label7.Text = "공격속도"
+        Me.Label7.Text = "攻击速度"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox40
@@ -4420,7 +4420,7 @@ Partial Class DatEditForm
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(67, 13)
         Me.Label6.TabIndex = 11
-        Me.Label6.Text = "투사체 수"
+        Me.Label6.Text = "投射物数量"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox39
@@ -4452,7 +4452,7 @@ Partial Class DatEditForm
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(67, 13)
         Me.Label25.TabIndex = 7
-        Me.Label25.Text = "공격력"
+        Me.Label25.Text = "攻击力"
         Me.Label25.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label26
@@ -4461,7 +4461,7 @@ Partial Class DatEditForm
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(67, 13)
         Me.Label26.TabIndex = 9
-        Me.Label26.Text = "추가공격력"
+        Me.Label26.Text = "附加攻击力"
         Me.Label26.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox3
@@ -4483,7 +4483,7 @@ Partial Class DatEditForm
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Size = New System.Drawing.Size(512, 469)
         Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "비행정보"
+        Me.TabPage3.Text = "飞行信息"
         '
         'GroupBox25
         '
@@ -4510,7 +4510,7 @@ Partial Class DatEditForm
         Me.GroupBox25.Size = New System.Drawing.Size(450, 230)
         Me.GroupBox25.TabIndex = 0
         Me.GroupBox25.TabStop = False
-        Me.GroupBox25.Text = "일반속성"
+        Me.GroupBox25.Text = "常规属性"
         '
         'TextBox108
         '
@@ -4529,7 +4529,7 @@ Partial Class DatEditForm
         Me.Label127.Name = "Label127"
         Me.Label127.Size = New System.Drawing.Size(80, 13)
         Me.Label127.TabIndex = 57
-        Me.Label127.Text = "사용안됨"
+        Me.Label127.Text = "未使用"
         Me.Label127.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'PictureBox21
@@ -4549,7 +4549,7 @@ Partial Class DatEditForm
         Me.Label89.Name = "Label89"
         Me.Label89.Size = New System.Drawing.Size(80, 13)
         Me.Label89.TabIndex = 53
-        Me.Label89.Text = "이동 제어"
+        Me.Label89.Text = "移动控制"
         Me.Label89.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox38
@@ -4559,7 +4559,7 @@ Partial Class DatEditForm
         Me.ComboBox38.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox38.FormattingEnabled = True
         Me.ComboBox38.IntegralHeight = False
-        Me.ComboBox38.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox38.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox38.Location = New System.Drawing.Point(128, 154)
         Me.ComboBox38.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox38.Name = "ComboBox38"
@@ -4595,7 +4595,7 @@ Partial Class DatEditForm
         Me.Label88.Name = "Label88"
         Me.Label88.Size = New System.Drawing.Size(80, 13)
         Me.Label88.TabIndex = 51
-        Me.Label88.Text = "회전반경"
+        Me.Label88.Text = "转弯半径"
         Me.Label88.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox71
@@ -4615,7 +4615,7 @@ Partial Class DatEditForm
         Me.Label87.Name = "Label87"
         Me.Label87.Size = New System.Drawing.Size(80, 13)
         Me.Label87.TabIndex = 49
-        Me.Label87.Text = "제동거리"
+        Me.Label87.Text = "制动距离"
         Me.Label87.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox70
@@ -4635,7 +4635,7 @@ Partial Class DatEditForm
         Me.Label86.Name = "Label86"
         Me.Label86.Size = New System.Drawing.Size(80, 13)
         Me.Label86.TabIndex = 47
-        Me.Label86.Text = "가속"
+        Me.Label86.Text = "加速"
         Me.Label86.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox69
@@ -4655,7 +4655,7 @@ Partial Class DatEditForm
         Me.Label85.Name = "Label85"
         Me.Label85.Size = New System.Drawing.Size(80, 13)
         Me.Label85.TabIndex = 45
-        Me.Label85.Text = "최고속도"
+        Me.Label85.Text = "最高速度"
         Me.Label85.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Button23
@@ -4665,7 +4665,7 @@ Partial Class DatEditForm
         Me.Button23.Size = New System.Drawing.Size(42, 23)
         Me.Button23.TabIndex = 44
         Me.Button23.Tag = "Sprite"
-        Me.Button23.Text = "확인"
+        Me.Button23.Text = "确定"
         Me.Button23.UseVisualStyleBackColor = True
         '
         'Label84
@@ -4674,7 +4674,7 @@ Partial Class DatEditForm
         Me.Label84.Name = "Label84"
         Me.Label84.Size = New System.Drawing.Size(80, 13)
         Me.Label84.TabIndex = 41
-        Me.Label84.Text = "스프라이트"
+        Me.Label84.Text = "精灵"
         Me.Label84.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox37
@@ -4684,7 +4684,7 @@ Partial Class DatEditForm
         Me.ComboBox37.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox37.FormattingEnabled = True
         Me.ComboBox37.IntegralHeight = False
-        Me.ComboBox37.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox37.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox37.Location = New System.Drawing.Point(135, 15)
         Me.ComboBox37.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox37.Name = "ComboBox37"
@@ -4712,7 +4712,7 @@ Partial Class DatEditForm
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Size = New System.Drawing.Size(512, 469)
         Me.TabPage4.TabIndex = 3
-        Me.TabPage4.Text = "스프라이트"
+        Me.TabPage4.Text = "精灵"
         '
         'GroupBox27
         '
@@ -4724,7 +4724,7 @@ Partial Class DatEditForm
         Me.GroupBox27.Size = New System.Drawing.Size(275, 288)
         Me.GroupBox27.TabIndex = 63
         Me.GroupBox27.TabStop = False
-        Me.GroupBox27.Text = "미리보기"
+        Me.GroupBox27.Text = "预览"
         '
         'CheckBox7
         '
@@ -4739,7 +4739,7 @@ Partial Class DatEditForm
         Me.CheckBox7.Size = New System.Drawing.Size(85, 17)
         Me.CheckBox7.TabIndex = 64
         Me.CheckBox7.Tag = "Broodwar Unit Flag"
-        Me.CheckBox7.Text = "프레임 재생"
+        Me.CheckBox7.Text = "帧播放"
         Me.CheckBox7.UseVisualStyleBackColor = False
         '
         'Panel2
@@ -4784,7 +4784,7 @@ Partial Class DatEditForm
         Me.GroupBox26.Size = New System.Drawing.Size(446, 161)
         Me.GroupBox26.TabIndex = 0
         Me.GroupBox26.TabStop = False
-        Me.GroupBox26.Text = "스프라이트 정보"
+        Me.GroupBox26.Text = "精灵信息"
         '
         'TextBox77
         '
@@ -4803,7 +4803,7 @@ Partial Class DatEditForm
         Me.Label95.Name = "Label95"
         Me.Label95.Size = New System.Drawing.Size(80, 13)
         Me.Label95.TabIndex = 60
-        Me.Label95.Text = "선택원위치"
+        Me.Label95.Text = "选择圈位置"
         Me.Label95.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'NumericUpDown13
@@ -4824,7 +4824,7 @@ Partial Class DatEditForm
         Me.Button25.Size = New System.Drawing.Size(42, 23)
         Me.Button25.TabIndex = 56
         Me.Button25.Tag = "Sel.Circle Image"
-        Me.Button25.Text = "확인"
+        Me.Button25.Text = "确定"
         Me.Button25.UseVisualStyleBackColor = True
         '
         'TextBox76
@@ -4844,7 +4844,7 @@ Partial Class DatEditForm
         Me.Label94.Name = "Label94"
         Me.Label94.Size = New System.Drawing.Size(80, 13)
         Me.Label94.TabIndex = 57
-        Me.Label94.Text = "체력바"
+        Me.Label94.Text = "生命条"
         Me.Label94.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label93
@@ -4853,7 +4853,7 @@ Partial Class DatEditForm
         Me.Label93.Name = "Label93"
         Me.Label93.Size = New System.Drawing.Size(80, 13)
         Me.Label93.TabIndex = 53
-        Me.Label93.Text = "선택원이미지"
+        Me.Label93.Text = "选择圈图像"
         Me.Label93.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox40
@@ -4863,7 +4863,7 @@ Partial Class DatEditForm
         Me.ComboBox40.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox40.FormattingEnabled = True
         Me.ComboBox40.IntegralHeight = False
-        Me.ComboBox40.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox40.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox40.Location = New System.Drawing.Point(128, 71)
         Me.ComboBox40.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox40.Name = "ComboBox40"
@@ -4888,7 +4888,7 @@ Partial Class DatEditForm
         Me.Label91.Name = "Label91"
         Me.Label91.Size = New System.Drawing.Size(80, 13)
         Me.Label91.TabIndex = 50
-        Me.Label91.Text = "보여짐"
+        Me.Label91.Text = "可见"
         Me.Label91.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'CheckBox6
@@ -4901,7 +4901,7 @@ Partial Class DatEditForm
         Me.CheckBox6.Size = New System.Drawing.Size(48, 17)
         Me.CheckBox6.TabIndex = 49
         Me.CheckBox6.Tag = "Is Visible"
-        Me.CheckBox6.Text = "사용"
+        Me.CheckBox6.Text = "使用"
         Me.CheckBox6.UseVisualStyleBackColor = False
         '
         'Button24
@@ -4911,7 +4911,7 @@ Partial Class DatEditForm
         Me.Button24.Size = New System.Drawing.Size(42, 23)
         Me.Button24.TabIndex = 48
         Me.Button24.Tag = "Image File"
-        Me.Button24.Text = "확인"
+        Me.Button24.Text = "确定"
         Me.Button24.UseVisualStyleBackColor = True
         '
         'Label90
@@ -4920,7 +4920,7 @@ Partial Class DatEditForm
         Me.Label90.Name = "Label90"
         Me.Label90.Size = New System.Drawing.Size(80, 13)
         Me.Label90.TabIndex = 45
-        Me.Label90.Text = "이미지"
+        Me.Label90.Text = "图像"
         Me.Label90.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox39
@@ -4930,7 +4930,7 @@ Partial Class DatEditForm
         Me.ComboBox39.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox39.FormattingEnabled = True
         Me.ComboBox39.IntegralHeight = False
-        Me.ComboBox39.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox39.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox39.Location = New System.Drawing.Point(135, 21)
         Me.ComboBox39.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox39.Name = "ComboBox39"
@@ -4957,7 +4957,7 @@ Partial Class DatEditForm
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Size = New System.Drawing.Size(512, 469)
         Me.TabPage5.TabIndex = 4
-        Me.TabPage5.Text = "이미지"
+        Me.TabPage5.Text = "图像"
         '
         'TabControl1
         '
@@ -4985,7 +4985,7 @@ Partial Class DatEditForm
         Me.TabPage18.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage18.Size = New System.Drawing.Size(504, 440)
         Me.TabPage18.TabIndex = 1
-        Me.TabPage18.Text = "그래픽 정보"
+        Me.TabPage18.Text = "图形信息"
         Me.TabPage18.UseVisualStyleBackColor = True
         '
         'TextBox123
@@ -5063,19 +5063,19 @@ Partial Class DatEditForm
         '
         'Button44
         '
-        Me.Button44.Font = New System.Drawing.Font("맑은 고딕", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button44.Font = New System.Drawing.Font("微软雅黑", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button44.Image = Global.EUD_Editor.My.Resources.Resources.FromInternel
         Me.Button44.Location = New System.Drawing.Point(3, 3)
         Me.Button44.Name = "Button44"
         Me.Button44.Size = New System.Drawing.Size(58, 60)
         Me.Button44.TabIndex = 55
-        Me.Button44.Text = "GRP추출"
+        Me.Button44.Text = "GRP 提取"
         Me.Button44.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button44.UseVisualStyleBackColor = True
         '
         'Button42
         '
-        Me.Button42.Font = New System.Drawing.Font("맑은 고딕", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button42.Font = New System.Drawing.Font("微软雅黑", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button42.Image = Global.EUD_Editor.My.Resources.Resources.Open
         Me.Button42.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button42.Location = New System.Drawing.Point(3, 66)
@@ -5083,14 +5083,14 @@ Partial Class DatEditForm
         Me.Button42.Name = "Button42"
         Me.Button42.Size = New System.Drawing.Size(58, 60)
         Me.Button42.TabIndex = 1
-        Me.Button42.Text = "외부파일"
+        Me.Button42.Text = "外部文件"
         Me.Button42.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button42.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button42.UseVisualStyleBackColor = True
         '
         'Button43
         '
-        Me.Button43.Font = New System.Drawing.Font("맑은 고딕", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button43.Font = New System.Drawing.Font("微软雅黑", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button43.Image = Global.EUD_Editor.My.Resources.Resources.Delete
         Me.Button43.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button43.Location = New System.Drawing.Point(3, 129)
@@ -5098,7 +5098,7 @@ Partial Class DatEditForm
         Me.Button43.Name = "Button43"
         Me.Button43.Size = New System.Drawing.Size(58, 60)
         Me.Button43.TabIndex = 2
-        Me.Button43.Text = "삭제"
+        Me.Button43.Text = "删除"
         Me.Button43.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button43.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button43.UseVisualStyleBackColor = True
@@ -5126,7 +5126,7 @@ Partial Class DatEditForm
         Me.GroupBox43.Size = New System.Drawing.Size(205, 70)
         Me.GroupBox43.TabIndex = 2
         Me.GroupBox43.TabStop = False
-        Me.GroupBox43.Text = "화면출력 정보"
+        Me.GroupBox43.Text = "屏幕输出信息"
         '
         'ComboBox56
         '
@@ -5135,7 +5135,7 @@ Partial Class DatEditForm
         Me.ComboBox56.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox56.FormattingEnabled = True
         Me.ComboBox56.IntegralHeight = False
-        Me.ComboBox56.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox56.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox56.Location = New System.Drawing.Point(93, 42)
         Me.ComboBox56.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox56.Name = "ComboBox56"
@@ -5160,7 +5160,7 @@ Partial Class DatEditForm
         Me.Label135.Name = "Label135"
         Me.Label135.Size = New System.Drawing.Size(40, 13)
         Me.Label135.TabIndex = 55
-        Me.Label135.Text = "색상표"
+        Me.Label135.Text = "调色板"
         Me.Label135.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox55
@@ -5170,7 +5170,7 @@ Partial Class DatEditForm
         Me.ComboBox55.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox55.FormattingEnabled = True
         Me.ComboBox55.IntegralHeight = False
-        Me.ComboBox55.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox55.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox55.Location = New System.Drawing.Point(93, 18)
         Me.ComboBox55.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox55.Name = "ComboBox55"
@@ -5195,7 +5195,7 @@ Partial Class DatEditForm
         Me.Label134.Name = "Label134"
         Me.Label134.Size = New System.Drawing.Size(40, 13)
         Me.Label134.TabIndex = 52
-        Me.Label134.Text = "기능"
+        Me.Label134.Text = "功能"
         Me.Label134.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox46
@@ -5207,7 +5207,7 @@ Partial Class DatEditForm
         Me.GroupBox46.Size = New System.Drawing.Size(204, 239)
         Me.GroupBox46.TabIndex = 65
         Me.GroupBox46.TabStop = False
-        Me.GroupBox46.Text = "스크립트"
+        Me.GroupBox46.Text = "脚本"
         '
         'RichTextBox1
         '
@@ -5239,13 +5239,13 @@ Partial Class DatEditForm
         Me.GroupBox45.Size = New System.Drawing.Size(275, 335)
         Me.GroupBox45.TabIndex = 64
         Me.GroupBox45.TabStop = False
-        Me.GroupBox45.Text = "미리보기"
+        Me.GroupBox45.Text = "预览"
         '
         'Label146
         '
         Me.Label146.AutoSize = True
         Me.Label146.BackColor = System.Drawing.SystemColors.WindowText
-        Me.Label146.Font = New System.Drawing.Font("맑은 고딕", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Label146.Font = New System.Drawing.Font("微软雅黑", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Label146.ForeColor = System.Drawing.Color.Red
         Me.Label146.Location = New System.Drawing.Point(10, 21)
         Me.Label146.Name = "Label146"
@@ -5290,7 +5290,7 @@ Partial Class DatEditForm
         Me.GroupBox41.Size = New System.Drawing.Size(486, 81)
         Me.GroupBox41.TabIndex = 1
         Me.GroupBox41.TabStop = False
-        Me.GroupBox41.Text = "이미지 파일"
+        Me.GroupBox41.Text = "图像文件"
         '
         'TextBox122
         '
@@ -5322,7 +5322,7 @@ Partial Class DatEditForm
         Me.Label142.Name = "Label142"
         Me.Label142.Size = New System.Drawing.Size(66, 13)
         Me.Label142.TabIndex = 41
-        Me.Label142.Text = "스크립트 ID"
+        Me.Label142.Text = "脚本 ID"
         Me.Label142.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox64
@@ -5332,7 +5332,7 @@ Partial Class DatEditForm
         Me.ComboBox64.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox64.FormattingEnabled = True
         Me.ComboBox64.IntegralHeight = False
-        Me.ComboBox64.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox64.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox64.Location = New System.Drawing.Point(124, 39)
         Me.ComboBox64.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox64.Name = "ComboBox64"
@@ -5357,7 +5357,7 @@ Partial Class DatEditForm
         Me.Label143.Name = "Label143"
         Me.Label143.Size = New System.Drawing.Size(66, 13)
         Me.Label143.TabIndex = 37
-        Me.Label143.Text = "GRP 파일"
+        Me.Label143.Text = "GRP 文件"
         Me.Label143.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox65
@@ -5367,7 +5367,7 @@ Partial Class DatEditForm
         Me.ComboBox65.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox65.FormattingEnabled = True
         Me.ComboBox65.IntegralHeight = False
-        Me.ComboBox65.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox65.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox65.Location = New System.Drawing.Point(124, 15)
         Me.ComboBox65.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox65.Name = "ComboBox65"
@@ -5395,7 +5395,7 @@ Partial Class DatEditForm
         Me.TabPage17.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage17.Size = New System.Drawing.Size(504, 440)
         Me.TabPage17.TabIndex = 0
-        Me.TabPage17.Text = "일반 정보"
+        Me.TabPage17.Text = "常规信息"
         Me.TabPage17.UseVisualStyleBackColor = True
         '
         'GroupBox44
@@ -5430,7 +5430,7 @@ Partial Class DatEditForm
         Me.GroupBox44.Size = New System.Drawing.Size(486, 212)
         Me.GroupBox44.TabIndex = 3
         Me.GroupBox44.TabStop = False
-        Me.GroupBox44.Text = "추가오버레이 위치"
+        Me.GroupBox44.Text = "附加覆盖层位置"
         '
         'Label144
         '
@@ -5439,7 +5439,7 @@ Partial Class DatEditForm
         Me.Label144.Name = "Label144"
         Me.Label144.Size = New System.Drawing.Size(225, 13)
         Me.Label144.TabIndex = 53
-        Me.Label144.Text = "없음 = 0, 소형 = 133, 중형 = 2, 대형 = 184"
+        Me.Label144.Text = "无 = 0, 小型 = 133, 中型 = 2, 大型 = 184"
         '
         'Button40
         '
@@ -5448,7 +5448,7 @@ Partial Class DatEditForm
         Me.Button40.Size = New System.Drawing.Size(42, 23)
         Me.Button40.TabIndex = 52
         Me.Button40.Tag = "Ready Sound"
-        Me.Button40.Text = "확인"
+        Me.Button40.Text = "确定"
         Me.Button40.UseVisualStyleBackColor = True
         '
         'Label141
@@ -5457,7 +5457,7 @@ Partial Class DatEditForm
         Me.Label141.Name = "Label141"
         Me.Label141.Size = New System.Drawing.Size(50, 13)
         Me.Label141.TabIndex = 49
-        Me.Label141.Text = "쉴드"
+        Me.Label141.Text = "护盾"
         Me.Label141.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox62
@@ -5467,7 +5467,7 @@ Partial Class DatEditForm
         Me.ComboBox62.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox62.FormattingEnabled = True
         Me.ComboBox62.IntegralHeight = False
-        Me.ComboBox62.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox62.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox62.Location = New System.Drawing.Point(110, 146)
         Me.ComboBox62.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox62.Name = "ComboBox62"
@@ -5493,7 +5493,7 @@ Partial Class DatEditForm
         Me.Button39.Size = New System.Drawing.Size(42, 23)
         Me.Button39.TabIndex = 48
         Me.Button39.Tag = "Ready Sound"
-        Me.Button39.Text = "확인"
+        Me.Button39.Text = "确定"
         Me.Button39.UseVisualStyleBackColor = True
         '
         'Label140
@@ -5502,7 +5502,7 @@ Partial Class DatEditForm
         Me.Label140.Name = "Label140"
         Me.Label140.Size = New System.Drawing.Size(50, 13)
         Me.Label140.TabIndex = 45
-        Me.Label140.Text = "뛰움"
+        Me.Label140.Text = "起飞"
         Me.Label140.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox61
@@ -5512,7 +5512,7 @@ Partial Class DatEditForm
         Me.ComboBox61.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox61.FormattingEnabled = True
         Me.ComboBox61.IntegralHeight = False
-        Me.ComboBox61.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox61.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox61.Location = New System.Drawing.Point(110, 122)
         Me.ComboBox61.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox61.Name = "ComboBox61"
@@ -5538,7 +5538,7 @@ Partial Class DatEditForm
         Me.Button38.Size = New System.Drawing.Size(42, 23)
         Me.Button38.TabIndex = 44
         Me.Button38.Tag = "Ready Sound"
-        Me.Button38.Text = "확인"
+        Me.Button38.Text = "确定"
         Me.Button38.UseVisualStyleBackColor = True
         '
         'Label139
@@ -5547,7 +5547,7 @@ Partial Class DatEditForm
         Me.Label139.Name = "Label139"
         Me.Label139.Size = New System.Drawing.Size(50, 13)
         Me.Label139.TabIndex = 41
-        Me.Label139.Text = "내림"
+        Me.Label139.Text = "降落"
         Me.Label139.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox60
@@ -5557,7 +5557,7 @@ Partial Class DatEditForm
         Me.ComboBox60.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox60.FormattingEnabled = True
         Me.ComboBox60.IntegralHeight = False
-        Me.ComboBox60.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox60.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox60.Location = New System.Drawing.Point(110, 98)
         Me.ComboBox60.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox60.Name = "ComboBox60"
@@ -5583,7 +5583,7 @@ Partial Class DatEditForm
         Me.Button37.Size = New System.Drawing.Size(42, 23)
         Me.Button37.TabIndex = 40
         Me.Button37.Tag = "Ready Sound"
-        Me.Button37.Text = "확인"
+        Me.Button37.Text = "确定"
         Me.Button37.UseVisualStyleBackColor = True
         '
         'Label138
@@ -5592,7 +5592,7 @@ Partial Class DatEditForm
         Me.Label138.Name = "Label138"
         Me.Label138.Size = New System.Drawing.Size(50, 13)
         Me.Label138.TabIndex = 37
-        Me.Label138.Text = "특수"
+        Me.Label138.Text = "特殊"
         Me.Label138.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox59
@@ -5602,7 +5602,7 @@ Partial Class DatEditForm
         Me.ComboBox59.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox59.FormattingEnabled = True
         Me.ComboBox59.IntegralHeight = False
-        Me.ComboBox59.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox59.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox59.Location = New System.Drawing.Point(110, 74)
         Me.ComboBox59.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox59.Name = "ComboBox59"
@@ -5628,7 +5628,7 @@ Partial Class DatEditForm
         Me.Button36.Size = New System.Drawing.Size(42, 23)
         Me.Button36.TabIndex = 36
         Me.Button36.Tag = "Ready Sound"
-        Me.Button36.Text = "확인"
+        Me.Button36.Text = "确定"
         Me.Button36.UseVisualStyleBackColor = True
         '
         'Label137
@@ -5637,7 +5637,7 @@ Partial Class DatEditForm
         Me.Label137.Name = "Label137"
         Me.Label137.Size = New System.Drawing.Size(50, 13)
         Me.Label137.TabIndex = 33
-        Me.Label137.Text = "피해"
+        Me.Label137.Text = "受损"
         Me.Label137.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox58
@@ -5647,7 +5647,7 @@ Partial Class DatEditForm
         Me.ComboBox58.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox58.FormattingEnabled = True
         Me.ComboBox58.IntegralHeight = False
-        Me.ComboBox58.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox58.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox58.Location = New System.Drawing.Point(110, 50)
         Me.ComboBox58.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox58.Name = "ComboBox58"
@@ -5673,7 +5673,7 @@ Partial Class DatEditForm
         Me.Button35.Size = New System.Drawing.Size(42, 23)
         Me.Button35.TabIndex = 32
         Me.Button35.Tag = "Ready Sound"
-        Me.Button35.Text = "확인"
+        Me.Button35.Text = "确定"
         Me.Button35.UseVisualStyleBackColor = True
         '
         'Label136
@@ -5682,7 +5682,7 @@ Partial Class DatEditForm
         Me.Label136.Name = "Label136"
         Me.Label136.Size = New System.Drawing.Size(50, 13)
         Me.Label136.TabIndex = 29
-        Me.Label136.Text = "공격"
+        Me.Label136.Text = "攻击"
         Me.Label136.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox57
@@ -5692,7 +5692,7 @@ Partial Class DatEditForm
         Me.ComboBox57.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox57.FormattingEnabled = True
         Me.ComboBox57.IntegralHeight = False
-        Me.ComboBox57.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox57.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox57.Location = New System.Drawing.Point(110, 26)
         Me.ComboBox57.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox57.Name = "ComboBox57"
@@ -5719,7 +5719,7 @@ Partial Class DatEditForm
         Me.GroupBox42.Size = New System.Drawing.Size(190, 70)
         Me.GroupBox42.TabIndex = 1
         Me.GroupBox42.TabStop = False
-        Me.GroupBox42.Text = "일반정보"
+        Me.GroupBox42.Text = "常规信息"
         '
         'ListView10
         '
@@ -5755,7 +5755,7 @@ Partial Class DatEditForm
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.Size = New System.Drawing.Size(512, 469)
         Me.TabPage6.TabIndex = 5
-        Me.TabPage6.Text = "업그레이드"
+        Me.TabPage6.Text = "升级"
         '
         'GroupBox31
         '
@@ -5773,7 +5773,7 @@ Partial Class DatEditForm
         Me.GroupBox31.Size = New System.Drawing.Size(226, 138)
         Me.GroupBox31.TabIndex = 3
         Me.GroupBox31.TabStop = False
-        Me.GroupBox31.Text = "업그레이드 정보"
+        Me.GroupBox31.Text = "升级信息"
         '
         'TextBox109
         '
@@ -5792,7 +5792,7 @@ Partial Class DatEditForm
         Me.Label128.Name = "Label128"
         Me.Label128.Size = New System.Drawing.Size(52, 13)
         Me.Label128.TabIndex = 59
-        Me.Label128.Text = "알수없음"
+        Me.Label128.Text = "未知"
         Me.Label128.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label103
@@ -5801,7 +5801,7 @@ Partial Class DatEditForm
         Me.Label103.Name = "Label103"
         Me.Label103.Size = New System.Drawing.Size(52, 13)
         Me.Label103.TabIndex = 26
-        Me.Label103.Text = "브르드워"
+        Me.Label103.Text = "母巢之战"
         Me.Label103.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'CheckBox8
@@ -5814,7 +5814,7 @@ Partial Class DatEditForm
         Me.CheckBox8.Size = New System.Drawing.Size(48, 17)
         Me.CheckBox8.TabIndex = 25
         Me.CheckBox8.Tag = "Broodwar Flag"
-        Me.CheckBox8.Text = "사용"
+        Me.CheckBox8.Text = "使用"
         Me.CheckBox8.UseVisualStyleBackColor = False
         '
         'ComboBox43
@@ -5824,7 +5824,7 @@ Partial Class DatEditForm
         Me.ComboBox43.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox43.FormattingEnabled = True
         Me.ComboBox43.IntegralHeight = False
-        Me.ComboBox43.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox43.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox43.Location = New System.Drawing.Point(101, 69)
         Me.ComboBox43.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox43.Name = "ComboBox43"
@@ -5849,7 +5849,7 @@ Partial Class DatEditForm
         Me.Label105.Name = "Label105"
         Me.Label105.Size = New System.Drawing.Size(52, 13)
         Me.Label105.TabIndex = 22
-        Me.Label105.Text = "종족"
+        Me.Label105.Text = "种族"
         Me.Label105.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox87
@@ -5869,7 +5869,7 @@ Partial Class DatEditForm
         Me.Label104.Name = "Label104"
         Me.Label104.Size = New System.Drawing.Size(52, 13)
         Me.Label104.TabIndex = 18
-        Me.Label104.Text = "단계수"
+        Me.Label104.Text = "等级数"
         Me.Label104.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox30
@@ -5886,7 +5886,7 @@ Partial Class DatEditForm
         Me.GroupBox30.Size = New System.Drawing.Size(184, 108)
         Me.GroupBox30.TabIndex = 2
         Me.GroupBox30.TabStop = False
-        Me.GroupBox30.Text = "추가비용"
+        Me.GroupBox30.Text = "附加费用"
         '
         'NumericUpDown15
         '
@@ -5918,7 +5918,7 @@ Partial Class DatEditForm
         Me.Label100.Name = "Label100"
         Me.Label100.Size = New System.Drawing.Size(52, 13)
         Me.Label100.TabIndex = 25
-        Me.Label100.Text = "시간"
+        Me.Label100.Text = "时间"
         Me.Label100.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox84
@@ -5938,7 +5938,7 @@ Partial Class DatEditForm
         Me.Label101.Name = "Label101"
         Me.Label101.Size = New System.Drawing.Size(52, 13)
         Me.Label101.TabIndex = 23
-        Me.Label101.Text = "가스"
+        Me.Label101.Text = "瓦斯"
         Me.Label101.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox85
@@ -5958,7 +5958,7 @@ Partial Class DatEditForm
         Me.Label102.Name = "Label102"
         Me.Label102.Size = New System.Drawing.Size(52, 13)
         Me.Label102.TabIndex = 21
-        Me.Label102.Text = "미네랄"
+        Me.Label102.Text = "水晶"
         Me.Label102.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox29
@@ -5975,7 +5975,7 @@ Partial Class DatEditForm
         Me.GroupBox29.Size = New System.Drawing.Size(184, 108)
         Me.GroupBox29.TabIndex = 1
         Me.GroupBox29.TabStop = False
-        Me.GroupBox29.Text = "기본비용"
+        Me.GroupBox29.Text = "基础费用"
         '
         'NumericUpDown14
         '
@@ -6007,7 +6007,7 @@ Partial Class DatEditForm
         Me.Label97.Name = "Label97"
         Me.Label97.Size = New System.Drawing.Size(52, 13)
         Me.Label97.TabIndex = 18
-        Me.Label97.Text = "시간"
+        Me.Label97.Text = "时间"
         Me.Label97.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox81
@@ -6027,7 +6027,7 @@ Partial Class DatEditForm
         Me.Label98.Name = "Label98"
         Me.Label98.Size = New System.Drawing.Size(52, 13)
         Me.Label98.TabIndex = 16
-        Me.Label98.Text = "가스"
+        Me.Label98.Text = "瓦斯"
         Me.Label98.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox82
@@ -6047,7 +6047,7 @@ Partial Class DatEditForm
         Me.Label99.Name = "Label99"
         Me.Label99.Size = New System.Drawing.Size(52, 13)
         Me.Label99.TabIndex = 14
-        Me.Label99.Text = "미네랄"
+        Me.Label99.Text = "水晶"
         Me.Label99.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox28
@@ -6065,7 +6065,7 @@ Partial Class DatEditForm
         Me.GroupBox28.Size = New System.Drawing.Size(464, 93)
         Me.GroupBox28.TabIndex = 0
         Me.GroupBox28.TabStop = False
-        Me.GroupBox28.Text = "업그레이드 화면정보"
+        Me.GroupBox28.Text = "升级显示信息"
         '
         'Button48
         '
@@ -6073,7 +6073,7 @@ Partial Class DatEditForm
         Me.Button48.Name = "Button48"
         Me.Button48.Size = New System.Drawing.Size(55, 21)
         Me.Button48.TabIndex = 43
-        Me.Button48.Text = "수정"
+        Me.Button48.Text = "修改"
         Me.Button48.UseVisualStyleBackColor = True
         '
         'Label96
@@ -6082,7 +6082,7 @@ Partial Class DatEditForm
         Me.Label96.Name = "Label96"
         Me.Label96.Size = New System.Drawing.Size(52, 13)
         Me.Label96.TabIndex = 40
-        Me.Label96.Text = "이름"
+        Me.Label96.Text = "名称"
         Me.Label96.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox42
@@ -6092,7 +6092,7 @@ Partial Class DatEditForm
         Me.ComboBox42.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox42.FormattingEnabled = True
         Me.ComboBox42.IntegralHeight = False
-        Me.ComboBox42.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox42.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox42.Location = New System.Drawing.Point(108, 59)
         Me.ComboBox42.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox42.Name = "ComboBox42"
@@ -6153,7 +6153,7 @@ Partial Class DatEditForm
         Me.Label92.Name = "Label92"
         Me.Label92.Size = New System.Drawing.Size(52, 13)
         Me.Label92.TabIndex = 14
-        Me.Label92.Text = "아이콘"
+        Me.Label92.Text = "图标"
         Me.Label92.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TabPage7
@@ -6166,7 +6166,7 @@ Partial Class DatEditForm
         Me.TabPage7.Name = "TabPage7"
         Me.TabPage7.Size = New System.Drawing.Size(512, 469)
         Me.TabPage7.TabIndex = 6
-        Me.TabPage7.Text = "기술"
+        Me.TabPage7.Text = "科技"
         '
         'GroupBox34
         '
@@ -6184,7 +6184,7 @@ Partial Class DatEditForm
         Me.GroupBox34.Size = New System.Drawing.Size(226, 140)
         Me.GroupBox34.TabIndex = 4
         Me.GroupBox34.TabStop = False
-        Me.GroupBox34.Text = "기술 정보"
+        Me.GroupBox34.Text = "科技信息"
         '
         'TextBox110
         '
@@ -6203,7 +6203,7 @@ Partial Class DatEditForm
         Me.Label130.Name = "Label130"
         Me.Label130.Size = New System.Drawing.Size(52, 13)
         Me.Label130.TabIndex = 47
-        Me.Label130.Text = "알수없음"
+        Me.Label130.Text = "未知"
         Me.Label130.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label129
@@ -6212,7 +6212,7 @@ Partial Class DatEditForm
         Me.Label129.Name = "Label129"
         Me.Label129.Size = New System.Drawing.Size(52, 13)
         Me.Label129.TabIndex = 28
-        Me.Label129.Text = "사용안됨"
+        Me.Label129.Text = "未使用"
         Me.Label129.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'CheckBox10
@@ -6225,7 +6225,7 @@ Partial Class DatEditForm
         Me.CheckBox10.Size = New System.Drawing.Size(48, 17)
         Me.CheckBox10.TabIndex = 27
         Me.CheckBox10.Tag = "Unused"
-        Me.CheckBox10.Text = "사용"
+        Me.CheckBox10.Text = "使用"
         Me.CheckBox10.UseVisualStyleBackColor = False
         '
         'Label111
@@ -6234,7 +6234,7 @@ Partial Class DatEditForm
         Me.Label111.Name = "Label111"
         Me.Label111.Size = New System.Drawing.Size(52, 13)
         Me.Label111.TabIndex = 26
-        Me.Label111.Text = "브르드워"
+        Me.Label111.Text = "母巢之战"
         Me.Label111.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'CheckBox9
@@ -6247,7 +6247,7 @@ Partial Class DatEditForm
         Me.CheckBox9.Size = New System.Drawing.Size(48, 17)
         Me.CheckBox9.TabIndex = 25
         Me.CheckBox9.Tag = "Brood War Flag"
-        Me.CheckBox9.Text = "사용"
+        Me.CheckBox9.Text = "使用"
         Me.CheckBox9.UseVisualStyleBackColor = False
         '
         'ComboBox46
@@ -6257,7 +6257,7 @@ Partial Class DatEditForm
         Me.ComboBox46.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox46.FormattingEnabled = True
         Me.ComboBox46.IntegralHeight = False
-        Me.ComboBox46.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox46.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox46.Location = New System.Drawing.Point(101, 19)
         Me.ComboBox46.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox46.Name = "ComboBox46"
@@ -6282,7 +6282,7 @@ Partial Class DatEditForm
         Me.Label112.Name = "Label112"
         Me.Label112.Size = New System.Drawing.Size(52, 13)
         Me.Label112.TabIndex = 22
-        Me.Label112.Text = "종족"
+        Me.Label112.Text = "种族"
         Me.Label112.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox32
@@ -6301,7 +6301,7 @@ Partial Class DatEditForm
         Me.GroupBox32.Size = New System.Drawing.Size(184, 125)
         Me.GroupBox32.TabIndex = 3
         Me.GroupBox32.TabStop = False
-        Me.GroupBox32.Text = "비용"
+        Me.GroupBox32.Text = "费用"
         '
         'TextBox94
         '
@@ -6320,7 +6320,7 @@ Partial Class DatEditForm
         Me.Label113.Name = "Label113"
         Me.Label113.Size = New System.Drawing.Size(52, 13)
         Me.Label113.TabIndex = 21
-        Me.Label113.Text = "에너지"
+        Me.Label113.Text = "能量"
         Me.Label113.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'NumericUpDown16
@@ -6353,7 +6353,7 @@ Partial Class DatEditForm
         Me.Label106.Name = "Label106"
         Me.Label106.Size = New System.Drawing.Size(52, 13)
         Me.Label106.TabIndex = 18
-        Me.Label106.Text = "시간"
+        Me.Label106.Text = "时间"
         Me.Label106.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox89
@@ -6373,7 +6373,7 @@ Partial Class DatEditForm
         Me.Label107.Name = "Label107"
         Me.Label107.Size = New System.Drawing.Size(52, 13)
         Me.Label107.TabIndex = 16
-        Me.Label107.Text = "가스"
+        Me.Label107.Text = "瓦斯"
         Me.Label107.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox90
@@ -6393,7 +6393,7 @@ Partial Class DatEditForm
         Me.Label108.Name = "Label108"
         Me.Label108.Size = New System.Drawing.Size(52, 13)
         Me.Label108.TabIndex = 14
-        Me.Label108.Text = "미네랄"
+        Me.Label108.Text = "水晶"
         Me.Label108.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox33
@@ -6411,7 +6411,7 @@ Partial Class DatEditForm
         Me.GroupBox33.Size = New System.Drawing.Size(464, 93)
         Me.GroupBox33.TabIndex = 2
         Me.GroupBox33.TabStop = False
-        Me.GroupBox33.Text = "기술 화면정보"
+        Me.GroupBox33.Text = "科技显示信息"
         '
         'Button49
         '
@@ -6419,7 +6419,7 @@ Partial Class DatEditForm
         Me.Button49.Name = "Button49"
         Me.Button49.Size = New System.Drawing.Size(55, 23)
         Me.Button49.TabIndex = 43
-        Me.Button49.Text = "수정"
+        Me.Button49.Text = "修改"
         Me.Button49.UseVisualStyleBackColor = True
         '
         'Label109
@@ -6428,7 +6428,7 @@ Partial Class DatEditForm
         Me.Label109.Name = "Label109"
         Me.Label109.Size = New System.Drawing.Size(52, 13)
         Me.Label109.TabIndex = 40
-        Me.Label109.Text = "이름"
+        Me.Label109.Text = "名称"
         Me.Label109.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox44
@@ -6438,7 +6438,7 @@ Partial Class DatEditForm
         Me.ComboBox44.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox44.FormattingEnabled = True
         Me.ComboBox44.IntegralHeight = False
-        Me.ComboBox44.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox44.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox44.Location = New System.Drawing.Point(108, 59)
         Me.ComboBox44.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox44.Name = "ComboBox44"
@@ -6499,7 +6499,7 @@ Partial Class DatEditForm
         Me.Label110.Name = "Label110"
         Me.Label110.Size = New System.Drawing.Size(52, 13)
         Me.Label110.TabIndex = 14
-        Me.Label110.Text = "아이콘"
+        Me.Label110.Text = "图标"
         Me.Label110.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TabPage8
@@ -6511,7 +6511,7 @@ Partial Class DatEditForm
         Me.TabPage8.Name = "TabPage8"
         Me.TabPage8.Size = New System.Drawing.Size(512, 469)
         Me.TabPage8.TabIndex = 7
-        Me.TabPage8.Text = "명령"
+        Me.TabPage8.Text = "命令"
         '
         'GroupBox36
         '
@@ -6521,7 +6521,7 @@ Partial Class DatEditForm
         Me.GroupBox36.Size = New System.Drawing.Size(503, 104)
         Me.GroupBox36.TabIndex = 1
         Me.GroupBox36.TabStop = False
-        Me.GroupBox36.Text = "정보"
+        Me.GroupBox36.Text = "信息"
         '
         'ListView9
         '
@@ -6581,7 +6581,7 @@ Partial Class DatEditForm
         Me.GroupBox35.Size = New System.Drawing.Size(500, 223)
         Me.GroupBox35.TabIndex = 0
         Me.GroupBox35.TabStop = False
-        Me.GroupBox35.Text = "명령/오더정보"
+        Me.GroupBox35.Text = "命令/指令信息"
         '
         'Button50
         '
@@ -6589,7 +6589,7 @@ Partial Class DatEditForm
         Me.Button50.Name = "Button50"
         Me.Button50.Size = New System.Drawing.Size(42, 23)
         Me.Button50.TabIndex = 61
-        Me.Button50.Text = "수정"
+        Me.Button50.Text = "修改"
         Me.Button50.UseVisualStyleBackColor = True
         '
         'TextBox111
@@ -6609,7 +6609,7 @@ Partial Class DatEditForm
         Me.Label131.Name = "Label131"
         Me.Label131.Size = New System.Drawing.Size(71, 13)
         Me.Label131.TabIndex = 59
-        Me.Label131.Text = "알수없음"
+        Me.Label131.Text = "未知"
         Me.Label131.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Button27
@@ -6619,7 +6619,7 @@ Partial Class DatEditForm
         Me.Button27.Size = New System.Drawing.Size(42, 23)
         Me.Button27.TabIndex = 51
         Me.Button27.Tag = "Energy"
-        Me.Button27.Text = "확인"
+        Me.Button27.Text = "确定"
         Me.Button27.UseVisualStyleBackColor = True
         '
         'Button26
@@ -6629,7 +6629,7 @@ Partial Class DatEditForm
         Me.Button26.Size = New System.Drawing.Size(42, 23)
         Me.Button26.TabIndex = 50
         Me.Button26.Tag = "Targeting"
-        Me.Button26.Text = "확인"
+        Me.Button26.Text = "确定"
         Me.Button26.UseVisualStyleBackColor = True
         '
         'PictureBox25
@@ -6674,7 +6674,7 @@ Partial Class DatEditForm
         Me.Label119.Name = "Label119"
         Me.Label119.Size = New System.Drawing.Size(71, 13)
         Me.Label119.TabIndex = 46
-        Me.Label119.Text = "활성화 버튼"
+        Me.Label119.Text = "激活按钮"
         Me.Label119.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox51
@@ -6684,7 +6684,7 @@ Partial Class DatEditForm
         Me.ComboBox51.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox51.FormattingEnabled = True
         Me.ComboBox51.IntegralHeight = False
-        Me.ComboBox51.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox51.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox51.Location = New System.Drawing.Point(127, 118)
         Me.ComboBox51.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox51.Name = "ComboBox51"
@@ -6709,7 +6709,7 @@ Partial Class DatEditForm
         Me.Label118.Name = "Label118"
         Me.Label118.Size = New System.Drawing.Size(71, 13)
         Me.Label118.TabIndex = 43
-        Me.Label118.Text = "애니메이션"
+        Me.Label118.Text = "动画"
         Me.Label118.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox50
@@ -6719,7 +6719,7 @@ Partial Class DatEditForm
         Me.ComboBox50.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox50.FormattingEnabled = True
         Me.ComboBox50.IntegralHeight = False
-        Me.ComboBox50.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox50.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox50.Location = New System.Drawing.Point(127, 94)
         Me.ComboBox50.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox50.Name = "ComboBox50"
@@ -6744,7 +6744,7 @@ Partial Class DatEditForm
         Me.Label117.Name = "Label117"
         Me.Label117.Size = New System.Drawing.Size(71, 13)
         Me.Label117.TabIndex = 40
-        Me.Label117.Text = "이름"
+        Me.Label117.Text = "名称"
         Me.Label117.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox49
@@ -6754,7 +6754,7 @@ Partial Class DatEditForm
         Me.ComboBox49.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox49.FormattingEnabled = True
         Me.ComboBox49.IntegralHeight = False
-        Me.ComboBox49.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox49.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox49.Location = New System.Drawing.Point(127, 70)
         Me.ComboBox49.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox49.Name = "ComboBox49"
@@ -6779,7 +6779,7 @@ Partial Class DatEditForm
         Me.Label116.Name = "Label116"
         Me.Label116.Size = New System.Drawing.Size(71, 13)
         Me.Label116.TabIndex = 37
-        Me.Label116.Text = "불명확명령시"
+        Me.Label116.Text = "模糊指令时"
         Me.Label116.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox48
@@ -6789,7 +6789,7 @@ Partial Class DatEditForm
         Me.ComboBox48.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox48.FormattingEnabled = True
         Me.ComboBox48.IntegralHeight = False
-        Me.ComboBox48.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox48.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox48.Location = New System.Drawing.Point(127, 46)
         Me.ComboBox48.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox48.Name = "ComboBox48"
@@ -6814,7 +6814,7 @@ Partial Class DatEditForm
         Me.Label115.Name = "Label115"
         Me.Label115.Size = New System.Drawing.Size(71, 13)
         Me.Label115.TabIndex = 34
-        Me.Label115.Text = "에너지"
+        Me.Label115.Text = "能量"
         Me.Label115.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox47
@@ -6824,7 +6824,7 @@ Partial Class DatEditForm
         Me.ComboBox47.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox47.FormattingEnabled = True
         Me.ComboBox47.IntegralHeight = False
-        Me.ComboBox47.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox47.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox47.Location = New System.Drawing.Point(127, 22)
         Me.ComboBox47.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox47.Name = "ComboBox47"
@@ -6849,7 +6849,7 @@ Partial Class DatEditForm
         Me.Label114.Name = "Label114"
         Me.Label114.Size = New System.Drawing.Size(71, 13)
         Me.Label114.TabIndex = 31
-        Me.Label114.Text = "목표지정시"
+        Me.Label114.Text = "指定目标时"
         Me.Label114.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TabPage15
@@ -6864,7 +6864,7 @@ Partial Class DatEditForm
         Me.TabPage15.Name = "TabPage15"
         Me.TabPage15.Size = New System.Drawing.Size(512, 469)
         Me.TabPage15.TabIndex = 8
-        Me.TabPage15.Text = "사운드"
+        Me.TabPage15.Text = "声音"
         '
         'MPQEditorControl
         '
@@ -6933,21 +6933,21 @@ Partial Class DatEditForm
         '
         'Button31
         '
-        Me.Button31.Font = New System.Drawing.Font("맑은 고딕", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button31.Font = New System.Drawing.Font("微软雅黑", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button31.Image = Global.EUD_Editor.My.Resources.Resources.Open
         Me.Button31.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button31.Location = New System.Drawing.Point(3, 3)
         Me.Button31.Name = "Button31"
         Me.Button31.Size = New System.Drawing.Size(58, 60)
         Me.Button31.TabIndex = 1
-        Me.Button31.Text = "넣기"
+        Me.Button31.Text = "添加"
         Me.Button31.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button31.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button31.UseVisualStyleBackColor = True
         '
         'Button32
         '
-        Me.Button32.Font = New System.Drawing.Font("맑은 고딕", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button32.Font = New System.Drawing.Font("微软雅黑", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button32.Image = Global.EUD_Editor.My.Resources.Resources.Delete
         Me.Button32.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button32.Location = New System.Drawing.Point(3, 66)
@@ -6955,7 +6955,7 @@ Partial Class DatEditForm
         Me.Button32.Name = "Button32"
         Me.Button32.Size = New System.Drawing.Size(58, 60)
         Me.Button32.TabIndex = 2
-        Me.Button32.Text = "삭제"
+        Me.Button32.Text = "删除"
         Me.Button32.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button32.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button32.UseVisualStyleBackColor = True
@@ -6985,7 +6985,7 @@ Partial Class DatEditForm
         Me.GroupBox38.Size = New System.Drawing.Size(138, 134)
         Me.GroupBox38.TabIndex = 1
         Me.GroupBox38.TabStop = False
-        Me.GroupBox38.Text = "일반정보"
+        Me.GroupBox38.Text = "常规信息"
         '
         'TextBox104
         '
@@ -7004,7 +7004,7 @@ Partial Class DatEditForm
         Me.Label123.Name = "Label123"
         Me.Label123.Size = New System.Drawing.Size(63, 13)
         Me.Label123.TabIndex = 24
-        Me.Label123.Text = "알수없음4"
+        Me.Label123.Text = "未知4"
         Me.Label123.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox105
@@ -7024,7 +7024,7 @@ Partial Class DatEditForm
         Me.Label124.Name = "Label124"
         Me.Label124.Size = New System.Drawing.Size(63, 13)
         Me.Label124.TabIndex = 22
-        Me.Label124.Text = "알수없음3"
+        Me.Label124.Text = "未知3"
         Me.Label124.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox102
@@ -7044,7 +7044,7 @@ Partial Class DatEditForm
         Me.Label121.Name = "Label121"
         Me.Label121.Size = New System.Drawing.Size(63, 13)
         Me.Label121.TabIndex = 20
-        Me.Label121.Text = "알수없음2"
+        Me.Label121.Text = "未知2"
         Me.Label121.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox103
@@ -7064,7 +7064,7 @@ Partial Class DatEditForm
         Me.Label122.Name = "Label122"
         Me.Label122.Size = New System.Drawing.Size(63, 13)
         Me.Label122.TabIndex = 18
-        Me.Label122.Text = "알수없음1"
+        Me.Label122.Text = "未知1"
         Me.Label122.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox37
@@ -7078,7 +7078,7 @@ Partial Class DatEditForm
         Me.GroupBox37.Size = New System.Drawing.Size(426, 60)
         Me.GroupBox37.TabIndex = 0
         Me.GroupBox37.TabStop = False
-        Me.GroupBox37.Text = "사운드"
+        Me.GroupBox37.Text = "声音"
         '
         'Button28
         '
@@ -7086,7 +7086,7 @@ Partial Class DatEditForm
         Me.Button28.Name = "Button28"
         Me.Button28.Size = New System.Drawing.Size(42, 23)
         Me.Button28.TabIndex = 46
-        Me.Button28.Text = "확인"
+        Me.Button28.Text = "确定"
         Me.Button28.UseVisualStyleBackColor = True
         '
         'Label120
@@ -7095,7 +7095,7 @@ Partial Class DatEditForm
         Me.Label120.Name = "Label120"
         Me.Label120.Size = New System.Drawing.Size(46, 13)
         Me.Label120.TabIndex = 43
-        Me.Label120.Text = "파일"
+        Me.Label120.Text = "文件"
         Me.Label120.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox53
@@ -7106,7 +7106,7 @@ Partial Class DatEditForm
         Me.ComboBox53.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox53.FormattingEnabled = True
         Me.ComboBox53.IntegralHeight = False
-        Me.ComboBox53.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox53.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox53.Location = New System.Drawing.Point(98, 21)
         Me.ComboBox53.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox53.Name = "ComboBox53"
@@ -7149,7 +7149,7 @@ Partial Class DatEditForm
         Me.TabPage16.Name = "TabPage16"
         Me.TabPage16.Size = New System.Drawing.Size(512, 469)
         Me.TabPage16.TabIndex = 9
-        Me.TabPage16.Text = "얼굴사진"
+        Me.TabPage16.Text = "头像"
         '
         'GroupBox40
         '
@@ -7159,7 +7159,7 @@ Partial Class DatEditForm
         Me.GroupBox40.Size = New System.Drawing.Size(160, 183)
         Me.GroupBox40.TabIndex = 51
         Me.GroupBox40.TabStop = False
-        Me.GroupBox40.Text = "파일 목록"
+        Me.GroupBox40.Text = "文件列表"
         '
         'ListBox8
         '
@@ -7244,7 +7244,7 @@ Partial Class DatEditForm
         Me.Button33.Name = "Button33"
         Me.Button33.Size = New System.Drawing.Size(58, 60)
         Me.Button33.TabIndex = 1
-        Me.Button33.Text = "넣기"
+        Me.Button33.Text = "添加"
         Me.Button33.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button33.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button33.UseVisualStyleBackColor = True
@@ -7258,7 +7258,7 @@ Partial Class DatEditForm
         Me.Button34.Name = "Button34"
         Me.Button34.Size = New System.Drawing.Size(58, 60)
         Me.Button34.TabIndex = 2
-        Me.Button34.Text = "삭제"
+        Me.Button34.Text = "删除"
         Me.Button34.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button34.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button34.UseVisualStyleBackColor = True
@@ -7283,7 +7283,7 @@ Partial Class DatEditForm
         Me.GroupBox39.Size = New System.Drawing.Size(396, 60)
         Me.GroupBox39.TabIndex = 1
         Me.GroupBox39.TabStop = False
-        Me.GroupBox39.Text = "얼굴사진"
+        Me.GroupBox39.Text = "头像"
         '
         'Label125
         '
@@ -7291,7 +7291,7 @@ Partial Class DatEditForm
         Me.Label125.Name = "Label125"
         Me.Label125.Size = New System.Drawing.Size(47, 13)
         Me.Label125.TabIndex = 43
-        Me.Label125.Text = "파일"
+        Me.Label125.Text = "文件"
         Me.Label125.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox54
@@ -7301,7 +7301,7 @@ Partial Class DatEditForm
         Me.ComboBox54.ForeColor = System.Drawing.SystemColors.Window
         Me.ComboBox54.FormattingEnabled = True
         Me.ComboBox54.IntegralHeight = False
-        Me.ComboBox54.Items.AddRange(New Object() {"독립적크기", "소형", "중형", "대형"})
+        Me.ComboBox54.Items.AddRange(New Object() {"独立大小", "小型", "中型", "大型"})
         Me.ComboBox54.Location = New System.Drawing.Point(98, 21)
         Me.ComboBox54.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox54.Name = "ComboBox54"
@@ -7352,7 +7352,7 @@ Partial Class DatEditForm
         Me.FIleFToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DatFileResetRToolStripMenuItem, Me.DatFileLoadToolStripMenuItem, Me.DatFileSaveSToolStripMenuItem, Me.ToolStripSeparator6, Me.DatFileAllSaveToolStripMenuItem, Me.DatFileAllResetToolStripMenuItem, Me.ToolStripSeparator5, Me.ProjectSaveToolStripMenuItem})
         Me.FIleFToolStripMenuItem.Name = "FIleFToolStripMenuItem"
         Me.FIleFToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
-        Me.FIleFToolStripMenuItem.Text = "파일(&F)"
+        Me.FIleFToolStripMenuItem.Text = "文件(&F)"
         '
         'DatFileResetRToolStripMenuItem
         '
@@ -7360,7 +7360,7 @@ Partial Class DatEditForm
         Me.DatFileResetRToolStripMenuItem.Name = "DatFileResetRToolStripMenuItem"
         Me.DatFileResetRToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
         Me.DatFileResetRToolStripMenuItem.Size = New System.Drawing.Size(221, 22)
-        Me.DatFileResetRToolStripMenuItem.Text = "dat파일 리셋(&R)"
+        Me.DatFileResetRToolStripMenuItem.Text = "重置 dat 文件(&R)"
         '
         'DatFileLoadToolStripMenuItem
         '
@@ -7368,14 +7368,14 @@ Partial Class DatEditForm
         Me.DatFileLoadToolStripMenuItem.Name = "DatFileLoadToolStripMenuItem"
         Me.DatFileLoadToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.L), System.Windows.Forms.Keys)
         Me.DatFileLoadToolStripMenuItem.Size = New System.Drawing.Size(221, 22)
-        Me.DatFileLoadToolStripMenuItem.Text = "dat파일 불러오기(&L)"
+        Me.DatFileLoadToolStripMenuItem.Text = "打开 dat 文件(&L)"
         '
         'DatFileSaveSToolStripMenuItem
         '
         Me.DatFileSaveSToolStripMenuItem.Image = Global.EUD_Editor.My.Resources.Resources.Savefile
         Me.DatFileSaveSToolStripMenuItem.Name = "DatFileSaveSToolStripMenuItem"
         Me.DatFileSaveSToolStripMenuItem.Size = New System.Drawing.Size(221, 22)
-        Me.DatFileSaveSToolStripMenuItem.Text = "dat파일 저장(&A)"
+        Me.DatFileSaveSToolStripMenuItem.Text = "保存 dat 文件(&A)"
         '
         'ToolStripSeparator6
         '
@@ -7387,14 +7387,14 @@ Partial Class DatEditForm
         Me.DatFileAllSaveToolStripMenuItem.Image = Global.EUD_Editor.My.Resources.Resources.Savefile
         Me.DatFileAllSaveToolStripMenuItem.Name = "DatFileAllSaveToolStripMenuItem"
         Me.DatFileAllSaveToolStripMenuItem.Size = New System.Drawing.Size(221, 22)
-        Me.DatFileAllSaveToolStripMenuItem.Text = "dat파일 모두 저장"
+        Me.DatFileAllSaveToolStripMenuItem.Text = "保存所有 dat 文件"
         '
         'DatFileAllResetToolStripMenuItem
         '
         Me.DatFileAllResetToolStripMenuItem.Image = Global.EUD_Editor.My.Resources.Resources.UseEDD
         Me.DatFileAllResetToolStripMenuItem.Name = "DatFileAllResetToolStripMenuItem"
         Me.DatFileAllResetToolStripMenuItem.Size = New System.Drawing.Size(221, 22)
-        Me.DatFileAllResetToolStripMenuItem.Text = "dat파일 모두 리셋"
+        Me.DatFileAllResetToolStripMenuItem.Text = "重置所有 dat 文件"
         '
         'ToolStripSeparator5
         '
@@ -7407,21 +7407,21 @@ Partial Class DatEditForm
         Me.ProjectSaveToolStripMenuItem.Name = "ProjectSaveToolStripMenuItem"
         Me.ProjectSaveToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
         Me.ProjectSaveToolStripMenuItem.Size = New System.Drawing.Size(221, 22)
-        Me.ProjectSaveToolStripMenuItem.Text = "프로젝트 저장(&S)"
+        Me.ProjectSaveToolStripMenuItem.Text = "保存项目(&S)"
         '
         'EditToolStripMenuItem
         '
         Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ResetToolStripMenuItem1, Me.ToolStripSeparator3, Me.ObjectResetToolStripMenuItem, Me.ObjectCopyToolStripMenuItem, Me.ObjectPasteToolStripMenuItem, Me.ToolStripSeparator4, Me.DataExportToolStripMenuItem1, Me.DataImportToolStripMenuItem1})
         Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
         Me.EditToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
-        Me.EditToolStripMenuItem.Text = "편집(&E)"
+        Me.EditToolStripMenuItem.Text = "编辑(&E)"
         '
         'ResetToolStripMenuItem1
         '
         Me.ResetToolStripMenuItem1.Name = "ResetToolStripMenuItem1"
         Me.ResetToolStripMenuItem1.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
         Me.ResetToolStripMenuItem1.Size = New System.Drawing.Size(249, 22)
-        Me.ResetToolStripMenuItem1.Text = "초기화"
+        Me.ResetToolStripMenuItem1.Text = "重置"
         '
         'ToolStripSeparator3
         '
@@ -7434,7 +7434,7 @@ Partial Class DatEditForm
         Me.ObjectResetToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
             Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
         Me.ObjectResetToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
-        Me.ObjectResetToolStripMenuItem.Text = "오브젝트 초기화"
+        Me.ObjectResetToolStripMenuItem.Text = "重置对象"
         '
         'ObjectCopyToolStripMenuItem
         '
@@ -7442,7 +7442,7 @@ Partial Class DatEditForm
         Me.ObjectCopyToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
             Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
         Me.ObjectCopyToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
-        Me.ObjectCopyToolStripMenuItem.Text = "오브젝트 복사"
+        Me.ObjectCopyToolStripMenuItem.Text = "复制对象"
         '
         'ObjectPasteToolStripMenuItem
         '
@@ -7450,7 +7450,7 @@ Partial Class DatEditForm
         Me.ObjectPasteToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
             Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
         Me.ObjectPasteToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
-        Me.ObjectPasteToolStripMenuItem.Text = "오브젝트 붙여넣기"
+        Me.ObjectPasteToolStripMenuItem.Text = "粘贴对象"
         '
         'ToolStripSeparator4
         '
@@ -7463,7 +7463,7 @@ Partial Class DatEditForm
         Me.DataExportToolStripMenuItem1.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
             Or System.Windows.Forms.Keys.E), System.Windows.Forms.Keys)
         Me.DataExportToolStripMenuItem1.Size = New System.Drawing.Size(249, 22)
-        Me.DataExportToolStripMenuItem1.Text = "데이터로 내보내기"
+        Me.DataExportToolStripMenuItem1.Text = "导出数据"
         '
         'DataImportToolStripMenuItem1
         '
@@ -7471,20 +7471,20 @@ Partial Class DatEditForm
         Me.DataImportToolStripMenuItem1.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
             Or System.Windows.Forms.Keys.Q), System.Windows.Forms.Keys)
         Me.DataImportToolStripMenuItem1.Size = New System.Drawing.Size(249, 22)
-        Me.DataImportToolStripMenuItem1.Text = "데이터 불러오기"
+        Me.DataImportToolStripMenuItem1.Text = "导入数据"
         '
         'ViewVToolStripMenuItem
         '
         Me.ViewVToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ThameSetTToolStripMenuItem, Me.ToolStripSeparator7, Me.UsedDataToolStripMenuItem, Me.TriggerViewerTToolStripMenuItem})
         Me.ViewVToolStripMenuItem.Name = "ViewVToolStripMenuItem"
         Me.ViewVToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
-        Me.ViewVToolStripMenuItem.Text = "보기(&V)"
+        Me.ViewVToolStripMenuItem.Text = "查看(&V)"
         '
         'ThameSetTToolStripMenuItem
         '
         Me.ThameSetTToolStripMenuItem.Name = "ThameSetTToolStripMenuItem"
         Me.ThameSetTToolStripMenuItem.Size = New System.Drawing.Size(210, 22)
-        Me.ThameSetTToolStripMenuItem.Text = "테마 설정(&T)"
+        Me.ThameSetTToolStripMenuItem.Text = "主题设置(&T)"
         '
         'ToolStripSeparator7
         '
@@ -7496,14 +7496,14 @@ Partial Class DatEditForm
         Me.UsedDataToolStripMenuItem.Name = "UsedDataToolStripMenuItem"
         Me.UsedDataToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.D), System.Windows.Forms.Keys)
         Me.UsedDataToolStripMenuItem.Size = New System.Drawing.Size(210, 22)
-        Me.UsedDataToolStripMenuItem.Text = "사용된 데이터(&D)"
+        Me.UsedDataToolStripMenuItem.Text = "使用的数据(&D)"
         '
         'TriggerViewerTToolStripMenuItem
         '
         Me.TriggerViewerTToolStripMenuItem.Name = "TriggerViewerTToolStripMenuItem"
         Me.TriggerViewerTToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.T), System.Windows.Forms.Keys)
         Me.TriggerViewerTToolStripMenuItem.Size = New System.Drawing.Size(210, 22)
-        Me.TriggerViewerTToolStripMenuItem.Text = "트리거 보기(&T)"
+        Me.TriggerViewerTToolStripMenuItem.Text = "查看触发器(&T)"
         '
         'Timer1
         '
@@ -8556,7 +8556,7 @@ Partial Class DatEditForm
         Me.Controls.Add(Me.MainTAB)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)

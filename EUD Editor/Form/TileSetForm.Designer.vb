@@ -273,7 +273,7 @@ Partial Class TileSetForm
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(35, 44)
-        Me.ToolStripButton1.Text = "저장"
+        Me.ToolStripButton1.Text = "保存"
         Me.ToolStripButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -284,7 +284,7 @@ Partial Class TileSetForm
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
         Me.ToolStripButton2.Size = New System.Drawing.Size(59, 44)
-        Me.ToolStripButton2.Text = "실행취소"
+        Me.ToolStripButton2.Text = "撤销"
         Me.ToolStripButton2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -295,7 +295,7 @@ Partial Class TileSetForm
         Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton3.Name = "ToolStripButton3"
         Me.ToolStripButton3.Size = New System.Drawing.Size(59, 44)
-        Me.ToolStripButton3.Text = "다시실행"
+        Me.ToolStripButton3.Text = "重做"
         Me.ToolStripButton3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -311,7 +311,7 @@ Partial Class TileSetForm
         Me.ToolStripButton15.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton15.Name = "ToolStripButton15"
         Me.ToolStripButton15.Size = New System.Drawing.Size(59, 44)
-        Me.ToolStripButton15.Text = "리마스터"
+        Me.ToolStripButton15.Text = "重制版"
         Me.ToolStripButton15.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -326,7 +326,7 @@ Partial Class TileSetForm
         Me.ToolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton11.Name = "ToolStripButton11"
         Me.ToolStripButton11.Size = New System.Drawing.Size(47, 44)
-        Me.ToolStripButton11.Text = "팔레트"
+        Me.ToolStripButton11.Text = "调色板"
         Me.ToolStripButton11.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -336,7 +336,7 @@ Partial Class TileSetForm
         Me.ToolStripButton12.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton12.Name = "ToolStripButton12"
         Me.ToolStripButton12.Size = New System.Drawing.Size(59, 44)
-        Me.ToolStripButton12.Text = "지형복사"
+        Me.ToolStripButton12.Text = "地形复制"
         Me.ToolStripButton12.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -351,7 +351,7 @@ Partial Class TileSetForm
         Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton4.Name = "ToolStripButton4"
         Me.ToolStripButton4.Size = New System.Drawing.Size(35, 44)
-        Me.ToolStripButton4.Text = "기본"
+        Me.ToolStripButton4.Text = "默认"
         Me.ToolStripButton4.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -366,7 +366,7 @@ Partial Class TileSetForm
         Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton5.Name = "ToolStripButton5"
         Me.ToolStripButton5.Size = New System.Drawing.Size(59, 44)
-        Me.ToolStripButton5.Text = "통행가능"
+        Me.ToolStripButton5.Text = "可通行"
         Me.ToolStripButton5.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -376,7 +376,7 @@ Partial Class TileSetForm
         Me.ToolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton6.Name = "ToolStripButton6"
         Me.ToolStripButton6.Size = New System.Drawing.Size(59, 44)
-        Me.ToolStripButton6.Text = "건설가능"
+        Me.ToolStripButton6.Text = "可建造"
         Me.ToolStripButton6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -386,7 +386,7 @@ Partial Class TileSetForm
         Me.ToolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton7.Name = "ToolStripButton7"
         Me.ToolStripButton7.Size = New System.Drawing.Size(59, 44)
-        Me.ToolStripButton7.Text = "통행불능"
+        Me.ToolStripButton7.Text = "不可通行"
         Me.ToolStripButton7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -401,7 +401,7 @@ Partial Class TileSetForm
         Me.ToolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton8.Name = "ToolStripButton8"
         Me.ToolStripButton8.Size = New System.Drawing.Size(35, 44)
-        Me.ToolStripButton8.Text = "낮음"
+        Me.ToolStripButton8.Text = "低"
         Me.ToolStripButton8.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -411,7 +411,7 @@ Partial Class TileSetForm
         Me.ToolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton9.Name = "ToolStripButton9"
         Me.ToolStripButton9.Size = New System.Drawing.Size(35, 44)
-        Me.ToolStripButton9.Text = "중간"
+        Me.ToolStripButton9.Text = "中"
         Me.ToolStripButton9.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -421,7 +421,7 @@ Partial Class TileSetForm
         Me.ToolStripButton10.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton10.Name = "ToolStripButton10"
         Me.ToolStripButton10.Size = New System.Drawing.Size(35, 44)
-        Me.ToolStripButton10.Text = "높음"
+        Me.ToolStripButton10.Text = "高"
         Me.ToolStripButton10.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -459,35 +459,35 @@ Partial Class TileSetForm
         Me.파일FToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.저장SToolStripMenuItem})
         Me.파일FToolStripMenuItem.Name = "파일FToolStripMenuItem"
         Me.파일FToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
-        Me.파일FToolStripMenuItem.Text = "파일(&F)"
+        Me.파일FToolStripMenuItem.Text = "文件(&F)"
         '
         '저장SToolStripMenuItem
         '
         Me.저장SToolStripMenuItem.Name = "저장SToolStripMenuItem"
         Me.저장SToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
         Me.저장SToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
-        Me.저장SToolStripMenuItem.Text = "저장(&S)"
+        Me.저장SToolStripMenuItem.Text = "保存(&S)"
         '
         '편집EToolStripMenuItem
         '
         Me.편집EToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.실행취소UToolStripMenuItem, Me.다시실행RToolStripMenuItem})
         Me.편집EToolStripMenuItem.Name = "편집EToolStripMenuItem"
         Me.편집EToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
-        Me.편집EToolStripMenuItem.Text = "편집(&E)"
+        Me.편집EToolStripMenuItem.Text = "编辑(&E)"
         '
         '실행취소UToolStripMenuItem
         '
         Me.실행취소UToolStripMenuItem.Name = "실행취소UToolStripMenuItem"
         Me.실행취소UToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Z), System.Windows.Forms.Keys)
         Me.실행취소UToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
-        Me.실행취소UToolStripMenuItem.Text = "실행 취소(&U)"
+        Me.실행취소UToolStripMenuItem.Text = "撤销(&U)"
         '
         '다시실행RToolStripMenuItem
         '
         Me.다시실행RToolStripMenuItem.Name = "다시실행RToolStripMenuItem"
         Me.다시실행RToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Y), System.Windows.Forms.Keys)
         Me.다시실행RToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
-        Me.다시실행RToolStripMenuItem.Text = "다시 실행(&R)"
+        Me.다시실행RToolStripMenuItem.Text = "重做(&R)"
         '
         'Timer2
         '
@@ -501,7 +501,7 @@ Partial Class TileSetForm
         Me.ClientSize = New System.Drawing.Size(1310, 663)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.KeyPreview = True
         Me.MainMenuStrip = Me.MenuStrip1

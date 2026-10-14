@@ -64,7 +64,7 @@ Partial Class PluginTriggerAddForm
         '
         'Column1
         '
-        Me.Column1.HeaderText = "이름"
+        Me.Column1.HeaderText = "名称"
         Me.Column1.Name = "Column1"
         Me.Column1.ReadOnly = True
         Me.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -72,7 +72,7 @@ Partial Class PluginTriggerAddForm
         '
         'Column2
         '
-        Me.Column2.HeaderText = "설졍 값"
+        Me.Column2.HeaderText = "设置值"
         Me.Column2.Name = "Column2"
         Me.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.Column2.Width = 192
@@ -119,7 +119,7 @@ Partial Class PluginTriggerAddForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(172, 35)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -133,7 +133,7 @@ Partial Class PluginTriggerAddForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(173, 35)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'PluginTriggerAddForm
@@ -147,14 +147,14 @@ Partial Class PluginTriggerAddForm
         Me.ClientSize = New System.Drawing.Size(345, 303)
         Me.ControlBox = False
         Me.Controls.Add(Me.FlowLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "PluginTriggerAddForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "새 조건 만들기"
+        Me.Text = "新建条件"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.ResumeLayout(False)

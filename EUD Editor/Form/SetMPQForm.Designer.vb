@@ -67,7 +67,7 @@ Partial Class SetMPQForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(41, 31)
         Me.Button1.TabIndex = 10
-        Me.Button1.Text = "설정"
+        Me.Button1.Text = "设置"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -140,7 +140,7 @@ Partial Class SetMPQForm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(41, 31)
         Me.Button2.TabIndex = 10
-        Me.Button2.Text = "설정"
+        Me.Button2.Text = "设置"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Panel3
@@ -179,7 +179,7 @@ Partial Class SetMPQForm
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(41, 31)
         Me.Button3.TabIndex = 10
-        Me.Button3.Text = "설정"
+        Me.Button3.Text = "设置"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Panel4
@@ -218,7 +218,7 @@ Partial Class SetMPQForm
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(41, 31)
         Me.Button4.TabIndex = 10
-        Me.Button4.Text = "설정"
+        Me.Button4.Text = "设置"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'FlowLayoutPanel2
@@ -242,7 +242,7 @@ Partial Class SetMPQForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(215, 30)
         Me.Button5.TabIndex = 11
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -255,7 +255,7 @@ Partial Class SetMPQForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(215, 30)
         Me.Button6.TabIndex = 12
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'SetMPQForm
@@ -265,7 +265,7 @@ Partial Class SetMPQForm
         Me.ClientSize = New System.Drawing.Size(431, 306)
         Me.ControlBox = False
         Me.Controls.Add(Me.FlowLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

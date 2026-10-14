@@ -82,7 +82,7 @@ Partial Class WaitDailog
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(110, 38)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -96,7 +96,7 @@ Partial Class WaitDailog
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(110, 38)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Panel1
@@ -116,13 +116,13 @@ Partial Class WaitDailog
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Label3.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Red
         Me.Label3.Location = New System.Drawing.Point(7, 62)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(83, 15)
         Me.Label3.TabIndex = 11
-        Me.Label3.Text = "EUD터보 기준"
+        Me.Label3.Text = "以EUD Turbo为准"
         '
         'NumericUpDown2
         '
@@ -139,7 +139,7 @@ Partial Class WaitDailog
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(43, 15)
         Me.Label2.TabIndex = 9
-        Me.Label2.Text = "값(Ms)"
+        Me.Label2.Text = "值(Ms)"
         '
         'NumericUpDown1
         '
@@ -156,7 +156,7 @@ Partial Class WaitDailog
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(60, 15)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "값(Frame)"
+        Me.Label1.Text = "值(Frame)"
         '
         'WaitDailog
         '
@@ -165,7 +165,7 @@ Partial Class WaitDailog
         Me.ClientSize = New System.Drawing.Size(220, 121)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

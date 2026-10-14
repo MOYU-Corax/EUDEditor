@@ -1,0 +1,20 @@
+﻿{
+    "FIleFToolStripMenuItem": "文件(&F)",
+    "DatFileResetRToolStripMenuItem": "重置dat文件(&R)",
+    "DatFileLoadToolStripMenuItem": "载入dat文件(&L)",
+    "DatFileSaveSToolStripMenuItem": "保存dat文件(&A)",
+    "DatFileAllSaveToolStripMenuItem": "保存全部dat文件",
+    "DatFileAllResetToolStripMenuItem": "重置全部dat文件",
+    "ProjectSaveToolStripMenuItem": "保存项目(&S)",
+    "EditToolStripMenuItem": "编辑(&E)",
+    "ResetToolStripMenuItem1": "重置",
+    "ObjectResetToolStripMenuItem": "重置对象",
+    "ObjectCopyToolStripMenuItem": "复制对象",
+    "ObjectPasteToolStripMenuItem": "粘贴对象",
+    "DataExportToolStripMenuItem1": "导出数据",
+    "DataImportToolStripMenuItem1": "载入数据",
+    "ViewVToolStripMenuItem": "查看(&V)",
+    "ThameSetTToolStripMenuItem": "主题设置(&T)",
+    "UsedDataToolStripMenuItem": "已使用的数据(&D)",
+    "TriggerViewerTToolStripMenuItem": "查看触发器(&T)"
+}

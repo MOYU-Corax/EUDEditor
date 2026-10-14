@@ -75,7 +75,7 @@ Partial Class TriggerViewerForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(123, 31)
         Me.Button1.TabIndex = 4
-        Me.Button1.Text = "저장(Ctrl + &S)"
+        Me.Button1.Text = "保存(Ctrl + &S)"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -87,7 +87,7 @@ Partial Class TriggerViewerForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(95, 15)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "트리거 플레이어"
+        Me.Label1.Text = "触发器玩家"
         '
         'ComboBox1
         '
@@ -140,7 +140,7 @@ Partial Class TriggerViewerForm
         Me.컴파일ToolStripMenuItem.Name = "컴파일ToolStripMenuItem"
         Me.컴파일ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
         Me.컴파일ToolStripMenuItem.Size = New System.Drawing.Size(93, 20)
-        Me.컴파일ToolStripMenuItem.Text = "저장(Ctrl + &S)"
+        Me.컴파일ToolStripMenuItem.Text = "保存(Ctrl + &S)"
         '
         'FileSystemWatcher1
         '
@@ -155,7 +155,7 @@ Partial Class TriggerViewerForm
         Me.ClientSize = New System.Drawing.Size(751, 427)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)

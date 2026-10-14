@@ -205,28 +205,28 @@ Partial Class FireGraftForm
         Me.FileFToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PSaveToolStripMenuItem})
         Me.FileFToolStripMenuItem.Name = "FileFToolStripMenuItem"
         Me.FileFToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
-        Me.FileFToolStripMenuItem.Text = "파일(&F)"
+        Me.FileFToolStripMenuItem.Text = "文件(&F)"
         '
         'PSaveToolStripMenuItem
         '
         Me.PSaveToolStripMenuItem.Name = "PSaveToolStripMenuItem"
         Me.PSaveToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
         Me.PSaveToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
-        Me.PSaveToolStripMenuItem.Text = "프로젝트 저장(&S)"
+        Me.PSaveToolStripMenuItem.Text = "保存项目(&S)"
         '
         'EditToolStripMenuItem
         '
         Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ResetToolStripMenuItem1, Me.ToolStripSeparator3, Me.ObjResetToolStripMenuItem, Me.ObjectCopyToolStripMenuItem, Me.ObjPasteToolStripMenuItem})
         Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
         Me.EditToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
-        Me.EditToolStripMenuItem.Text = "편집(&E)"
+        Me.EditToolStripMenuItem.Text = "编辑(&E)"
         '
         'ResetToolStripMenuItem1
         '
         Me.ResetToolStripMenuItem1.Name = "ResetToolStripMenuItem1"
         Me.ResetToolStripMenuItem1.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
         Me.ResetToolStripMenuItem1.Size = New System.Drawing.Size(249, 22)
-        Me.ResetToolStripMenuItem1.Text = "초기화"
+        Me.ResetToolStripMenuItem1.Text = "重置"
         '
         'ToolStripSeparator3
         '
@@ -239,7 +239,7 @@ Partial Class FireGraftForm
         Me.ObjResetToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
             Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
         Me.ObjResetToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
-        Me.ObjResetToolStripMenuItem.Text = "오브젝트 초기화"
+        Me.ObjResetToolStripMenuItem.Text = "对象重置"
         '
         'ObjectCopyToolStripMenuItem
         '
@@ -247,7 +247,7 @@ Partial Class FireGraftForm
         Me.ObjectCopyToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
             Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
         Me.ObjectCopyToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
-        Me.ObjectCopyToolStripMenuItem.Text = "오브젝트 복사"
+        Me.ObjectCopyToolStripMenuItem.Text = "对象复制"
         '
         'ObjPasteToolStripMenuItem
         '
@@ -255,20 +255,20 @@ Partial Class FireGraftForm
         Me.ObjPasteToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
             Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
         Me.ObjPasteToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
-        Me.ObjPasteToolStripMenuItem.Text = "오브젝트 붙여넣기"
+        Me.ObjPasteToolStripMenuItem.Text = "对象粘贴"
         '
         'ViewVToolStripMenuItem
         '
         Me.ViewVToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ThemeSetTToolStripMenuItem})
         Me.ViewVToolStripMenuItem.Name = "ViewVToolStripMenuItem"
         Me.ViewVToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
-        Me.ViewVToolStripMenuItem.Text = "보기(&V)"
+        Me.ViewVToolStripMenuItem.Text = "查看(&V)"
         '
         'ThemeSetTToolStripMenuItem
         '
         Me.ThemeSetTToolStripMenuItem.Name = "ThemeSetTToolStripMenuItem"
         Me.ThemeSetTToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
-        Me.ThemeSetTToolStripMenuItem.Text = "테마 설정(&T)"
+        Me.ThemeSetTToolStripMenuItem.Text = "主题设置(&T)"
         '
         'TableLayoutPanel1
         '
@@ -323,7 +323,7 @@ Partial Class FireGraftForm
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(31, 15)
         Me.Label27.TabIndex = 3
-        Me.Label27.Text = "필터"
+        Me.Label27.Text = "筛选"
         '
         'TextBox2
         '
@@ -342,7 +342,7 @@ Partial Class FireGraftForm
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(50, 19)
         Me.CheckBox5.TabIndex = 5
-        Me.CheckBox5.Text = "수정"
+        Me.CheckBox5.Text = "修改"
         Me.CheckBox5.UseVisualStyleBackColor = True
         '
         'SplitContainer1
@@ -412,7 +412,7 @@ Partial Class FireGraftForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(227, 25)
         Me.Button5.TabIndex = 15
-        Me.Button5.Text = "접기"
+        Me.Button5.Text = "折叠"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'ListBox1
@@ -420,7 +420,7 @@ Partial Class FireGraftForm
         Me.ListBox1.BackColor = System.Drawing.SystemColors.WindowText
         Me.ListBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.ListBox1.Font = New System.Drawing.Font("맑은 고딕", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.ListBox1.Font = New System.Drawing.Font("微软雅黑", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.ListBox1.ForeColor = System.Drawing.SystemColors.Window
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Location = New System.Drawing.Point(0, 0)
@@ -449,7 +449,7 @@ Partial Class FireGraftForm
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Size = New System.Drawing.Size(513, 502)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "유닛정보"
+        Me.TabPage1.Text = "单位信息"
         '
         'GroupBox1
         '
@@ -466,7 +466,7 @@ Partial Class FireGraftForm
         Me.GroupBox1.Size = New System.Drawing.Size(264, 200)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "상태정보"
+        Me.GroupBox1.Text = "状态信息"
         '
         'Label4
         '
@@ -489,7 +489,7 @@ Partial Class FireGraftForm
         Me.ComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.IntegralHeight = False
-        Me.ComboBox3.Items.AddRange(New Object() {"건물", "유닛", "격납유닛", "수송유닛", "수송인구유닛", "파워업유닛", "부화유닛(에그)", "합체유닛(다크아칸)", "선택불가(핵미사일,스캔)", "스캐럽, 맵리벌레", "UnusedProtossBuilding"})
+        Me.ComboBox3.Items.AddRange(New Object() {"建筑", "单位", "收容单位", "运输单位", "运输人口单位", "道具单位", "孵化单位(虫卵)", "合体单位(暗黑执政官)", "不可选择(核弹,扫描)", "圣甲虫, 显图虫", "UnusedProtossBuilding"})
         Me.ComboBox3.Location = New System.Drawing.Point(85, 34)
         Me.ComboBox3.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox3.Name = "ComboBox3"
@@ -501,7 +501,7 @@ Partial Class FireGraftForm
         Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.IntegralHeight = False
-        Me.ComboBox2.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox2.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox2.Location = New System.Drawing.Point(85, 118)
         Me.ComboBox2.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox2.Name = "ComboBox2"
@@ -513,7 +513,7 @@ Partial Class FireGraftForm
         Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.IntegralHeight = False
-        Me.ComboBox1.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox1.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox1.Location = New System.Drawing.Point(85, 84)
         Me.ComboBox1.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox1.Name = "ComboBox1"
@@ -526,7 +526,7 @@ Partial Class FireGraftForm
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(72, 15)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "표시기능"
+        Me.Label3.Text = "显示功能"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label2
@@ -535,7 +535,7 @@ Partial Class FireGraftForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(72, 15)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "상태기능"
+        Me.Label2.Text = "状态功能"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label1
@@ -544,7 +544,7 @@ Partial Class FireGraftForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(72, 15)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "상태목록"
+        Me.Label1.Text = "状态列表"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TabPage2
@@ -556,7 +556,7 @@ Partial Class FireGraftForm
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Size = New System.Drawing.Size(513, 502)
         Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "버튼셋"
+        Me.TabPage2.Text = "按钮集"
         '
         'Panel2
         '
@@ -582,7 +582,7 @@ Partial Class FireGraftForm
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(106, 19)
         Me.CheckBox2.TabIndex = 18
-        Me.CheckBox2.Text = "조건 만족 여부"
+        Me.CheckBox2.Text = "条件满足与否"
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
         'GroupBox2
@@ -593,7 +593,7 @@ Partial Class FireGraftForm
         Me.GroupBox2.Size = New System.Drawing.Size(137, 208)
         Me.GroupBox2.TabIndex = 0
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "버튼리스트"
+        Me.GroupBox2.Text = "按钮列表"
         '
         'ListBox2
         '
@@ -648,7 +648,7 @@ Partial Class FireGraftForm
         Me.GroupBox3.Size = New System.Drawing.Size(137, 134)
         Me.GroupBox3.TabIndex = 1
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "미리보기"
+        Me.GroupBox3.Text = "预览"
         '
         'BtnPreview
         '
@@ -678,7 +678,7 @@ Partial Class FireGraftForm
         Me.GroupBox7.Size = New System.Drawing.Size(356, 130)
         Me.GroupBox7.TabIndex = 5
         Me.GroupBox7.TabStop = False
-        Me.GroupBox7.Text = "설정"
+        Me.GroupBox7.Text = "设置"
         Me.GroupBox7.Visible = False
         '
         'ComboBox7
@@ -686,7 +686,7 @@ Partial Class FireGraftForm
         Me.ComboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox7.FormattingEnabled = True
         Me.ComboBox7.IntegralHeight = False
-        Me.ComboBox7.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox7.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox7.Location = New System.Drawing.Point(111, 69)
         Me.ComboBox7.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox7.Name = "ComboBox7"
@@ -712,7 +712,7 @@ Partial Class FireGraftForm
         Me.ComboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox8.FormattingEnabled = True
         Me.ComboBox8.IntegralHeight = False
-        Me.ComboBox8.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox8.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox8.Location = New System.Drawing.Point(111, 93)
         Me.ComboBox8.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox8.Name = "ComboBox8"
@@ -725,7 +725,7 @@ Partial Class FireGraftForm
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(58, 13)
         Me.Label9.TabIndex = 18
-        Me.Label9.Text = "액션값"
+        Me.Label9.Text = "动作值"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label10
@@ -734,7 +734,7 @@ Partial Class FireGraftForm
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(58, 13)
         Me.Label10.TabIndex = 17
-        Me.Label10.Text = "액션"
+        Me.Label10.Text = "动作"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox6
@@ -742,7 +742,7 @@ Partial Class FireGraftForm
         Me.ComboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.IntegralHeight = False
-        Me.ComboBox6.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox6.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox6.Location = New System.Drawing.Point(111, 16)
         Me.ComboBox6.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox6.Name = "ComboBox6"
@@ -768,7 +768,7 @@ Partial Class FireGraftForm
         Me.ComboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.IntegralHeight = False
-        Me.ComboBox5.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox5.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox5.Location = New System.Drawing.Point(111, 40)
         Me.ComboBox5.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox5.Name = "ComboBox5"
@@ -781,7 +781,7 @@ Partial Class FireGraftForm
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(58, 13)
         Me.Label7.TabIndex = 12
-        Me.Label7.Text = "조건값"
+        Me.Label7.Text = "条件值"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label8
@@ -790,7 +790,7 @@ Partial Class FireGraftForm
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(58, 13)
         Me.Label8.TabIndex = 11
-        Me.Label8.Text = "조건"
+        Me.Label8.Text = "条件"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox6
@@ -808,7 +808,7 @@ Partial Class FireGraftForm
         Me.GroupBox6.Size = New System.Drawing.Size(356, 129)
         Me.GroupBox6.TabIndex = 1
         Me.GroupBox6.TabStop = False
-        Me.GroupBox6.Text = "문자"
+        Me.GroupBox6.Text = "字符"
         Me.GroupBox6.Visible = False
         '
         'Button2
@@ -817,7 +817,7 @@ Partial Class FireGraftForm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(55, 23)
         Me.Button2.TabIndex = 34
-        Me.Button2.Text = "수정"
+        Me.Button2.Text = "修改"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button45
@@ -826,7 +826,7 @@ Partial Class FireGraftForm
         Me.Button45.Name = "Button45"
         Me.Button45.Size = New System.Drawing.Size(55, 23)
         Me.Button45.TabIndex = 33
-        Me.Button45.Text = "수정"
+        Me.Button45.Text = "修改"
         Me.Button45.UseVisualStyleBackColor = True
         '
         'TextBox11
@@ -841,7 +841,7 @@ Partial Class FireGraftForm
         Me.ComboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox9.FormattingEnabled = True
         Me.ComboBox9.IntegralHeight = False
-        Me.ComboBox9.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox9.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox9.Location = New System.Drawing.Point(6, 94)
         Me.ComboBox9.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox9.Name = "ComboBox9"
@@ -854,7 +854,7 @@ Partial Class FireGraftForm
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(63, 13)
         Me.Label12.TabIndex = 21
-        Me.Label12.Text = "사용불가"
+        Me.Label12.Text = "不可用"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox10
@@ -869,7 +869,7 @@ Partial Class FireGraftForm
         Me.ComboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox10.FormattingEnabled = True
         Me.ComboBox10.IntegralHeight = False
-        Me.ComboBox10.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox10.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox10.Location = New System.Drawing.Point(6, 42)
         Me.ComboBox10.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox10.Name = "ComboBox10"
@@ -882,7 +882,7 @@ Partial Class FireGraftForm
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(63, 13)
         Me.Label11.TabIndex = 18
-        Me.Label11.Text = "사용가능"
+        Me.Label11.Text = "可用"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox4
@@ -893,7 +893,7 @@ Partial Class FireGraftForm
         Me.GroupBox4.Size = New System.Drawing.Size(299, 92)
         Me.GroupBox4.TabIndex = 2
         Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "버튼데이터"
+        Me.GroupBox4.Text = "按钮数据"
         Me.GroupBox4.Visible = False
         '
         'FlowLayoutPanel2
@@ -924,7 +924,7 @@ Partial Class FireGraftForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(51, 37)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "적용"
+        Me.Button1.Text = "应用"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'GroupBox5
@@ -940,7 +940,7 @@ Partial Class FireGraftForm
         Me.GroupBox5.Size = New System.Drawing.Size(356, 73)
         Me.GroupBox5.TabIndex = 3
         Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "버튼외형"
+        Me.GroupBox5.Text = "按钮外观"
         Me.GroupBox5.Visible = False
         '
         'PictureBox1
@@ -973,7 +973,7 @@ Partial Class FireGraftForm
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.IntegralHeight = False
         Me.ComboBox4.ItemHeight = 15
-        Me.ComboBox4.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox4.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox4.Location = New System.Drawing.Point(143, 43)
         Me.ComboBox4.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox4.Name = "ComboBox4"
@@ -986,7 +986,7 @@ Partial Class FireGraftForm
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(50, 13)
         Me.Label5.TabIndex = 6
-        Me.Label5.Text = "아이콘"
+        Me.Label5.Text = "图标"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label6
@@ -995,7 +995,7 @@ Partial Class FireGraftForm
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(50, 13)
         Me.Label6.TabIndex = 5
-        Me.Label6.Text = "위치"
+        Me.Label6.Text = "位置"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'CheckBox1
@@ -1005,7 +1005,7 @@ Partial Class FireGraftForm
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(90, 19)
         Me.CheckBox1.TabIndex = 6
-        Me.CheckBox1.Text = "기본값 사용"
+        Me.CheckBox1.Text = "使用默认值"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'TabPage3
@@ -1018,7 +1018,7 @@ Partial Class FireGraftForm
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage3.Size = New System.Drawing.Size(513, 502)
         Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "요구사항"
+        Me.TabPage3.Text = "需求"
         '
         'FlowLayoutPanel4
         '
@@ -1041,7 +1041,7 @@ Partial Class FireGraftForm
         Me.RadioButton1.Size = New System.Drawing.Size(89, 19)
         Me.RadioButton1.TabIndex = 8
         Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "기본값 사용"
+        Me.RadioButton1.Text = "使用默认值"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'RadioButton2
@@ -1052,7 +1052,7 @@ Partial Class FireGraftForm
         Me.RadioButton2.Size = New System.Drawing.Size(73, 19)
         Me.RadioButton2.TabIndex = 9
         Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "사용안함"
+        Me.RadioButton2.Text = "禁用"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'RadioButton3
@@ -1063,7 +1063,7 @@ Partial Class FireGraftForm
         Me.RadioButton3.Size = New System.Drawing.Size(85, 19)
         Me.RadioButton3.TabIndex = 10
         Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "무조건허용"
+        Me.RadioButton3.Text = "无条件允许"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
         'RadioButton4
@@ -1074,7 +1074,7 @@ Partial Class FireGraftForm
         Me.RadioButton4.Size = New System.Drawing.Size(89, 19)
         Me.RadioButton4.TabIndex = 11
         Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "사용자 정의"
+        Me.RadioButton4.Text = "自定义"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
         'GroupBox11
@@ -1088,7 +1088,7 @@ Partial Class FireGraftForm
         Me.GroupBox11.Size = New System.Drawing.Size(501, 43)
         Me.GroupBox11.TabIndex = 6
         Me.GroupBox11.TabStop = False
-        Me.GroupBox11.Text = "전체 용량 관리"
+        Me.GroupBox11.Text = "总容量管理"
         '
         'Button10
         '
@@ -1096,7 +1096,7 @@ Partial Class FireGraftForm
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(91, 25)
         Me.Button10.TabIndex = 3
-        Me.Button10.Text = "무조건허용"
+        Me.Button10.Text = "无条件允许"
         Me.Button10.UseVisualStyleBackColor = True
         '
         'Button9
@@ -1105,7 +1105,7 @@ Partial Class FireGraftForm
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(91, 25)
         Me.Button9.TabIndex = 2
-        Me.Button9.Text = "사용안함"
+        Me.Button9.Text = "禁用"
         Me.Button9.UseVisualStyleBackColor = True
         '
         'Button8
@@ -1114,7 +1114,7 @@ Partial Class FireGraftForm
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(91, 25)
         Me.Button8.TabIndex = 1
-        Me.Button8.Text = "기본값"
+        Me.Button8.Text = "默认值"
         Me.Button8.UseVisualStyleBackColor = True
         '
         'Label13
@@ -1124,7 +1124,7 @@ Partial Class FireGraftForm
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(94, 15)
         Me.Label13.TabIndex = 0
-        Me.Label13.Text = "용량 : 전체 용량"
+        Me.Label13.Text = "容量 : 总容量"
         '
         'GroupBox10
         '
@@ -1135,7 +1135,7 @@ Partial Class FireGraftForm
         Me.GroupBox10.Size = New System.Drawing.Size(499, 423)
         Me.GroupBox10.TabIndex = 5
         Me.GroupBox10.TabStop = False
-        Me.GroupBox10.Text = "정보"
+        Me.GroupBox10.Text = "信息"
         '
         'ComboBox12
         '
@@ -1191,7 +1191,7 @@ Partial Class FireGraftForm
         Me.GroupBox8.Size = New System.Drawing.Size(265, 395)
         Me.GroupBox8.TabIndex = 1
         Me.GroupBox8.TabStop = False
-        Me.GroupBox8.Text = "요구사항"
+        Me.GroupBox8.Text = "需求"
         '
         'TableLayoutPanel4
         '
@@ -1241,7 +1241,7 @@ Partial Class FireGraftForm
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(64, 51)
         Me.Button4.TabIndex = 4
-        Me.Button4.Text = "새 코드"
+        Me.Button4.Text = "新建代码"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -1254,7 +1254,7 @@ Partial Class FireGraftForm
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(64, 51)
         Me.Button3.TabIndex = 3
-        Me.Button3.Text = "삭제"
+        Me.Button3.Text = "删除"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -1267,7 +1267,7 @@ Partial Class FireGraftForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(64, 51)
         Me.Button6.TabIndex = 5
-        Me.Button6.Text = "올리기"
+        Me.Button6.Text = "上移"
         Me.Button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button6.UseVisualStyleBackColor = True
         '
@@ -1280,7 +1280,7 @@ Partial Class FireGraftForm
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(64, 51)
         Me.Button7.TabIndex = 6
-        Me.Button7.Text = "내리기"
+        Me.Button7.Text = "下移"
         Me.Button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button7.UseVisualStyleBackColor = True
         '
@@ -1307,7 +1307,7 @@ Partial Class FireGraftForm
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage4.Size = New System.Drawing.Size(499, 0)
         Me.TabPage4.TabIndex = 0
-        Me.TabPage4.Text = "유닛"
+        Me.TabPage4.Text = "单位"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
         'TabPage5
@@ -1317,7 +1317,7 @@ Partial Class FireGraftForm
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage5.Size = New System.Drawing.Size(499, 0)
         Me.TabPage5.TabIndex = 1
-        Me.TabPage5.Text = "업그레이드"
+        Me.TabPage5.Text = "升级"
         Me.TabPage5.UseVisualStyleBackColor = True
         '
         'TabPage6
@@ -1327,7 +1327,7 @@ Partial Class FireGraftForm
         Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage6.Size = New System.Drawing.Size(499, 0)
         Me.TabPage6.TabIndex = 2
-        Me.TabPage6.Text = "기술연구"
+        Me.TabPage6.Text = "科技研究"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
         'TabPage7
@@ -1337,7 +1337,7 @@ Partial Class FireGraftForm
         Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage7.Size = New System.Drawing.Size(499, 0)
         Me.TabPage7.TabIndex = 3
-        Me.TabPage7.Text = "기술사용"
+        Me.TabPage7.Text = "科技使用"
         Me.TabPage7.UseVisualStyleBackColor = True
         '
         'TabPage8
@@ -1347,7 +1347,7 @@ Partial Class FireGraftForm
         Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage8.Size = New System.Drawing.Size(499, 0)
         Me.TabPage8.TabIndex = 4
-        Me.TabPage8.Text = "명령"
+        Me.TabPage8.Text = "命令"
         Me.TabPage8.UseVisualStyleBackColor = True
         '
         'ListMenu
@@ -1361,7 +1361,7 @@ Partial Class FireGraftForm
         Me.ResetToolStripMenuItem.Name = "ResetToolStripMenuItem"
         Me.ResetToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
         Me.ResetToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
-        Me.ResetToolStripMenuItem.Text = "초기화"
+        Me.ResetToolStripMenuItem.Text = "重置"
         '
         'ToolStripSeparator1
         '
@@ -1373,14 +1373,14 @@ Partial Class FireGraftForm
         Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
         Me.CopyToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
         Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
-        Me.CopyToolStripMenuItem.Text = "복사"
+        Me.CopyToolStripMenuItem.Text = "复制"
         '
         'PasteToolStripMenuItem
         '
         Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
         Me.PasteToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
         Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
-        Me.PasteToolStripMenuItem.Text = "붙여넣기"
+        Me.PasteToolStripMenuItem.Text = "粘贴"
         '
         'BtnlistMenu
         '
@@ -1393,14 +1393,14 @@ Partial Class FireGraftForm
         Me.btnmenuNEW.Name = "btnmenuNEW"
         Me.btnmenuNEW.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N), System.Windows.Forms.Keys)
         Me.btnmenuNEW.Size = New System.Drawing.Size(198, 22)
-        Me.btnmenuNEW.Text = "새로 만들기(&N)"
+        Me.btnmenuNEW.Text = "新建(&N)"
         '
         'btnmenuDUMP
         '
         Me.btnmenuDUMP.Name = "btnmenuDUMP"
         Me.btnmenuDUMP.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.D), System.Windows.Forms.Keys)
         Me.btnmenuDUMP.Size = New System.Drawing.Size(198, 22)
-        Me.btnmenuDUMP.Text = "덮어쓰기"
+        Me.btnmenuDUMP.Text = "覆盖"
         '
         'ToolStripSeparator2
         '
@@ -1412,28 +1412,28 @@ Partial Class FireGraftForm
         Me.btnmenuCUT.Name = "btnmenuCUT"
         Me.btnmenuCUT.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
         Me.btnmenuCUT.Size = New System.Drawing.Size(198, 22)
-        Me.btnmenuCUT.Text = "잘라내기(&T)"
+        Me.btnmenuCUT.Text = "剪切(&T)"
         '
         'btnmenuCOPY
         '
         Me.btnmenuCOPY.Name = "btnmenuCOPY"
         Me.btnmenuCOPY.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
         Me.btnmenuCOPY.Size = New System.Drawing.Size(198, 22)
-        Me.btnmenuCOPY.Text = "복사(&C)"
+        Me.btnmenuCOPY.Text = "复制(&C)"
         '
         'btnmenuPASTE
         '
         Me.btnmenuPASTE.Name = "btnmenuPASTE"
         Me.btnmenuPASTE.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
         Me.btnmenuPASTE.Size = New System.Drawing.Size(198, 22)
-        Me.btnmenuPASTE.Text = "붙여넣기(&P)"
+        Me.btnmenuPASTE.Text = "粘贴(&P)"
         '
         'btnmenuDELETE
         '
         Me.btnmenuDELETE.Name = "btnmenuDELETE"
         Me.btnmenuDELETE.ShortcutKeys = System.Windows.Forms.Keys.Delete
         Me.btnmenuDELETE.Size = New System.Drawing.Size(198, 22)
-        Me.btnmenuDELETE.Text = "삭제(&D)"
+        Me.btnmenuDELETE.Text = "删除(&D)"
         '
         'ReqMenu
         '
@@ -1446,7 +1446,7 @@ Partial Class FireGraftForm
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N), System.Windows.Forms.Keys)
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(198, 22)
-        Me.ToolStripMenuItem1.Text = "새로 만들기(&N)"
+        Me.ToolStripMenuItem1.Text = "新建(&N)"
         '
         'ToolStripSeparator4
         '
@@ -1458,28 +1458,28 @@ Partial Class FireGraftForm
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
         Me.ToolStripMenuItem3.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
         Me.ToolStripMenuItem3.Size = New System.Drawing.Size(198, 22)
-        Me.ToolStripMenuItem3.Text = "잘라내기(&T)"
+        Me.ToolStripMenuItem3.Text = "剪切(&T)"
         '
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
         Me.ToolStripMenuItem4.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
         Me.ToolStripMenuItem4.Size = New System.Drawing.Size(198, 22)
-        Me.ToolStripMenuItem4.Text = "복사(&C)"
+        Me.ToolStripMenuItem4.Text = "复制(&C)"
         '
         'ToolStripMenuItem5
         '
         Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
         Me.ToolStripMenuItem5.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
         Me.ToolStripMenuItem5.Size = New System.Drawing.Size(198, 22)
-        Me.ToolStripMenuItem5.Text = "붙여넣기(&P)"
+        Me.ToolStripMenuItem5.Text = "粘贴(&P)"
         '
         'ToolStripMenuItem6
         '
         Me.ToolStripMenuItem6.Name = "ToolStripMenuItem6"
         Me.ToolStripMenuItem6.ShortcutKeys = System.Windows.Forms.Keys.Delete
         Me.ToolStripMenuItem6.Size = New System.Drawing.Size(198, 22)
-        Me.ToolStripMenuItem6.Text = "삭제(&D)"
+        Me.ToolStripMenuItem6.Text = "删除(&D)"
         '
         'FireGraftForm
         '
@@ -1488,7 +1488,7 @@ Partial Class FireGraftForm
         Me.ClientSize = New System.Drawing.Size(748, 554)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

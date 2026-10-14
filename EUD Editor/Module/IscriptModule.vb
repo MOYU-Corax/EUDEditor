@@ -368,7 +368,7 @@ Module IscriptModule
                                 Dim bitmap As New Bitmap(256, 256)
                                 Dim grptool As Graphics
                                 grptool = Graphics.FromImage(bitmap)
-                                grptool.DrawString("스크립트에서 Lo파일을 요구하였으나 " & vbCrLf & "존재하지 않습니다.", DatEditForm.Font, Brushes.Red, New Point(0, 96))
+                                grptool.DrawString("脚本需要 Lo 文件，但 " & vbCrLf & "该文件不存在。", DatEditForm.Font, Brushes.Red, New Point(0, 96))
 
                                 DatEditForm.PictureBox26.Image = bitmap
                             End If
@@ -382,7 +382,7 @@ Module IscriptModule
                                 Dim bitmap As New Bitmap(256, 256)
                                 Dim grptool As Graphics
                                 grptool = Graphics.FromImage(bitmap)
-                                grptool.DrawString("스크립트에서 Lo파일을 요구하였으나 " & vbCrLf & "존재하지 않습니다.", DatEditForm.Font, Brushes.Red, New Point(0, 96))
+                                grptool.DrawString("脚本需要 Lo 文件，但 " & vbCrLf & "该文件不存在。", DatEditForm.Font, Brushes.Red, New Point(0, 96))
 
                                 DatEditForm.PictureBox26.Image = bitmap
                             End If
@@ -408,7 +408,7 @@ Module IscriptModule
                                 Dim bitmap As New Bitmap(256, 256)
                                 Dim grptool As Graphics
                                 grptool = Graphics.FromImage(bitmap)
-                                grptool.DrawString("스크립트에서 Lo파일을 요구하였으나 " & vbCrLf & "존재하지 않습니다.", DatEditForm.Font, Brushes.Red, New Point(0, 96))
+                                grptool.DrawString("脚本需要 Lo 文件，但 " & vbCrLf & "该文件不存在。", DatEditForm.Font, Brushes.Red, New Point(0, 96))
 
                                 DatEditForm.PictureBox26.Image = bitmap
                             End If

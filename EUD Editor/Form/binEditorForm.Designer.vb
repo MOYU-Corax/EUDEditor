@@ -90,7 +90,7 @@ Partial Class binEditorForm
         Me.ListBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 15
-        Me.ListBox1.Items.AddRange(New Object() {"기본 장면"})
+        Me.ListBox1.Items.AddRange(New Object() {"默认场景"})
         Me.ListBox1.Location = New System.Drawing.Point(0, 0)
         Me.ListBox1.Margin = New System.Windows.Forms.Padding(0)
         Me.ListBox1.Name = "ListBox1"
@@ -105,7 +105,7 @@ Partial Class binEditorForm
         Me.GroupBox1.Size = New System.Drawing.Size(181, 172)
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "장면"
+        Me.GroupBox1.Text = "场景"
         '
         'TableLayoutPanel1
         '
@@ -142,7 +142,7 @@ Partial Class binEditorForm
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(85, 30)
         Me.Button3.TabIndex = 17
-        Me.Button3.Text = "새 장면"
+        Me.Button3.Text = "新建场景"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -155,7 +155,7 @@ Partial Class binEditorForm
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(85, 30)
         Me.Button4.TabIndex = 18
-        Me.Button4.Text = "삭제"
+        Me.Button4.Text = "删除"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -179,7 +179,7 @@ Partial Class binEditorForm
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage1.Size = New System.Drawing.Size(167, 0)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "프로토스"
+        Me.TabPage1.Text = "神族"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
         'TabPage2
@@ -189,7 +189,7 @@ Partial Class binEditorForm
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage2.Size = New System.Drawing.Size(167, 0)
         Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "테란"
+        Me.TabPage2.Text = "人族"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
         'TabPage3
@@ -198,7 +198,7 @@ Partial Class binEditorForm
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Size = New System.Drawing.Size(167, 0)
         Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "저그"
+        Me.TabPage3.Text = "虫族"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
         'GroupBox2
@@ -209,7 +209,7 @@ Partial Class binEditorForm
         Me.GroupBox2.Size = New System.Drawing.Size(181, 50)
         Me.GroupBox2.TabIndex = 5
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "종족"
+        Me.GroupBox2.Text = "种族"
         '
         'NumericUpDown1
         '
@@ -256,7 +256,7 @@ Partial Class binEditorForm
         Me.GroupBox3.Size = New System.Drawing.Size(181, 261)
         Me.GroupBox3.TabIndex = 16
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "모양설정"
+        Me.GroupBox3.Text = "外观设置"
         '
         'GroupBox5
         '
@@ -281,7 +281,7 @@ Partial Class binEditorForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(53, 52)
         Me.Button6.TabIndex = 25
-        Me.Button6.Text = "초기값"
+        Me.Button6.Text = "初始值"
         Me.Button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button6.UseVisualStyleBackColor = True
         '
@@ -337,7 +337,7 @@ Partial Class binEditorForm
         Me.GroupBox4.Size = New System.Drawing.Size(181, 149)
         Me.GroupBox4.TabIndex = 25
         Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Dialog박스"
+        Me.GroupBox4.Text = "Dialog框"
         '
         'Button5
         '
@@ -347,7 +347,7 @@ Partial Class binEditorForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(53, 52)
         Me.Button5.TabIndex = 24
-        Me.Button5.Text = "초기값"
+        Me.Button5.Text = "初始值"
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button5.UseVisualStyleBackColor = True
         '
@@ -359,7 +359,7 @@ Partial Class binEditorForm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(53, 50)
         Me.Button2.TabIndex = 24
-        Me.Button2.Text = "비우기"
+        Me.Button2.Text = "清空"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -371,7 +371,7 @@ Partial Class binEditorForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(50, 50)
         Me.Button1.TabIndex = 16
-        Me.Button1.Text = "열기"
+        Me.Button1.Text = "打开"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -382,7 +382,7 @@ Partial Class binEditorForm
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(67, 15)
         Me.Label7.TabIndex = 18
-        Me.Label7.Text = "외부이미지"
+        Me.Label7.Text = "外部图像"
         '
         'ListBox2
         '
@@ -402,7 +402,7 @@ Partial Class binEditorForm
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(95, 15)
         Me.Label8.TabIndex = 18
-        Me.Label8.Text = "다이얼로그 목록"
+        Me.Label8.Text = "对话框列表"
         '
         'ListBox3
         '
@@ -435,7 +435,7 @@ Partial Class binEditorForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(83, 15)
         Me.Label2.TabIndex = 21
-        Me.Label2.Text = "내부 오브젝트"
+        Me.Label2.Text = "内部对象"
         '
         'Label3
         '
@@ -444,7 +444,7 @@ Partial Class binEditorForm
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(31, 15)
         Me.Label3.TabIndex = 22
-        Me.Label3.Text = "필터"
+        Me.Label3.Text = "筛选"
         '
         'FlowLayoutPanel2
         '
@@ -473,7 +473,7 @@ Partial Class binEditorForm
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.KeyPreview = True
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)

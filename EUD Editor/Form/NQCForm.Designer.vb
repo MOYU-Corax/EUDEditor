@@ -99,7 +99,7 @@ Partial Class NQCForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(158, 30)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -113,7 +113,7 @@ Partial Class NQCForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(159, 30)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'GroupBox1
@@ -125,7 +125,7 @@ Partial Class NQCForm
         Me.GroupBox1.Size = New System.Drawing.Size(311, 81)
         Me.GroupBox1.TabIndex = 21
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "조건"
+        Me.GroupBox1.Text = "条件"
         '
         'FlowLayoutPanel1
         '
@@ -149,7 +149,7 @@ Partial Class NQCForm
         Me.RadioButton1.Size = New System.Drawing.Size(77, 19)
         Me.RadioButton1.TabIndex = 2
         Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "직접 입력"
+        Me.RadioButton1.Text = "直接输入"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -170,7 +170,7 @@ Partial Class NQCForm
         Me.RadioButton2.Size = New System.Drawing.Size(77, 19)
         Me.RadioButton2.TabIndex = 3
         Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "키보드 값"
+        Me.RadioButton2.Text = "键盘值"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'EasyCompletionComboBox1
@@ -193,7 +193,7 @@ Partial Class NQCForm
         Me.GroupBox2.Size = New System.Drawing.Size(311, 119)
         Me.GroupBox2.TabIndex = 22
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "변환 값"
+        Me.GroupBox2.Text = "转换值"
         '
         'FlowLayoutPanel3
         '
@@ -216,7 +216,7 @@ Partial Class NQCForm
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(77, 19)
         Me.RadioButton3.TabIndex = 5
-        Me.RadioButton3.Text = "직접 입력"
+        Me.RadioButton3.Text = "直接输入"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
         'TextBox2
@@ -237,7 +237,7 @@ Partial Class NQCForm
         Me.RadioButton4.Size = New System.Drawing.Size(49, 19)
         Me.RadioButton4.TabIndex = 6
         Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "유닛"
+        Me.RadioButton4.Text = "单位"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
         'FlowLayoutPanel2
@@ -259,7 +259,7 @@ Partial Class NQCForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(71, 15)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "데스값 유닛"
+        Me.Label1.Text = "死亡值单位"
         '
         'EasyCompletionComboBox2
         '
@@ -279,7 +279,7 @@ Partial Class NQCForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(71, 15)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "데스값 수치"
+        Me.Label2.Text = "死亡值数值"
         '
         'NumericUpDown1
         '
@@ -295,7 +295,7 @@ Partial Class NQCForm
         Me.ClientSize = New System.Drawing.Size(317, 242)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

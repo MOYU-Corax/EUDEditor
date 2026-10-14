@@ -54,7 +54,7 @@ Partial Class SoundPlayerForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(63, 50)
         Me.Button1.TabIndex = 1
-        Me.Button1.Text = "불러오기"
+        Me.Button1.Text = "载入"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button1.UseVisualStyleBackColor = True
@@ -68,7 +68,7 @@ Partial Class SoundPlayerForm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(63, 50)
         Me.Button2.TabIndex = 2
-        Me.Button2.Text = "제거"
+        Me.Button2.Text = "移除"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button2.UseVisualStyleBackColor = True
@@ -106,7 +106,7 @@ Partial Class SoundPlayerForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(31, 15)
         Me.Label1.TabIndex = 4
-        Me.Label1.Text = "길이"
+        Me.Label1.Text = "长度"
         '
         'ComboBox1
         '
@@ -122,12 +122,12 @@ Partial Class SoundPlayerForm
         '
         'Button3
         '
-        Me.Button3.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button3.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button3.Location = New System.Drawing.Point(3, 150)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(58, 38)
         Me.Button3.TabIndex = 6
-        Me.Button3.Text = "배속  감지"
+        Me.Button3.Text = "倍速  检测"
         Me.Button3.UseVisualStyleBackColor = True
         Me.Button3.Visible = False
         '
@@ -153,7 +153,7 @@ Partial Class SoundPlayerForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(316, 188)
         Me.Controls.Add(Me.TableLayoutPanel2)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

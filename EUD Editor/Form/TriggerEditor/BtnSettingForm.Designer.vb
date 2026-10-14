@@ -90,14 +90,14 @@ Partial Class BtnSettingForm
         Me.GroupBox7.Size = New System.Drawing.Size(356, 130)
         Me.GroupBox7.TabIndex = 22
         Me.GroupBox7.TabStop = False
-        Me.GroupBox7.Text = "설정"
+        Me.GroupBox7.Text = "设置"
         '
         'ComboBox7
         '
         Me.ComboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox7.FormattingEnabled = True
         Me.ComboBox7.IntegralHeight = False
-        Me.ComboBox7.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox7.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox7.Location = New System.Drawing.Point(103, 69)
         Me.ComboBox7.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox7.Name = "ComboBox7"
@@ -123,7 +123,7 @@ Partial Class BtnSettingForm
         Me.ComboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox8.FormattingEnabled = True
         Me.ComboBox8.IntegralHeight = False
-        Me.ComboBox8.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox8.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox8.Location = New System.Drawing.Point(103, 93)
         Me.ComboBox8.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox8.Name = "ComboBox8"
@@ -136,7 +136,7 @@ Partial Class BtnSettingForm
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(60, 15)
         Me.Label9.TabIndex = 18
-        Me.Label9.Text = "액션값"
+        Me.Label9.Text = "动作值"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label10
@@ -145,7 +145,7 @@ Partial Class BtnSettingForm
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(60, 15)
         Me.Label10.TabIndex = 17
-        Me.Label10.Text = "액션"
+        Me.Label10.Text = "动作"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ComboBox6
@@ -153,7 +153,7 @@ Partial Class BtnSettingForm
         Me.ComboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.IntegralHeight = False
-        Me.ComboBox6.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox6.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox6.Location = New System.Drawing.Point(103, 16)
         Me.ComboBox6.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox6.Name = "ComboBox6"
@@ -179,7 +179,7 @@ Partial Class BtnSettingForm
         Me.ComboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.IntegralHeight = False
-        Me.ComboBox5.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox5.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox5.Location = New System.Drawing.Point(103, 40)
         Me.ComboBox5.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox5.Name = "ComboBox5"
@@ -192,7 +192,7 @@ Partial Class BtnSettingForm
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(60, 15)
         Me.Label7.TabIndex = 12
-        Me.Label7.Text = "조건값"
+        Me.Label7.Text = "条件值"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label8
@@ -201,7 +201,7 @@ Partial Class BtnSettingForm
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(60, 15)
         Me.Label8.TabIndex = 11
-        Me.Label8.Text = "조건"
+        Me.Label8.Text = "条件"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox6
@@ -219,7 +219,7 @@ Partial Class BtnSettingForm
         Me.GroupBox6.Size = New System.Drawing.Size(356, 129)
         Me.GroupBox6.TabIndex = 19
         Me.GroupBox6.TabStop = False
-        Me.GroupBox6.Text = "문자"
+        Me.GroupBox6.Text = "字符"
         '
         'Button2
         '
@@ -227,7 +227,7 @@ Partial Class BtnSettingForm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(55, 23)
         Me.Button2.TabIndex = 34
-        Me.Button2.Text = "수정"
+        Me.Button2.Text = "修改"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button45
@@ -236,7 +236,7 @@ Partial Class BtnSettingForm
         Me.Button45.Name = "Button45"
         Me.Button45.Size = New System.Drawing.Size(55, 23)
         Me.Button45.TabIndex = 33
-        Me.Button45.Text = "수정"
+        Me.Button45.Text = "修改"
         Me.Button45.UseVisualStyleBackColor = True
         '
         'TextBox11
@@ -251,7 +251,7 @@ Partial Class BtnSettingForm
         Me.ComboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox9.FormattingEnabled = True
         Me.ComboBox9.IntegralHeight = False
-        Me.ComboBox9.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox9.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox9.Location = New System.Drawing.Point(6, 94)
         Me.ComboBox9.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox9.Name = "ComboBox9"
@@ -264,7 +264,7 @@ Partial Class BtnSettingForm
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(60, 15)
         Me.Label12.TabIndex = 21
-        Me.Label12.Text = "사용불가"
+        Me.Label12.Text = "不可用"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextBox10
@@ -279,7 +279,7 @@ Partial Class BtnSettingForm
         Me.ComboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox10.FormattingEnabled = True
         Me.ComboBox10.IntegralHeight = False
-        Me.ComboBox10.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox10.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox10.Location = New System.Drawing.Point(6, 42)
         Me.ComboBox10.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox10.Name = "ComboBox10"
@@ -292,7 +292,7 @@ Partial Class BtnSettingForm
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(60, 15)
         Me.Label11.TabIndex = 18
-        Me.Label11.Text = "사용가능"
+        Me.Label11.Text = "可用"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox4
@@ -303,7 +303,7 @@ Partial Class BtnSettingForm
         Me.GroupBox4.Size = New System.Drawing.Size(356, 67)
         Me.GroupBox4.TabIndex = 20
         Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "버튼데이터"
+        Me.GroupBox4.Text = "按钮数据"
         '
         'FlowLayoutPanel2
         '
@@ -334,7 +334,7 @@ Partial Class BtnSettingForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(125, 38)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "적용"
+        Me.Button1.Text = "应用"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'GroupBox5
@@ -350,7 +350,7 @@ Partial Class BtnSettingForm
         Me.GroupBox5.Size = New System.Drawing.Size(356, 73)
         Me.GroupBox5.TabIndex = 21
         Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "버튼외형"
+        Me.GroupBox5.Text = "按钮外观"
         '
         'PictureBox1
         '
@@ -382,7 +382,7 @@ Partial Class BtnSettingForm
         Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.IntegralHeight = False
-        Me.ComboBox4.Items.AddRange(New Object() {"기능1", "기능2", "기능3", "기능4", "기능5", "기능6", "기능7", "기능8", "기능9"})
+        Me.ComboBox4.Items.AddRange(New Object() {"功能1", "功能2", "功能3", "功能4", "功能5", "功能6", "功能7", "功能8", "功能9"})
         Me.ComboBox4.Location = New System.Drawing.Point(143, 43)
         Me.ComboBox4.MatchingMethod = SergeUtils.StringMatchingMethod.UseWildcards
         Me.ComboBox4.Name = "ComboBox4"
@@ -395,7 +395,7 @@ Partial Class BtnSettingForm
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(60, 15)
         Me.Label5.TabIndex = 6
-        Me.Label5.Text = "아이콘"
+        Me.Label5.Text = "图标"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label6
@@ -404,7 +404,7 @@ Partial Class BtnSettingForm
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(60, 15)
         Me.Label6.TabIndex = 5
-        Me.Label6.Text = "위치"
+        Me.Label6.Text = "位置"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TableLayoutPanel1
@@ -450,7 +450,7 @@ Partial Class BtnSettingForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(181, 31)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -464,7 +464,7 @@ Partial Class BtnSettingForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(182, 31)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Panel1
@@ -487,7 +487,7 @@ Partial Class BtnSettingForm
         Me.ClientSize = New System.Drawing.Size(363, 458)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

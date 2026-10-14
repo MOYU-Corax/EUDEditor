@@ -96,7 +96,7 @@ Partial Class ForEditing
         Me.RadioButton3.Size = New System.Drawing.Size(101, 19)
         Me.RadioButton3.TabIndex = 9
         Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "플레이어 루프"
+        Me.RadioButton3.Text = "玩家循环"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
         'Label2
@@ -105,7 +105,7 @@ Partial Class ForEditing
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(48, 15)
         Me.Label2.TabIndex = 8
-        Me.Label2.Text = "횟수"
+        Me.Label2.Text = "次数"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label1
@@ -114,7 +114,7 @@ Partial Class ForEditing
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(58, 15)
         Me.Label1.TabIndex = 7
-        Me.Label1.Text = "변수 명"
+        Me.Label1.Text = "变量名"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'NumericUpDown1
@@ -147,7 +147,7 @@ Partial Class ForEditing
         Me.RadioButton4.Size = New System.Drawing.Size(105, 19)
         Me.RadioButton4.TabIndex = 3
         Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "모든 유닛 루프"
+        Me.RadioButton4.Text = "所有单位循环"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
         'RadioButton2
@@ -158,7 +158,7 @@ Partial Class ForEditing
         Me.RadioButton2.Size = New System.Drawing.Size(73, 19)
         Me.RadioButton2.TabIndex = 1
         Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "직접입력"
+        Me.RadioButton2.Text = "直接输入"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'RadioButton1
@@ -169,7 +169,7 @@ Partial Class ForEditing
         Me.RadioButton1.Size = New System.Drawing.Size(77, 19)
         Me.RadioButton1.TabIndex = 0
         Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "횟수 반복"
+        Me.RadioButton1.Text = "按次数重复"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'TableLayoutPanel1
@@ -215,7 +215,7 @@ Partial Class ForEditing
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(162, 30)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -229,7 +229,7 @@ Partial Class ForEditing
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(162, 30)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'ForEditing
@@ -241,7 +241,7 @@ Partial Class ForEditing
         Me.ClientSize = New System.Drawing.Size(324, 274)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False

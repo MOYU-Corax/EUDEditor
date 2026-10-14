@@ -59,7 +59,7 @@ Namespace eudplib
 
             If ProjectSet.UsedSetting(ProjectSet.Settingtype.Struct) = True Then
                 If ProjectSet.LoadFromCHK = False Then
-                    MsgBox("CHK데이터 읽어오기가 활성화 되어 있지 않아 TriggerEditor옵션이 해제됩니다.", MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
+                    MsgBox("未启用 CHK 数据读取，TriggerEditor 选项已被禁用。", MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
                     ProjectSet.UsedSetting(ProjectSet.Settingtype.Struct) = False
                     Main.buttonResetting()
                 Else
@@ -675,7 +675,7 @@ Namespace eudplib
 
                 If ProjectSet.UsedSetting(ProjectSet.Settingtype.BinEditor) = True Then
                 If ProjectSet.PlayerRace = 255 Then
-                    MsgBox("플레이어의 종족이 올바르지 않습니다." & vbCrLf & "BinEidt 옵션이 해제됩니다." & vbCrLf & "(이는 심각한 에러는 아니지만 콘솔 변경이 적용되지 않습니다.)", MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
+                    MsgBox("玩家的种族不正确。" & vbCrLf & "BinEdit 选项已被禁用。" & vbCrLf & "（这不是严重错误，但控制台修改不会被应用。）", MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
                     ProjectSet.UsedSetting(ProjectSet.Settingtype.BinEditor) = False
                     Main.buttonResetting()
                 Else
@@ -1270,7 +1270,7 @@ Namespace eudplib
             Try
 
             Catch ex As Exception
-                MsgBox("맵이 실행 중입니다!. 맵을 끄고 삽입하세요.", MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
+                MsgBox("地图正在运行中！请先关闭地图再插入。", MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
                 streamwriter.Close()
                 filestream.Close()
                 Exit Sub
@@ -1397,7 +1397,7 @@ Namespace eudplib
                 Try
                     process.Start() ' 여기서 프로그램이 실행됩니다.
                 Catch ex As System.ComponentModel.Win32Exception
-                    MsgBox("euddraft실행 파일이 누락되었습니다.! 다시 설정해 주세요.", MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
+                    MsgBox("缺少 euddraft 可执行文件！请重新设置。", MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
                     SettingForm.ShowDialog()
                     Exit Sub
                 End Try

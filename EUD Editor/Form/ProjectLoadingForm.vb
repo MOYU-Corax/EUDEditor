@@ -36,7 +36,7 @@ Public Class ProjectLoadingForm
 
         '  ProjectLoadingForm.texts = "DatEdit 데이터 로딩중..."
         '데이터 로딩 시작
-        Label1.Text = "DatEdit 데이터 읽는 중"
+        Label1.Text = "正在读取 DatEdit 数据"
         For k = 0 To DatEditDATA.Count - 1
             For i = 0 To DatEditDATA(k).projectdata.Count - 1
                 For j = 0 To DatEditDATA(k).projectdata(i).Count - 1
@@ -73,7 +73,7 @@ Public Class ProjectLoadingForm
             Next
         Next
 
-        Label1.Text = "FireGraft 데이터 읽는 중"
+        Label1.Text = "正在读取 FireGraft 数据"
         For k = 0 To ProjectUnitStatusFn1.Count - 1
             Dim _offsetNum As Long = Val("&H" & ReadOffset("FG_Debug")) + 12 * k
             MemStream.Position = _offsetNum - &H50C000

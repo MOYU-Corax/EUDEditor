@@ -1,0 +1,11 @@
+﻿{
+    "For": "For(使用变量 $1$ 循环 $2$ 次。)",
+    "AllPlayer": "所有玩家",
+    "Foreach": "Foreach(以 epd、ptr 变量循环 $1$ 的单位。)",
+    "PlayerLoop": "循环 $1$。",
+    "FuncDef": "函数定义 : $1$        使用等待 : $2$",
+    "Func": "函数",
+    "ExistFunc": "不存在的函数",
+    "Wait": "等待",
+    "SwitchCase": "        Break 使用 : "
+}

@@ -100,7 +100,7 @@ Partial Class GRPFormUseGRP
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(31, 15)
         Me.Label27.TabIndex = 3
-        Me.Label27.Text = "필터"
+        Me.Label27.Text = "筛选"
         '
         'TextBox2
         '
@@ -121,7 +121,7 @@ Partial Class GRPFormUseGRP
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(50, 19)
         Me.CheckBox5.TabIndex = 5
-        Me.CheckBox5.Text = "수정"
+        Me.CheckBox5.Text = "修改"
         Me.CheckBox5.UseVisualStyleBackColor = True
         '
         'SplitContainer1
@@ -192,7 +192,7 @@ Partial Class GRPFormUseGRP
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(397, 31)
         Me.Button5.TabIndex = 15
-        Me.Button5.Text = "접기"
+        Me.Button5.Text = "折叠"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'ListBox1
@@ -200,7 +200,7 @@ Partial Class GRPFormUseGRP
         Me.ListBox1.BackColor = System.Drawing.SystemColors.WindowText
         Me.ListBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.ListBox1.Font = New System.Drawing.Font("맑은 고딕", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.ListBox1.Font = New System.Drawing.Font("微软雅黑", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.ListBox1.ForeColor = System.Drawing.SystemColors.Window
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Location = New System.Drawing.Point(0, 0)
@@ -284,7 +284,7 @@ Partial Class GRPFormUseGRP
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(328, 35)
         Me.Button1.TabIndex = 21
-        Me.Button1.Text = "확인"
+        Me.Button1.Text = "确定"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Panel2
@@ -360,7 +360,7 @@ Partial Class GRPFormUseGRP
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(328, 35)
         Me.Button2.TabIndex = 23
-        Me.Button2.Text = "취소"
+        Me.Button2.Text = "取消"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Panel3
@@ -382,7 +382,7 @@ Partial Class GRPFormUseGRP
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(125, 25)
         Me.CheckBox2.TabIndex = 21
-        Me.CheckBox2.Text = "팅길 수 있음에 동의"
+        Me.CheckBox2.Text = "同意可能卡顿"
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
         'GRPFormUseGRP
@@ -394,7 +394,7 @@ Partial Class GRPFormUseGRP
         Me.ClientSize = New System.Drawing.Size(656, 414)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel4)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

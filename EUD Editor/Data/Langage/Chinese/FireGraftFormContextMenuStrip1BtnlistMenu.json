@@ -1,0 +1,8 @@
+﻿{
+    "btnmenuNEW": "新建(&N)",
+    "btnmenuDUMP": "覆盖",
+    "btnmenuCUT": "剪切(&T)",
+    "btnmenuCOPY": "复制(&C)",
+    "btnmenuPASTE": "粘贴(&P)",
+    "btnmenuDELETE": "删除(&D)"
+}

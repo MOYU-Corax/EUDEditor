@@ -163,7 +163,7 @@ Partial Class DebugForm
         Me.ToolStripButton13.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton13.Name = "ToolStripButton13"
         Me.ToolStripButton13.Size = New System.Drawing.Size(59, 44)
-        Me.ToolStripButton13.Text = "유닛제어"
+        Me.ToolStripButton13.Text = "单位控制"
         Me.ToolStripButton13.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -173,7 +173,7 @@ Partial Class DebugForm
         Me.ToolStripButton14.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton14.Name = "ToolStripButton14"
         Me.ToolStripButton14.Size = New System.Drawing.Size(59, 44)
-        Me.ToolStripButton14.Text = "유닛생산"
+        Me.ToolStripButton14.Text = "单位生产"
         Me.ToolStripButton14.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -298,7 +298,7 @@ Partial Class DebugForm
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(59, 44)
-        Me.ToolStripButton1.Text = "화면고정"
+        Me.ToolStripButton1.Text = "屏幕固定"
         Me.ToolStripButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -316,7 +316,7 @@ Partial Class DebugForm
         Me.ToolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton11.Name = "ToolStripButton11"
         Me.ToolStripButton11.Size = New System.Drawing.Size(47, 44)
-        Me.ToolStripButton11.Text = "이미지"
+        Me.ToolStripButton11.Text = "图像"
         Me.ToolStripButton11.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -329,7 +329,7 @@ Partial Class DebugForm
         Me.ToolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton7.Name = "ToolStripButton7"
         Me.ToolStripButton7.Size = New System.Drawing.Size(59, 44)
-        Me.ToolStripButton7.Text = "로케이션"
+        Me.ToolStripButton7.Text = "位置"
         Me.ToolStripButton7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -342,7 +342,7 @@ Partial Class DebugForm
         Me.ToolStripButton12.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton12.Name = "ToolStripButton12"
         Me.ToolStripButton12.Size = New System.Drawing.Size(47, 44)
-        Me.ToolStripButton12.Text = "윤곽선"
+        Me.ToolStripButton12.Text = "轮廓线"
         Me.ToolStripButton12.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -357,7 +357,7 @@ Partial Class DebugForm
         Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton3.Name = "ToolStripButton3"
         Me.ToolStripButton3.Size = New System.Drawing.Size(47, 44)
-        Me.ToolStripButton3.Text = "치트키"
+        Me.ToolStripButton3.Text = "作弊键"
         Me.ToolStripButton3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -400,7 +400,7 @@ Partial Class DebugForm
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
         Me.ToolStripButton2.Size = New System.Drawing.Size(44, 44)
-        Me.ToolStripButton2.Text = "기타"
+        Me.ToolStripButton2.Text = "其他"
         Me.ToolStripButton2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -408,25 +408,25 @@ Partial Class DebugForm
         '
         Me.데스값ToolStripMenuItem.Name = "데스값ToolStripMenuItem"
         Me.데스값ToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
-        Me.데스값ToolStripMenuItem.Text = "데스 값"
+        Me.데스값ToolStripMenuItem.Text = "死亡值"
         '
         '스위치상태ToolStripMenuItem
         '
         Me.스위치상태ToolStripMenuItem.Name = "스위치상태ToolStripMenuItem"
         Me.스위치상태ToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
-        Me.스위치상태ToolStripMenuItem.Text = "스위치 상태"
+        Me.스위치상태ToolStripMenuItem.Text = "开关状态"
         '
         '플레이어정보ToolStripMenuItem
         '
         Me.플레이어정보ToolStripMenuItem.Name = "플레이어정보ToolStripMenuItem"
         Me.플레이어정보ToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
-        Me.플레이어정보ToolStripMenuItem.Text = "플레이어 정보"
+        Me.플레이어정보ToolStripMenuItem.Text = "玩家信息"
         '
         '게임정보ToolStripMenuItem
         '
         Me.게임정보ToolStripMenuItem.Name = "게임정보ToolStripMenuItem"
         Me.게임정보ToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
-        Me.게임정보ToolStripMenuItem.Text = "게임 정보"
+        Me.게임정보ToolStripMenuItem.Text = "游戏信息"
         '
         'DrawTimer
         '
@@ -438,7 +438,7 @@ Partial Class DebugForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(889, 695)
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.KeyPreview = True
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "DebugForm"

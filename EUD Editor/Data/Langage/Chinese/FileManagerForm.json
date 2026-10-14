@@ -1,0 +1,19 @@
+﻿{
+    "TabPage1": "星际文本",
+    "GroupBox1": "Stat_text",
+    "TabPage2": "线框",
+    "Label27": "过滤器",
+    "CheckBox5": "修改",
+    "Button5": "折叠",
+    "Fold": "折叠",
+    "UnFold": "展开",
+    "GroupBox4": "TranFrame",
+    "Label3": "FrameNum",
+    "GroupBox3": "GrpFrame",
+    "Label2": "FrameNum",
+    "GroupBox2": "WireFrame",
+    "Label1": "FrameNum",
+    "OldText": "原文本",
+    "NewText": "新文本",
+    "Edit": "编辑"
+}

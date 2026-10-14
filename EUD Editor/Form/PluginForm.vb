@@ -44,7 +44,7 @@ Public Class PluginForm
     'eudTurbo
 
     Dim loadstatus As Boolean = False
-    Dim type() As String = {"사용안함", "사용(기본)", "사용(copy)", "사용(unpatcher)"}
+    Dim type() As String = {"禁用", "启用(默认)", "启用(copy)", "启用(unpatcher)"}
 
 
 
@@ -529,7 +529,7 @@ Public Class PluginForm
                     End If
                 End If
             Case 4 'stat_txt.tbl
-                OpenFileDialog2.Filter = "tbl 텍스트파일|*.tbl"
+                OpenFileDialog2.Filter = "tbl 文本文件|*.tbl"
                 dialog = OpenFileDialog2.ShowDialog
 
                 If dialog = DialogResult.OK Then
@@ -553,7 +553,7 @@ Public Class PluginForm
                     End If
                 End If
             Case 6 'iscript.bin
-                OpenFileDialog2.Filter = "이미지스크립트|*.bin"
+                OpenFileDialog2.Filter = "图像脚本|*.bin"
                 dialog = OpenFileDialog2.ShowDialog
 
                 If dialog = DialogResult.OK Then

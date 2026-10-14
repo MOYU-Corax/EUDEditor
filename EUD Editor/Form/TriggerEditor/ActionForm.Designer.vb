@@ -122,7 +122,7 @@ Partial Class ActionForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(167, 30)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -136,7 +136,7 @@ Partial Class ActionForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(167, 30)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'TableLayoutPanel1
@@ -222,7 +222,7 @@ Partial Class ActionForm
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage4.Size = New System.Drawing.Size(326, 0)
         Me.TabPage4.TabIndex = 0
-        Me.TabPage4.Text = "클래식"
+        Me.TabPage4.Text = "经典"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
         'TabPage5
@@ -241,7 +241,7 @@ Partial Class ActionForm
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.Size = New System.Drawing.Size(326, 0)
         Me.TabPage6.TabIndex = 2
-        Me.TabPage6.Text = "구조오프셋"
+        Me.TabPage6.Text = "结构偏移"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
         'TabPage7
@@ -250,7 +250,7 @@ Partial Class ActionForm
         Me.TabPage7.Name = "TabPage7"
         Me.TabPage7.Size = New System.Drawing.Size(326, 0)
         Me.TabPage7.TabIndex = 3
-        Me.TabPage7.Text = "커스텀"
+        Me.TabPage7.Text = "自定义"
         Me.TabPage7.UseVisualStyleBackColor = True
         '
         'TabControl1
@@ -283,7 +283,7 @@ Partial Class ActionForm
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage1.Size = New System.Drawing.Size(326, 153)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "추천"
+        Me.TabPage1.Text = "推荐"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
         'TableLayoutPanel8
@@ -320,7 +320,7 @@ Partial Class ActionForm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(35, 30)
         Me.Button2.TabIndex = 7
-        Me.Button2.Text = "새 창으로 열기"
+        Me.Button2.Text = "在新窗口打开"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'TableLayoutPanel7
@@ -396,7 +396,7 @@ Partial Class ActionForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(31, 30)
         Me.Button1.TabIndex = 7
-        Me.Button1.Text = "새 창으로 열기"
+        Me.Button1.Text = "在新窗口打开"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TableLayoutPanel4
@@ -612,7 +612,7 @@ Partial Class ActionForm
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage2.Size = New System.Drawing.Size(326, 153)
         Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "변수"
+        Me.TabPage2.Text = "变量"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
         'EasyCompletionComboBox2
@@ -635,7 +635,7 @@ Partial Class ActionForm
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Size = New System.Drawing.Size(326, 153)
         Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "직접 입력"
+        Me.TabPage3.Text = "直接输入"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
         'TableLayoutPanel9
@@ -689,7 +689,7 @@ Partial Class ActionForm
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(163, 30)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "함수"
+        Me.Button4.Text = "函数"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
@@ -700,7 +700,7 @@ Partial Class ActionForm
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(163, 30)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "값 가져오기"
+        Me.Button3.Text = "获取值"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'TabControl3
@@ -723,7 +723,7 @@ Partial Class ActionForm
         Me.ClientSize = New System.Drawing.Size(334, 361)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False

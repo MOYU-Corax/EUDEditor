@@ -28,9 +28,9 @@ Partial Class DebugCheatForm
         'CheckedListBox1
         '
         Me.CheckedListBox1.CheckOnClick = True
-        Me.CheckedListBox1.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.CheckedListBox1.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.CheckedListBox1.FormattingEnabled = True
-        Me.CheckedListBox1.Items.AddRange(New Object() {"인구 무제한", "모든 요구사항 무시", "마나 무한", "무적", "생산 속도 감소"})
+        Me.CheckedListBox1.Items.AddRange(New Object() {"人口无限", "忽略所有需求", "魔法无限", "无敌", "生产速度降低"})
         Me.CheckedListBox1.Location = New System.Drawing.Point(12, 15)
         Me.CheckedListBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CheckedListBox1.Name = "CheckedListBox1"
@@ -44,7 +44,7 @@ Partial Class DebugCheatForm
         Me.ClientSize = New System.Drawing.Size(220, 127)
         Me.ControlBox = False
         Me.Controls.Add(Me.CheckedListBox1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

@@ -1,0 +1,9 @@
+﻿{
+    "편집ToolStripMenuItem": "编辑(&E)",
+    "초기화ToolStripMenuItem1": "重置",
+    "오브젝트초기화ToolStripMenuItem": "对象重置",
+    "오브젝트복사ToolStripMenuItem": "对象复制",
+    "오브젝트붙여넣기ToolStripMenuItem": "对象粘贴",
+    "보기VToolStripMenuItem": "查看(&V)",
+    "테마설정TToolStripMenuItem": "主题设置(&T)"
+}

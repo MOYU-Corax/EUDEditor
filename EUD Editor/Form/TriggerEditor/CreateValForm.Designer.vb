@@ -46,7 +46,7 @@ Partial Class CreateValForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(47, 15)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "변수 명"
+        Me.Label1.Text = "变量名"
         '
         'TextBox1
         '
@@ -63,7 +63,7 @@ Partial Class CreateValForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(43, 15)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "초기값"
+        Me.Label2.Text = "初始值"
         '
         'NumericUpDown1
         '
@@ -119,7 +119,7 @@ Partial Class CreateValForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(111, 38)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -133,7 +133,7 @@ Partial Class CreateValForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(112, 38)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Panel1
@@ -181,7 +181,7 @@ Partial Class CreateValForm
         Me.ClientSize = New System.Drawing.Size(223, 107)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

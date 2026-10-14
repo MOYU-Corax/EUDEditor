@@ -148,7 +148,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Korean")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Chinese")>  _
         Public Property Langage() As String
             Get
                 Return CType(Me("Langage"),String)

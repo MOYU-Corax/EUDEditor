@@ -726,7 +726,7 @@ Public Class DebugForm
             DrawTimer.Enabled = False
 
             Me.Hide()
-            MsgBox("StarCraft 메모리 읽기에 실패했습니다." _
+            MsgBox("读取 StarCraft 内存失败。" _
                                   , MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
             DialogResult = DialogResult.Abort
 
@@ -740,7 +740,7 @@ Public Class DebugForm
 
             Me.Hide()
 
-            MsgBox("게임 실행중이 아닙니다." _
+            MsgBox("游戏未在运行中。" _
                        , MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
             DialogResult = DialogResult.Abort
 

@@ -1,0 +1,15 @@
+﻿{
+    "Button5": "确定",
+    "Button6": "取消",
+    "TabPage1": "推荐",
+    "Button2": "在新窗口打开",
+    "Button1": "在新窗口打开",
+    "Label1": "hitpoint",
+    "Label2": "shield",
+    "Label3": "energy",
+    "Label4": "resource",
+    "Label5": "hanger",
+    "TabPage2": "变量",
+    "TabPage3": "直接输入",
+    "Button3": "获取值"
+}

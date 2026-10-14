@@ -58,7 +58,7 @@ Partial Class GamedataForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(59, 15)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "게임 속도"
+        Me.Label1.Text = "游戏速度"
         '
         'Label2
         '
@@ -67,7 +67,7 @@ Partial Class GamedataForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(59, 15)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "반응 속도"
+        Me.Label2.Text = "反应速度"
         '
         'Label3
         '
@@ -76,7 +76,7 @@ Partial Class GamedataForm
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(47, 15)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "맵 파일"
+        Me.Label3.Text = "地图文件"
         '
         'Label4
         '
@@ -85,7 +85,7 @@ Partial Class GamedataForm
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(47, 15)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "맵 제목"
+        Me.Label4.Text = "地图标题"
         '
         'CheckBox1
         '
@@ -94,7 +94,7 @@ Partial Class GamedataForm
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(114, 19)
         Me.CheckBox1.TabIndex = 18
-        Me.CheckBox1.Text = "멀티플레이 모드"
+        Me.CheckBox1.Text = "多人游戏模式"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'CheckBox2
@@ -104,7 +104,7 @@ Partial Class GamedataForm
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(78, 19)
         Me.CheckBox2.TabIndex = 5
-        Me.CheckBox2.Text = "게임 퍼즈"
+        Me.CheckBox2.Text = "游戏暂停"
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
         'CheckBox3
@@ -114,7 +114,7 @@ Partial Class GamedataForm
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(78, 19)
         Me.CheckBox3.TabIndex = 6
-        Me.CheckBox3.Text = "명령 허용"
+        Me.CheckBox3.Text = "允许命令"
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'CheckBox4
@@ -124,7 +124,7 @@ Partial Class GamedataForm
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(90, 19)
         Me.CheckBox4.TabIndex = 7
-        Me.CheckBox4.Text = "트리거 실행"
+        Me.CheckBox4.Text = "执行触发器"
         Me.CheckBox4.UseVisualStyleBackColor = True
         '
         'Label5
@@ -134,7 +134,7 @@ Partial Class GamedataForm
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(59, 15)
         Me.Label5.TabIndex = 8
-        Me.Label5.Text = "경과 시간"
+        Me.Label5.Text = "经过时间"
         '
         'CheckBox5
         '
@@ -143,7 +143,7 @@ Partial Class GamedataForm
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(118, 19)
         Me.CheckBox5.TabIndex = 9
-        Me.CheckBox5.Text = "게임 타이머 실행"
+        Me.CheckBox5.Text = "执行游戏计时器"
         Me.CheckBox5.UseVisualStyleBackColor = True
         '
         'Label6
@@ -153,7 +153,7 @@ Partial Class GamedataForm
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(71, 15)
         Me.Label6.TabIndex = 10
-        Me.Label6.Text = "게임 타이머"
+        Me.Label6.Text = "游戏计时器"
         '
         'Label7
         '
@@ -162,7 +162,7 @@ Partial Class GamedataForm
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(47, 15)
         Me.Label7.TabIndex = 11
-        Me.Label7.Text = "방 제목"
+        Me.Label7.Text = "房间标题"
         '
         'NumericUpDown1
         '
@@ -197,7 +197,7 @@ Partial Class GamedataForm
         Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"기본속도", "X1", "X2", "X3", "X4", "X5"})
+        Me.ComboBox2.Items.AddRange(New Object() {"默认速度", "X1", "X2", "X3", "X4", "X5"})
         Me.ComboBox2.Location = New System.Drawing.Point(82, 165)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(83, 23)
@@ -272,7 +272,7 @@ Partial Class GamedataForm
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

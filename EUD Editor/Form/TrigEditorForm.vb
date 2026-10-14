@@ -1412,7 +1412,7 @@ Public Class TrigEditorForm
         Next
         CreateValForm.NumericUpDown1.Visible = False
         CreateValForm.EasyCompletionComboBox1.Visible = True
-        CreateValForm.Label2.Text = "인수형식"
+        CreateValForm.Label2.Text = "参数类型"
 
         CreateValForm.EasyCompletionComboBox1.Items.Clear()
         For i = 0 To ValueDefiniction.Count - 1
@@ -1627,7 +1627,7 @@ Public Class TrigEditorForm
         If _selectElement.Parrent.GetTypeV = ElementType.인수 Then
             CreateValForm.NumericUpDown1.Visible = False
             CreateValForm.EasyCompletionComboBox1.Visible = True
-            CreateValForm.Label2.Text = "인수형식"
+            CreateValForm.Label2.Text = "参数类型"
 
             CreateValForm.EasyCompletionComboBox1.Items.Clear()
             For i = 0 To ValueDefiniction.Count - 1
@@ -1928,7 +1928,7 @@ Public Class TrigEditorForm
 
         CreateValForm.NumericUpDown1.Visible = True
         My.Forms.CreateValForm.EasyCompletionComboBox1.Visible = False
-        CreateValForm.Label2.Text = "초기값"
+        CreateValForm.Label2.Text = "初始值"
 
         CreateValForm.TextBox1.Text = ""
         CreateValForm.NumericUpDown1.Value = 0
@@ -1959,7 +1959,7 @@ Public Class TrigEditorForm
         If ListBox1.SelectedIndex <> -1 Then
             CreateValForm.NumericUpDown1.Visible = True
             My.Forms.CreateValForm.EasyCompletionComboBox1.Visible = False
-            CreateValForm.Label2.Text = "초기값"
+            CreateValForm.Label2.Text = "初始值"
 
             CreateValForm.TextBox1.Text = GlobalVar.GetElementList(ListBox1.SelectedIndex).Values(0)
             CreateValForm.NumericUpDown1.Value = GlobalVar.GetElementList(ListBox1.SelectedIndex).Values(1)
@@ -2725,7 +2725,7 @@ Public Class TrigEditorForm
         If ListBox1.SelectedIndex <> -1 Then
             CreateValForm.NumericUpDown1.Visible = True
             My.Forms.CreateValForm.EasyCompletionComboBox1.Visible = False
-            CreateValForm.Label2.Text = "초기값"
+            CreateValForm.Label2.Text = "初始值"
 
             CreateValForm.TextBox1.Text = GlobalVar.GetElementList(ListBox1.SelectedIndex).Values(0)
             CreateValForm.NumericUpDown1.Value = GlobalVar.GetElementList(ListBox1.SelectedIndex).Values(1)

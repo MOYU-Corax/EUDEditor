@@ -140,7 +140,7 @@ Partial Class FileManagerForm
         '
         'Column1
         '
-        Me.Column1.HeaderText = "이전 이름"
+        Me.Column1.HeaderText = "原名称"
         Me.Column1.Name = "Column1"
         Me.Column1.ReadOnly = True
         Me.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -148,7 +148,7 @@ Partial Class FileManagerForm
         '
         'Column2
         '
-        Me.Column2.HeaderText = "새 이름"
+        Me.Column2.HeaderText = "新名称"
         Me.Column2.Name = "Column2"
         Me.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.Column2.Width = 280
@@ -156,9 +156,9 @@ Partial Class FileManagerForm
         'Column3
         '
         Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column3.HeaderText = "편집"
+        Me.Column3.HeaderText = "编辑"
         Me.Column3.Name = "Column3"
-        Me.Column3.Text = "편집"
+        Me.Column3.Text = "编辑"
         '
         'GroupBox1
         '
@@ -219,7 +219,7 @@ Partial Class FileManagerForm
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(47, 15)
         Me.Label6.TabIndex = 5
-        Me.Label6.Text = "새 이름"
+        Me.Label6.Text = "新名称"
         '
         'TextBox3
         '
@@ -238,7 +238,7 @@ Partial Class FileManagerForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(81, 24)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "필터"
+        Me.Button1.Text = "筛选"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'FlowLayoutPanel2
@@ -268,7 +268,7 @@ Partial Class FileManagerForm
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(59, 15)
         Me.Label5.TabIndex = 2
-        Me.Label5.Text = "이전 이름"
+        Me.Label5.Text = "原名称"
         '
         'TabControl1
         '
@@ -291,14 +291,14 @@ Partial Class FileManagerForm
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Size = New System.Drawing.Size(657, 474)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "스타 텍스트"
+        Me.TabPage1.Text = "星际文本"
         '
         'ComboBox3
         '
         Me.ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"영어", "한국어(음역)", "한국어(완역)", "사용자 설정"})
+        Me.ComboBox3.Items.AddRange(New Object() {"英语", "韩语(音译)", "韩语(全译)", "用户自定义"})
         Me.ComboBox3.Location = New System.Drawing.Point(519, 0)
         Me.ComboBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox3.Name = "ComboBox3"
@@ -313,7 +313,7 @@ Partial Class FileManagerForm
         Me.Label4.Padding = New System.Windows.Forms.Padding(0, 6, 0, 0)
         Me.Label4.Size = New System.Drawing.Size(31, 21)
         Me.Label4.TabIndex = 0
-        Me.Label4.Text = "언어"
+        Me.Label4.Text = "语言"
         '
         'TabPage2
         '
@@ -323,7 +323,7 @@ Partial Class FileManagerForm
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Size = New System.Drawing.Size(657, 474)
         Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "와이어 프레임"
+        Me.TabPage2.Text = "线框"
         '
         'TableLayoutPanel1
         '
@@ -378,7 +378,7 @@ Partial Class FileManagerForm
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(31, 15)
         Me.Label27.TabIndex = 3
-        Me.Label27.Text = "필터"
+        Me.Label27.Text = "筛选"
         '
         'TextBox2
         '
@@ -397,7 +397,7 @@ Partial Class FileManagerForm
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(50, 19)
         Me.CheckBox5.TabIndex = 5
-        Me.CheckBox5.Text = "수정"
+        Me.CheckBox5.Text = "修改"
         Me.CheckBox5.UseVisualStyleBackColor = True
         '
         'SplitContainer1
@@ -467,7 +467,7 @@ Partial Class FileManagerForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(227, 25)
         Me.Button5.TabIndex = 15
-        Me.Button5.Text = "접기"
+        Me.Button5.Text = "折叠"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'ListBox1
@@ -475,7 +475,7 @@ Partial Class FileManagerForm
         Me.ListBox1.BackColor = System.Drawing.SystemColors.WindowText
         Me.ListBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.ListBox1.Font = New System.Drawing.Font("맑은 고딕", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.ListBox1.Font = New System.Drawing.Font("微软雅黑", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.ListBox1.ForeColor = System.Drawing.SystemColors.Window
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Location = New System.Drawing.Point(0, 0)
@@ -510,14 +510,14 @@ Partial Class FileManagerForm
         Me.편집ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.초기화ToolStripMenuItem1, Me.ToolStripSeparator3, Me.오브젝트초기화ToolStripMenuItem, Me.오브젝트복사ToolStripMenuItem, Me.오브젝트붙여넣기ToolStripMenuItem})
         Me.편집ToolStripMenuItem.Name = "편집ToolStripMenuItem"
         Me.편집ToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
-        Me.편집ToolStripMenuItem.Text = "편집(&E)"
+        Me.편집ToolStripMenuItem.Text = "编辑(&E)"
         '
         '초기화ToolStripMenuItem1
         '
         Me.초기화ToolStripMenuItem1.Name = "초기화ToolStripMenuItem1"
         Me.초기화ToolStripMenuItem1.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
         Me.초기화ToolStripMenuItem1.Size = New System.Drawing.Size(249, 22)
-        Me.초기화ToolStripMenuItem1.Text = "초기화"
+        Me.초기화ToolStripMenuItem1.Text = "重置"
         '
         'ToolStripSeparator3
         '
@@ -530,7 +530,7 @@ Partial Class FileManagerForm
         Me.오브젝트초기화ToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
             Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
         Me.오브젝트초기화ToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
-        Me.오브젝트초기화ToolStripMenuItem.Text = "오브젝트 초기화"
+        Me.오브젝트초기화ToolStripMenuItem.Text = "对象重置"
         '
         '오브젝트복사ToolStripMenuItem
         '
@@ -538,7 +538,7 @@ Partial Class FileManagerForm
         Me.오브젝트복사ToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
             Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
         Me.오브젝트복사ToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
-        Me.오브젝트복사ToolStripMenuItem.Text = "오브젝트 복사"
+        Me.오브젝트복사ToolStripMenuItem.Text = "对象复制"
         '
         '오브젝트붙여넣기ToolStripMenuItem
         '
@@ -546,20 +546,20 @@ Partial Class FileManagerForm
         Me.오브젝트붙여넣기ToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
             Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
         Me.오브젝트붙여넣기ToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
-        Me.오브젝트붙여넣기ToolStripMenuItem.Text = "오브젝트 붙여넣기"
+        Me.오브젝트붙여넣기ToolStripMenuItem.Text = "对象粘贴"
         '
         '보기VToolStripMenuItem
         '
         Me.보기VToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.테마설정TToolStripMenuItem})
         Me.보기VToolStripMenuItem.Name = "보기VToolStripMenuItem"
         Me.보기VToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
-        Me.보기VToolStripMenuItem.Text = "보기(&V)"
+        Me.보기VToolStripMenuItem.Text = "查看(&V)"
         '
         '테마설정TToolStripMenuItem
         '
         Me.테마설정TToolStripMenuItem.Name = "테마설정TToolStripMenuItem"
         Me.테마설정TToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
-        Me.테마설정TToolStripMenuItem.Text = "테마 설정(&T)"
+        Me.테마설정TToolStripMenuItem.Text = "主题设置(&T)"
         '
         'GroupBox4
         '
@@ -689,7 +689,7 @@ Partial Class FileManagerForm
         Me.초기화ToolStripMenuItem.Name = "초기화ToolStripMenuItem"
         Me.초기화ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
         Me.초기화ToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
-        Me.초기화ToolStripMenuItem.Text = "초기화"
+        Me.초기화ToolStripMenuItem.Text = "重置"
         '
         'ToolStripSeparator1
         '
@@ -701,14 +701,14 @@ Partial Class FileManagerForm
         Me.복사ToolStripMenuItem.Name = "복사ToolStripMenuItem"
         Me.복사ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
         Me.복사ToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
-        Me.복사ToolStripMenuItem.Text = "복사"
+        Me.복사ToolStripMenuItem.Text = "复制"
         '
         '붙여넣기ToolStripMenuItem
         '
         Me.붙여넣기ToolStripMenuItem.Name = "붙여넣기ToolStripMenuItem"
         Me.붙여넣기ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
         Me.붙여넣기ToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
-        Me.붙여넣기ToolStripMenuItem.Text = "붙여넣기"
+        Me.붙여넣기ToolStripMenuItem.Text = "粘贴"
         '
         'FileManagerForm
         '
@@ -717,7 +717,7 @@ Partial Class FileManagerForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(665, 502)
         Me.Controls.Add(Me.TabControl1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

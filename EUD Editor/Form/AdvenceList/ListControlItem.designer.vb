@@ -37,7 +37,7 @@ Partial Class ListControlItem
         'CheckBox1
         '
         Me.CheckBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.CheckBox1.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.CheckBox1.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.CheckBox1.Location = New System.Drawing.Point(5, 3)
         Me.CheckBox1.Margin = New System.Windows.Forms.Padding(0)
         Me.CheckBox1.Name = "CheckBox1"
@@ -52,7 +52,7 @@ Partial Class ListControlItem
         Me.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Controls.Add(Me.CheckBox1)
         Me.DoubleBuffered = True
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "ListControlItem"
         Me.Size = New System.Drawing.Size(480, 62)

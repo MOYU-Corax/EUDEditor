@@ -77,7 +77,7 @@ Partial Class CodeViewer
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(31, 15)
         Me.Label27.TabIndex = 3
-        Me.Label27.Text = "필터"
+        Me.Label27.Text = "筛选"
         '
         'TextBox2
         '
@@ -158,7 +158,7 @@ Partial Class CodeViewer
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(267, 31)
         Me.Button5.TabIndex = 15
-        Me.Button5.Text = "접기"
+        Me.Button5.Text = "折叠"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'ListBox1
@@ -166,7 +166,7 @@ Partial Class CodeViewer
         Me.ListBox1.BackColor = System.Drawing.SystemColors.WindowText
         Me.ListBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.ListBox1.Font = New System.Drawing.Font("맑은 고딕", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.ListBox1.Font = New System.Drawing.Font("微软雅黑", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.ListBox1.ForeColor = System.Drawing.SystemColors.Window
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Location = New System.Drawing.Point(0, 0)
@@ -182,7 +182,7 @@ Partial Class CodeViewer
         Me.ClientSize = New System.Drawing.Size(267, 257)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "CodeViewer"

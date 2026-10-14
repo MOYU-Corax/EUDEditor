@@ -43,7 +43,7 @@ Partial Class AddTectDialog
         Me.ListBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 15
-        Me.ListBox1.Items.AddRange(New Object() {"플레이어 데스 값", "플레이어 킬 값", "플레이어 이름", "플레이어 자원량", "플레이어 인구수", "게임 시간", "변수", "스트링", "유닛이름", "코드"})
+        Me.ListBox1.Items.AddRange(New Object() {"玩家死亡值", "玩家击杀值", "玩家名称", "玩家资源量", "玩家人口数", "游戏时间", "变量", "字符串", "单位名称", "代码"})
         Me.ListBox1.Location = New System.Drawing.Point(0, 0)
         Me.ListBox1.Margin = New System.Windows.Forms.Padding(0)
         Me.ListBox1.Name = "ListBox1"
@@ -95,7 +95,7 @@ Partial Class AddTectDialog
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(105, 40)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button5.UseVisualStyleBackColor = True
         '
@@ -110,7 +110,7 @@ Partial Class AddTectDialog
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(105, 40)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button6.UseVisualStyleBackColor = True
         '
@@ -179,7 +179,7 @@ Partial Class AddTectDialog
         Me.ClientSize = New System.Drawing.Size(210, 266)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

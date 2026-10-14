@@ -37,7 +37,7 @@ Partial Class GRPFormUseIndex
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(351, 35)
         Me.Button1.TabIndex = 22
-        Me.Button1.Text = "확인"
+        Me.Button1.Text = "确定"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -59,7 +59,7 @@ Partial Class GRPFormUseIndex
         Me.ControlBox = False
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

@@ -32,7 +32,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim dialog As DialogResult
 
-        OpenFileDialog1.Filter = "MPQ 파일|Patch_rt.mpq|모든 MPQ 파일|*.mpq"
+        OpenFileDialog1.Filter = "MPQ 文件|Patch_rt.mpq|所有 MPQ 文件|*.mpq"
         dialog = OpenFileDialog1.ShowDialog
         If dialog = DialogResult.OK Then
             ProgramSet.DatMPQDirec(0) = OpenFileDialog1.FileName
@@ -43,7 +43,7 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim dialog As DialogResult
 
-        OpenFileDialog1.Filter = "MPQ 파일|BrooDat.mpq|모든 MPQ 파일|*.mpq"
+        OpenFileDialog1.Filter = "MPQ 文件|BrooDat.mpq|所有 MPQ 文件|*.mpq"
         dialog = OpenFileDialog1.ShowDialog
         If dialog = DialogResult.OK Then
             ProgramSet.DatMPQDirec(1) = OpenFileDialog1.FileName
@@ -54,7 +54,7 @@
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim dialog As DialogResult
 
-        OpenFileDialog1.Filter = "MPQ 파일|BroodWar.mpq|모든 MPQ 파일|*.mpq"
+        OpenFileDialog1.Filter = "MPQ 文件|BroodWar.mpq|所有 MPQ 文件|*.mpq"
         dialog = OpenFileDialog1.ShowDialog
         If dialog = DialogResult.OK Then
             ProgramSet.DatMPQDirec(2) = OpenFileDialog1.FileName
@@ -65,7 +65,7 @@
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Dim dialog As DialogResult
 
-        OpenFileDialog1.Filter = "MPQ 파일|StarDat.mpq|모든 MPQ 파일|*.mpq"
+        OpenFileDialog1.Filter = "MPQ 文件|StarDat.mpq|所有 MPQ 文件|*.mpq"
         dialog = OpenFileDialog1.ShowDialog
         If dialog = DialogResult.OK Then
             ProgramSet.DatMPQDirec(3) = OpenFileDialog1.FileName

@@ -1161,7 +1161,7 @@ Module ProgramData
             End If
         Next
         If DatNum = -1 Then
-            MsgBox(Filename & "는(은) 정상적인 dat파일이 아닙니다.!", MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
+            MsgBox(Filename & " 不是有效的 dat 文件！", MsgBoxStyle.Critical, ProgramSet.ErrorFormMessage)
             Return 0
         End If
 

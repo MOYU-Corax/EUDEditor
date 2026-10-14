@@ -82,7 +82,7 @@ Partial Class MPQForm_ListForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(112, 30)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "확인"
+        Me.Button1.Text = "确定"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -95,7 +95,7 @@ Partial Class MPQForm_ListForm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(113, 30)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "취소"
+        Me.Button2.Text = "取消"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'MPQForm_ListForm
@@ -105,7 +105,7 @@ Partial Class MPQForm_ListForm
         Me.ClientSize = New System.Drawing.Size(225, 265)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

@@ -65,7 +65,7 @@ Partial Class ErrorDialog
         'Column2
         '
         Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column2.HeaderText = "설명"
+        Me.Column2.HeaderText = "说明"
         Me.Column2.Name = "Column2"
         Me.Column2.ReadOnly = True
         '
@@ -75,7 +75,7 @@ Partial Class ErrorDialog
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(120, 0)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "ErrorDialog"
         Me.ShowIcon = False

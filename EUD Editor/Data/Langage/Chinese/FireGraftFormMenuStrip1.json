@@ -1,0 +1,13 @@
+﻿{
+    "FileFToolStripMenuItem": "文件(&F)",
+    "DatFileAllSaveToolStripMenuItem": "保存dat文件",
+    "DatFileAllResetToolStripMenuItem": "重置dat文件",
+    "PSaveToolStripMenuItem": "保存项目(&S)",
+    "EditToolStripMenuItem": "编辑(&E)",
+    "ResetToolStripMenuItem1": "重置",
+    "ObjResetToolStripMenuItem": "重置对象",
+    "ObjectCopyToolStripMenuItem": "复制对象",
+    "ObjPasteToolStripMenuItem": "粘贴对象",
+    "ViewVToolStripMenuItem": "查看(&V)",
+    "ThemeSetTToolStripMenuItem": "主题设置(&T)"
+}

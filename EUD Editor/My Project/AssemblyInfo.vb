@@ -10,7 +10,7 @@ Imports System.Runtime.InteropServices
 ' 어셈블리 특성 값을 검토합니다.
 
 <Assembly: AssemblyTitle("EUD Editor 2")>
-<Assembly: AssemblyDescription("EUD를 간단하게 만들 수 있는 에디터.")>
+<Assembly: AssemblyDescription("可轻松制作EUD的编辑器。")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("EUD Editor 2")>
 <Assembly: AssemblyCopyright("Copyright © 2016  All rights reserved by sksljh2091.")>
@@ -34,4 +34,4 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyVersion("0.0.0.0")>
 <Assembly: AssemblyFileVersion("0.0.0.0")>
-<Assembly: NeutralResourcesLanguage("ko-KR")>
+<Assembly: NeutralResourcesLanguage("zh-CN")>

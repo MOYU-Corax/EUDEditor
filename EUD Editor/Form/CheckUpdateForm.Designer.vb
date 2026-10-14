@@ -51,7 +51,7 @@ Partial Class CheckUpdateForm
         Me.RichTextBox1.BackColor = System.Drawing.Color.DimGray
         Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.RichTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.RichTextBox1.Font = New System.Drawing.Font("굴림", 10.15!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.RichTextBox1.Font = New System.Drawing.Font("微软雅黑", 10.15!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.RichTextBox1.ForeColor = System.Drawing.Color.LavenderBlush
         Me.RichTextBox1.Location = New System.Drawing.Point(0, 0)
         Me.RichTextBox1.Margin = New System.Windows.Forms.Padding(0)
@@ -78,7 +78,7 @@ Partial Class CheckUpdateForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(430, 34)
         Me.Button1.TabIndex = 1
-        Me.Button1.Text = "현재 최신버전입니다."
+        Me.Button1.Text = "当前已是最新版本。"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'CheckBox1
@@ -88,7 +88,7 @@ Partial Class CheckUpdateForm
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(131, 24)
         Me.CheckBox1.TabIndex = 2
-        Me.CheckBox1.Text = "첫 실행시 무시"
+        Me.CheckBox1.Text = "首次运行时忽略"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'CheckUpdateForm
@@ -97,7 +97,7 @@ Partial Class CheckUpdateForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(582, 414)
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

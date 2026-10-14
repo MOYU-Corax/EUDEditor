@@ -148,7 +148,7 @@ Partial Class LoadTileSetSingleForm
         Me.GroupBox5.Size = New System.Drawing.Size(434, 69)
         Me.GroupBox5.TabIndex = 15
         Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "통행&&높이&&건설가능 설정 도구"
+        Me.GroupBox5.Text = "通行&&高度&&可建造 设置工具"
         '
         'FlowLayoutPanel1
         '
@@ -168,7 +168,7 @@ Partial Class LoadTileSetSingleForm
         Me.TabDefacult.Name = "TabDefacult"
         Me.TabDefacult.Size = New System.Drawing.Size(67, 46)
         Me.TabDefacult.TabIndex = 1
-        Me.TabDefacult.Text = "기본 값"
+        Me.TabDefacult.Text = "默认值"
         Me.TabDefacult.UseVisualStyleBackColor = True
         '
         'TabMove
@@ -194,7 +194,7 @@ Partial Class LoadTileSetSingleForm
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage1.Size = New System.Drawing.Size(186, 0)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "통행가능"
+        Me.TabPage1.Text = "可通行"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
         'TabPage2
@@ -204,7 +204,7 @@ Partial Class LoadTileSetSingleForm
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage2.Size = New System.Drawing.Size(186, 0)
         Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "건설가능"
+        Me.TabPage2.Text = "可建造"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
         'TabPage3
@@ -213,7 +213,7 @@ Partial Class LoadTileSetSingleForm
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Size = New System.Drawing.Size(186, 0)
         Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "통행불능"
+        Me.TabPage3.Text = "不可通行"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
         'TabPage4
@@ -247,7 +247,7 @@ Partial Class LoadTileSetSingleForm
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage5.Size = New System.Drawing.Size(147, 0)
         Me.TabPage5.TabIndex = 0
-        Me.TabPage5.Text = "낮음"
+        Me.TabPage5.Text = "低"
         Me.TabPage5.UseVisualStyleBackColor = True
         '
         'TabPage6
@@ -257,7 +257,7 @@ Partial Class LoadTileSetSingleForm
         Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage6.Size = New System.Drawing.Size(147, 0)
         Me.TabPage6.TabIndex = 1
-        Me.TabPage6.Text = "중간"
+        Me.TabPage6.Text = "中"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
         'TabPage7
@@ -267,7 +267,7 @@ Partial Class LoadTileSetSingleForm
         Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage7.Size = New System.Drawing.Size(147, 0)
         Me.TabPage7.TabIndex = 2
-        Me.TabPage7.Text = "높음"
+        Me.TabPage7.Text = "高"
         Me.TabPage7.UseVisualStyleBackColor = True
         '
         'TabPage8
@@ -291,7 +291,7 @@ Partial Class LoadTileSetSingleForm
         Me.GroupBox4.Size = New System.Drawing.Size(332, 319)
         Me.GroupBox4.TabIndex = 8
         Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "그래픽 정보"
+        Me.GroupBox4.Text = "图形信息"
         '
         'RadioButton1
         '
@@ -300,7 +300,7 @@ Partial Class LoadTileSetSingleForm
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(117, 19)
         Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.Text = "전체 타일셋 사용"
+        Me.RadioButton1.Text = "使用完整Tileset"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'Panel2
@@ -322,7 +322,7 @@ Partial Class LoadTileSetSingleForm
         Me.GroupBox6.Size = New System.Drawing.Size(311, 57)
         Me.GroupBox6.TabIndex = 6
         Me.GroupBox6.TabStop = False
-        Me.GroupBox6.Text = "타입"
+        Me.GroupBox6.Text = "类型"
         '
         'RadioButton4
         '
@@ -332,7 +332,7 @@ Partial Class LoadTileSetSingleForm
         Me.RadioButton4.Size = New System.Drawing.Size(61, 19)
         Me.RadioButton4.TabIndex = 1
         Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "참조식"
+        Me.RadioButton4.Text = "引用式"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
         'RadioButton3
@@ -343,7 +343,7 @@ Partial Class LoadTileSetSingleForm
         Me.RadioButton3.Size = New System.Drawing.Size(61, 19)
         Me.RadioButton3.TabIndex = 0
         Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "대입식"
+        Me.RadioButton3.Text = "赋值式"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
         'GroupBox3
@@ -356,7 +356,7 @@ Partial Class LoadTileSetSingleForm
         Me.GroupBox3.Size = New System.Drawing.Size(257, 78)
         Me.GroupBox3.TabIndex = 5
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "파일"
+        Me.GroupBox3.Text = "文件"
         '
         'Button4
         '
@@ -366,7 +366,7 @@ Partial Class LoadTileSetSingleForm
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(60, 50)
         Me.Button4.TabIndex = 4
-        Me.Button4.Text = "저장"
+        Me.Button4.Text = "保存"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -378,7 +378,7 @@ Partial Class LoadTileSetSingleForm
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(60, 50)
         Me.Button3.TabIndex = 3
-        Me.Button3.Text = "비우기"
+        Me.Button3.Text = "清空"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -390,7 +390,7 @@ Partial Class LoadTileSetSingleForm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(60, 50)
         Me.Button2.TabIndex = 2
-        Me.Button2.Text = "열기"
+        Me.Button2.Text = "打开"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -401,7 +401,7 @@ Partial Class LoadTileSetSingleForm
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(77, 19)
         Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.Text = "부분 변경"
+        Me.RadioButton2.Text = "部分修改"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'GroupBox1
@@ -414,7 +414,7 @@ Partial Class LoadTileSetSingleForm
         Me.GroupBox1.Size = New System.Drawing.Size(311, 78)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "파일"
+        Me.GroupBox1.Text = "文件"
         '
         'Button5
         '
@@ -424,7 +424,7 @@ Partial Class LoadTileSetSingleForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(97, 24)
         Me.Button5.TabIndex = 4
-        Me.Button5.Text = "비우기"
+        Me.Button5.Text = "清空"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -443,7 +443,7 @@ Partial Class LoadTileSetSingleForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(95, 23)
         Me.Button1.TabIndex = 2
-        Me.Button1.Text = "열기"
+        Me.Button1.Text = "打开"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'PalletTimer
@@ -464,7 +464,7 @@ Partial Class LoadTileSetSingleForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(749, 414)
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "LoadTileSetSingleForm"

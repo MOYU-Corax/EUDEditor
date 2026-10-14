@@ -175,7 +175,7 @@ Partial Class TriggerForm
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button1.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button1.Location = New System.Drawing.Point(7, 3)
         Me.Button1.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button1.Name = "Button1"
@@ -186,7 +186,7 @@ Partial Class TriggerForm
         '
         'Button17
         '
-        Me.Button17.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button17.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button17.Location = New System.Drawing.Point(7, 34)
         Me.Button17.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button17.Name = "Button17"
@@ -198,7 +198,7 @@ Partial Class TriggerForm
         'Button2
         '
         Me.Button2.Enabled = False
-        Me.Button2.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button2.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button2.Location = New System.Drawing.Point(7, 98)
         Me.Button2.Margin = New System.Windows.Forms.Padding(7, 12, 3, 3)
         Me.Button2.Name = "Button2"
@@ -210,7 +210,7 @@ Partial Class TriggerForm
         'Button3
         '
         Me.Button3.Enabled = False
-        Me.Button3.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button3.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button3.Location = New System.Drawing.Point(7, 129)
         Me.Button3.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button3.Name = "Button3"
@@ -222,7 +222,7 @@ Partial Class TriggerForm
         'Button4
         '
         Me.Button4.Enabled = False
-        Me.Button4.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button4.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button4.Location = New System.Drawing.Point(7, 160)
         Me.Button4.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button4.Name = "Button4"
@@ -234,7 +234,7 @@ Partial Class TriggerForm
         'Button5
         '
         Me.Button5.Enabled = False
-        Me.Button5.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button5.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button5.Location = New System.Drawing.Point(7, 191)
         Me.Button5.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button5.Name = "Button5"
@@ -246,7 +246,7 @@ Partial Class TriggerForm
         'Button6
         '
         Me.Button6.Enabled = False
-        Me.Button6.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button6.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button6.Location = New System.Drawing.Point(7, 222)
         Me.Button6.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button6.Name = "Button6"
@@ -366,7 +366,7 @@ Partial Class TriggerForm
         '
         'Button7
         '
-        Me.Button7.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button7.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button7.Location = New System.Drawing.Point(7, 3)
         Me.Button7.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button7.Name = "Button7"
@@ -377,7 +377,7 @@ Partial Class TriggerForm
         '
         'Button16
         '
-        Me.Button16.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button16.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button16.Location = New System.Drawing.Point(7, 34)
         Me.Button16.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button16.Name = "Button16"
@@ -388,7 +388,7 @@ Partial Class TriggerForm
         '
         'Button15
         '
-        Me.Button15.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button15.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button15.Location = New System.Drawing.Point(7, 65)
         Me.Button15.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button15.Name = "Button15"
@@ -399,7 +399,7 @@ Partial Class TriggerForm
         '
         'Button8
         '
-        Me.Button8.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button8.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button8.Location = New System.Drawing.Point(7, 128)
         Me.Button8.Margin = New System.Windows.Forms.Padding(7, 12, 3, 3)
         Me.Button8.Name = "Button8"
@@ -410,7 +410,7 @@ Partial Class TriggerForm
         '
         'Button9
         '
-        Me.Button9.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button9.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button9.Location = New System.Drawing.Point(7, 159)
         Me.Button9.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button9.Name = "Button9"
@@ -421,7 +421,7 @@ Partial Class TriggerForm
         '
         'Button10
         '
-        Me.Button10.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button10.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button10.Location = New System.Drawing.Point(7, 190)
         Me.Button10.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button10.Name = "Button10"
@@ -432,7 +432,7 @@ Partial Class TriggerForm
         '
         'Button11
         '
-        Me.Button11.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button11.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button11.Location = New System.Drawing.Point(7, 221)
         Me.Button11.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button11.Name = "Button11"
@@ -443,7 +443,7 @@ Partial Class TriggerForm
         '
         'Button12
         '
-        Me.Button12.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button12.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button12.Location = New System.Drawing.Point(7, 252)
         Me.Button12.Margin = New System.Windows.Forms.Padding(7, 3, 3, 3)
         Me.Button12.Name = "Button12"
@@ -496,7 +496,7 @@ Partial Class TriggerForm
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(291, 40)
         Me.Button13.TabIndex = 13
-        Me.Button13.Text = "확인"
+        Me.Button13.Text = "确定"
         Me.Button13.UseVisualStyleBackColor = True
         '
         'Button14
@@ -510,7 +510,7 @@ Partial Class TriggerForm
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(291, 40)
         Me.Button14.TabIndex = 14
-        Me.Button14.Text = "취소"
+        Me.Button14.Text = "取消"
         Me.Button14.UseVisualStyleBackColor = True
         '
         'TriggerForm
@@ -522,7 +522,7 @@ Partial Class TriggerForm
         Me.ClientSize = New System.Drawing.Size(582, 390)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel3)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

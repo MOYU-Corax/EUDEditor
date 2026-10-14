@@ -982,7 +982,7 @@ Public Class Element
         End Select
 
         If Compmsg.Length <> 0 Then
-            MsgBox(Compmsg & "다음 코드들이 호환성에 맞게 변경됩니다.", MsgBoxStyle.Exclamation, "TriggerEditor 자동변환")
+            MsgBox(Compmsg & "以下代码将被转换为兼容格式。", MsgBoxStyle.Exclamation, "TriggerEditor 自动转换")
         End If
 
 

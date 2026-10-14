@@ -152,7 +152,7 @@ Partial Class CTextEditor
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(53, 36)
         Me.CheckBox1.TabIndex = 15
-        Me.CheckBox1.Text = "와이드"
+        Me.CheckBox1.Text = "宽幅"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Button6
@@ -166,7 +166,7 @@ Partial Class CTextEditor
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(243, 36)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Button5
@@ -180,14 +180,14 @@ Partial Class CTextEditor
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(243, 36)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
         Me.TextBox1.AcceptsReturn = True
         Me.TextBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TextBox1.Font = New System.Drawing.Font("굴림체", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.TextBox1.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(0, 0)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(0)
         Me.TextBox1.Multiline = True
@@ -222,7 +222,7 @@ Partial Class CTextEditor
         Me.PreViewer.BackColor = System.Drawing.SystemColors.WindowText
         Me.PreViewer.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.PreViewer.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PreViewer.Font = New System.Drawing.Font("굴림체", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.PreViewer.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.PreViewer.ForeColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.PreViewer.Location = New System.Drawing.Point(0, 0)
         Me.PreViewer.Margin = New System.Windows.Forms.Padding(0)
@@ -243,7 +243,7 @@ Partial Class CTextEditor
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(71, 36)
         Me.Button1.TabIndex = 16
-        Me.Button1.Text = "추가"
+        Me.Button1.Text = "添加"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -254,7 +254,7 @@ Partial Class CTextEditor
         Me.ClientSize = New System.Drawing.Size(640, 490)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

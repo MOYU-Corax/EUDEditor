@@ -1,0 +1,14 @@
+﻿{
+    "ToolStripButton1": "保存",
+    "ToolStripButton2": "撤销",
+    "ToolStripButton3": "重做",
+    "ToolStripButton11": "调色板",
+    "ToolStripButton12": "地形复制",
+    "ToolStripButton4": "默认",
+    "ToolStripButton5": "可通行",
+    "ToolStripButton6": "可建造",
+    "ToolStripButton7": "不可通行",
+    "ToolStripButton8": "低",
+    "ToolStripButton9": "中",
+    "ToolStripButton10": "高"
+}

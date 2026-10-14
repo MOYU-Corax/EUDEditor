@@ -43,13 +43,13 @@ Partial Class MPQForm
         '
         'OpenFileDialog1
         '
-        Me.OpenFileDialog1.Filter = "wav, smk, bin|*.wav;  *.smk; *.bin|모든 파일|*.*"
+        Me.OpenFileDialog1.Filter = "wav, smk, bin|*.wav;  *.smk; *.bin|所有文件|*.*"
         Me.OpenFileDialog1.Multiselect = True
         '
         'Button2
         '
         Me.Button2.Enabled = False
-        Me.Button2.Font = New System.Drawing.Font("맑은 고딕", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button2.Font = New System.Drawing.Font("微软雅黑", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button2.Image = Global.EUD_Editor.My.Resources.Resources.Delete
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(270, 120)
@@ -57,7 +57,7 @@ Partial Class MPQForm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(60, 50)
         Me.Button2.TabIndex = 2
-        Me.Button2.Text = "삭제"
+        Me.Button2.Text = "删除"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button2.UseVisualStyleBackColor = True
@@ -65,7 +65,7 @@ Partial Class MPQForm
         'Button3
         '
         Me.Button3.Enabled = False
-        Me.Button3.Font = New System.Drawing.Font("맑은 고딕", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button3.Font = New System.Drawing.Font("微软雅黑", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button3.Image = Global.EUD_Editor.My.Resources.Resources.Clear
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button3.Location = New System.Drawing.Point(269, 62)
@@ -73,14 +73,14 @@ Partial Class MPQForm
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(60, 50)
         Me.Button3.TabIndex = 3
-        Me.Button3.Text = "이름 변경"
+        Me.Button3.Text = "重命名"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("맑은 고딕", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Button1.Font = New System.Drawing.Font("微软雅黑", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Button1.Image = Global.EUD_Editor.My.Resources.Resources.Open
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(270, 4)
@@ -88,7 +88,7 @@ Partial Class MPQForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(60, 50)
         Me.Button1.TabIndex = 11
-        Me.Button1.Text = "넣기"
+        Me.Button1.Text = "添加"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button1.UseVisualStyleBackColor = True
@@ -102,7 +102,7 @@ Partial Class MPQForm
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ListBox1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

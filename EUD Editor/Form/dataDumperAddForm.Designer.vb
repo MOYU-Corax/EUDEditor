@@ -86,7 +86,7 @@ Partial Class dataDumperAddForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(172, 35)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -100,7 +100,7 @@ Partial Class dataDumperAddForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(173, 35)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Button1
@@ -112,7 +112,7 @@ Partial Class dataDumperAddForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(105, 28)
         Me.Button1.TabIndex = 3
-        Me.Button1.Text = "열기"
+        Me.Button1.Text = "打开"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -141,7 +141,7 @@ Partial Class dataDumperAddForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(83, 15)
         Me.Label1.TabIndex = 6
-        Me.Label1.Text = "파일 불러오기"
+        Me.Label1.Text = "读取文件"
         '
         'TableLayoutPanel2
         '
@@ -197,7 +197,7 @@ Partial Class dataDumperAddForm
         '
         Me.ListBox2.FormattingEnabled = True
         Me.ListBox2.ItemHeight = 15
-        Me.ListBox2.Items.AddRange(New Object() {"기본", "copy", "unpatchable"})
+        Me.ListBox2.Items.AddRange(New Object() {"默认", "copy", "unpatchable"})
         Me.ListBox2.Location = New System.Drawing.Point(180, 19)
         Me.ListBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox2.Name = "ListBox2"
@@ -211,7 +211,7 @@ Partial Class dataDumperAddForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(56, 15)
         Me.Label2.TabIndex = 8
-        Me.Label2.Text = "Data타입"
+        Me.Label2.Text = "Data类型"
         '
         'Label3
         '
@@ -220,7 +220,7 @@ Partial Class dataDumperAddForm
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(43, 15)
         Me.Label3.TabIndex = 9
-        Me.Label3.Text = "포인터"
+        Me.Label3.Text = "指针"
         '
         'dataDumperAddForm
         '
@@ -229,7 +229,7 @@ Partial Class dataDumperAddForm
         Me.ClientSize = New System.Drawing.Size(347, 250)
         Me.ControlBox = False
         Me.Controls.Add(Me.FlowLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

@@ -78,7 +78,7 @@ Partial Class LocationSetForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(176, 30)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -92,7 +92,7 @@ Partial Class LocationSetForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(177, 30)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'EasyCompletionComboBox1
@@ -125,7 +125,7 @@ Partial Class LocationSetForm
         Me.ClientSize = New System.Drawing.Size(353, 192)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False

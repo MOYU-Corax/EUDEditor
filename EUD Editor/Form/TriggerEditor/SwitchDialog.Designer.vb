@@ -79,7 +79,7 @@ Partial Class SwitchDialog
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(115, 38)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -93,7 +93,7 @@ Partial Class SwitchDialog
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(116, 38)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Panel1
@@ -117,7 +117,7 @@ Partial Class SwitchDialog
         Me.RadioButton2.Size = New System.Drawing.Size(73, 19)
         Me.RadioButton2.TabIndex = 9
         Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "직접입력"
+        Me.RadioButton2.Text = "直接输入"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'RadioButton1
@@ -128,7 +128,7 @@ Partial Class SwitchDialog
         Me.RadioButton1.Size = New System.Drawing.Size(49, 19)
         Me.RadioButton1.TabIndex = 8
         Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "변수"
+        Me.RadioButton1.Text = "变量"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -158,7 +158,7 @@ Partial Class SwitchDialog
         Me.ClientSize = New System.Drawing.Size(231, 162)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

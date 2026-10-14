@@ -1,0 +1,14 @@
+﻿{
+    "Button5": "确定",
+    "Button6": "取消",
+    "GroupBox1": "条件",
+    "RadioButton1": "直接输入",
+    "RadioButton2": "键盘值",
+    "GroupBox2": "转换值",
+    "RadioButton3": "直接输入",
+    "RadioButton4": "单位",
+    "Label1": "死亡值单位",
+    "Label2": "死亡值数值",
+    "NumericUpDown1": "0",
+    "": "0"
+}

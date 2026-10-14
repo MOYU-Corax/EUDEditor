@@ -85,8 +85,8 @@ Partial Class BGMPlayerdialog
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(399, 84)
         Me.TextBox1.TabIndex = 2
-        Me.TextBox1.Text = "시작 후 적어도 10초간 Wait를 쓰지 마세요." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "플레이어는 존재하는 플레이어를 쓰되 컴퓨터 플레이어를 써주세요." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "해당 트리거는 트리거의 맨 " &
-    "위에 넣어주세요." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "해당 트리거가 없어도 정상 작동 하지만 배속을 감지하지 못합니다."
+        Me.TextBox1.Text = "开始后至少10秒内请不要使用Wait。" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "玩家请使用实际存在的玩家，并请使用电脑玩家。" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "请将该触发器放在所有触发器的" &
+    "最顶端。" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "即使没有该触发器也能正常运行，但将无法检测倍速。"
         '
         'BGMPlayerdialog
         '
@@ -94,7 +94,7 @@ Partial Class BGMPlayerdialog
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(405, 334)
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False
@@ -103,7 +103,7 @@ Partial Class BGMPlayerdialog
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "배속감지 트리거"
+        Me.Text = "倍速检测触发器"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         CType(Me.FastColoredTextBox1, System.ComponentModel.ISupportInitialize).EndInit()

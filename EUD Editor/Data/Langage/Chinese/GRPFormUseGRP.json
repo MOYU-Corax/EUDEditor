@@ -1,0 +1,15 @@
+﻿{
+    "Label27": "筛选",
+    "CheckBox5": "修改",
+    "Button5": "折叠",
+    "RadioButton1": "Unit",
+    "RadioButton2": "Flingy",
+    "RadioButton4": "Images",
+    "RadioButton3": "Sprites",
+    "Button2": "取消",
+    "CheckBox2": "同意可能崩溃",
+    "Button1": "确定",
+    "Fold": "折叠",
+    "Fold": "展开",
+    "ErrorMsg": "所选GRP的帧数更少。请注意可能崩溃。\n此消息将不再显示。"
+}

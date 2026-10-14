@@ -48,7 +48,7 @@ Partial Class FiregraftRepAddForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(142, 31)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -62,7 +62,7 @@ Partial Class FiregraftRepAddForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(142, 31)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'TableLayoutPanel1
@@ -164,7 +164,7 @@ Partial Class FiregraftRepAddForm
         Me.ClientSize = New System.Drawing.Size(284, 317)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel2)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

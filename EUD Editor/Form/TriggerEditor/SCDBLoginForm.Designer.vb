@@ -52,7 +52,7 @@ Partial Class SCDBLoginForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(43, 15)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "제작자"
+        Me.Label1.Text = "作者"
         '
         'Label2
         '
@@ -61,7 +61,7 @@ Partial Class SCDBLoginForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(43, 15)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "맵이름"
+        Me.Label2.Text = "地图名"
         '
         'NumericUpDown1
         '
@@ -80,7 +80,7 @@ Partial Class SCDBLoginForm
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(83, 15)
         Me.Label3.TabIndex = 5
-        Me.Label3.Text = "데이터 전송량"
+        Me.Label3.Text = "数据传输量"
         '
         'SCDBLoginForm
         '
@@ -93,7 +93,7 @@ Partial Class SCDBLoginForm
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

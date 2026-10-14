@@ -1,0 +1,13 @@
+﻿{
+    "FileFToolStripMenuItem": "文件(&F)",
+    "새로만들기NToolStripMenuItem": "新建(&N)",
+    "열기OToolStripMenuItem": "打开(&O)",
+    "OpenCont": "载入",
+    "파일로저장AToolStripMenuItem": "保存到文件(&A)",
+    "프로젝트저장ToolStripMenuItem": "保存项目(&S)",
+    "편집ToolStripMenuItem": "编辑(&E)",
+    "실행취소ToolStripMenuItem": "撤销",
+    "다시실행ToolStripMenuItem": "重做",
+    "모두접기ToolStripMenuItem": "全部折叠",
+    "모두펼치기ToolStripMenuItem": "全部展开"
+}

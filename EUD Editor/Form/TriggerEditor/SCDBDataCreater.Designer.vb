@@ -52,7 +52,7 @@ Partial Class SCDBDataCreater
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(55, 15)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "플레이어"
+        Me.Label1.Text = "玩家"
         '
         'TextBox1
         '
@@ -83,7 +83,7 @@ Partial Class SCDBDataCreater
         '
         'Column1
         '
-        Me.Column1.HeaderText = "변수 명"
+        Me.Column1.HeaderText = "变量名"
         Me.Column1.Name = "Column1"
         Me.Column1.ReadOnly = True
         Me.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -91,7 +91,7 @@ Partial Class SCDBDataCreater
         '
         'Column2
         '
-        Me.Column2.HeaderText = "값"
+        Me.Column2.HeaderText = "值"
         Me.Column2.Name = "Column2"
         Me.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.Column2.Width = 160
@@ -146,7 +146,7 @@ Partial Class SCDBDataCreater
         Me.Button3.BackColor = System.Drawing.SystemColors.Control
         Me.Button3.FlatAppearance.BorderSize = 0
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("맑은 고딕", 9.0!)
+        Me.Button3.Font = New System.Drawing.Font("微软雅黑", 9.0!)
         Me.Button3.Image = Global.EUD_Editor.My.Resources.Resources.LoadFile
         Me.Button3.Location = New System.Drawing.Point(0, 0)
         Me.Button3.Margin = New System.Windows.Forms.Padding(0)
@@ -160,7 +160,7 @@ Partial Class SCDBDataCreater
         Me.Button2.BackColor = System.Drawing.SystemColors.Control
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("맑은 고딕", 9.0!)
+        Me.Button2.Font = New System.Drawing.Font("微软雅黑", 9.0!)
         Me.Button2.Image = Global.EUD_Editor.My.Resources.Resources.Save
         Me.Button2.Location = New System.Drawing.Point(64, 0)
         Me.Button2.Margin = New System.Windows.Forms.Padding(0)
@@ -174,13 +174,13 @@ Partial Class SCDBDataCreater
         Me.BtnDeath.BackColor = System.Drawing.SystemColors.Control
         Me.BtnDeath.FlatAppearance.BorderSize = 0
         Me.BtnDeath.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnDeath.Font = New System.Drawing.Font("맑은 고딕", 9.0!)
+        Me.BtnDeath.Font = New System.Drawing.Font("微软雅黑", 9.0!)
         Me.BtnDeath.Location = New System.Drawing.Point(128, 0)
         Me.BtnDeath.Margin = New System.Windows.Forms.Padding(0)
         Me.BtnDeath.Name = "BtnDeath"
         Me.BtnDeath.Size = New System.Drawing.Size(64, 50)
         Me.BtnDeath.TabIndex = 1
-        Me.BtnDeath.Text = "데스 값"
+        Me.BtnDeath.Text = "死亡值"
         Me.BtnDeath.UseVisualStyleBackColor = False
         '
         'BtnLoc
@@ -188,13 +188,13 @@ Partial Class SCDBDataCreater
         Me.BtnLoc.BackColor = System.Drawing.SystemColors.Control
         Me.BtnLoc.FlatAppearance.BorderSize = 0
         Me.BtnLoc.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnLoc.Font = New System.Drawing.Font("맑은 고딕", 9.0!)
+        Me.BtnLoc.Font = New System.Drawing.Font("微软雅黑", 9.0!)
         Me.BtnLoc.Location = New System.Drawing.Point(192, 0)
         Me.BtnLoc.Margin = New System.Windows.Forms.Padding(0)
         Me.BtnLoc.Name = "BtnLoc"
         Me.BtnLoc.Size = New System.Drawing.Size(64, 50)
         Me.BtnLoc.TabIndex = 2
-        Me.BtnLoc.Text = "로케이션"
+        Me.BtnLoc.Text = "位置"
         Me.BtnLoc.UseVisualStyleBackColor = False
         '
         'Button1
@@ -202,13 +202,13 @@ Partial Class SCDBDataCreater
         Me.Button1.BackColor = System.Drawing.SystemColors.Control
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("맑은 고딕", 9.0!)
+        Me.Button1.Font = New System.Drawing.Font("微软雅黑", 9.0!)
         Me.Button1.Location = New System.Drawing.Point(256, 0)
         Me.Button1.Margin = New System.Windows.Forms.Padding(0)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(64, 50)
         Me.Button1.TabIndex = 5
-        Me.Button1.Text = "변수"
+        Me.Button1.Text = "变量"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'SCDBDataCreater
@@ -217,7 +217,7 @@ Partial Class SCDBDataCreater
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(320, 329)
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

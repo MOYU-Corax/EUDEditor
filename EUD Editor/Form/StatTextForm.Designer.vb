@@ -112,7 +112,7 @@ Partial Class StatTextForm
         Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.IntegralHeight = False
-        Me.ComboBox2.Items.AddRange(New Object() {"None", "일반 명령", "유닛 생산", "N업그레이드", "스킬 사용", "테크업그레이드", "유닛 변태"})
+        Me.ComboBox2.Items.AddRange(New Object() {"None", "普通指令", "单位生产", "N升级", "技能使用", "科技升级", "单位变形"})
         Me.ComboBox2.Location = New System.Drawing.Point(7, 41)
         Me.ComboBox2.Margin = New System.Windows.Forms.Padding(0, 0, 3, 0)
         Me.ComboBox2.Name = "ComboBox2"
@@ -122,12 +122,12 @@ Partial Class StatTextForm
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("맑은 고딕", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Label3.Font = New System.Drawing.Font("微软雅黑", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Label3.Location = New System.Drawing.Point(3, 4)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(89, 20)
         Me.Label3.TabIndex = 13
-        Me.Label3.Text = "단축기 설정"
+        Me.Label3.Text = "快捷键设置"
         '
         'FlowLayoutPanel3
         '
@@ -159,7 +159,7 @@ Partial Class StatTextForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(22, 15)
         Me.Label2.TabIndex = 11
-        Me.Label2.Text = "키:"
+        Me.Label2.Text = "键:"
         '
         'Label1
         '
@@ -168,7 +168,7 @@ Partial Class StatTextForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(46, 15)
         Me.Label1.TabIndex = 7
-        Me.Label1.Text = "한정자:"
+        Me.Label1.Text = "限定符:"
         '
         'Panel2
         '
@@ -194,7 +194,7 @@ Partial Class StatTextForm
         Me.RichTextBox2.BackColor = System.Drawing.SystemColors.WindowText
         Me.RichTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.RichTextBox2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.RichTextBox2.Font = New System.Drawing.Font("새굴림", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.RichTextBox2.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.RichTextBox2.ForeColor = System.Drawing.SystemColors.Window
         Me.RichTextBox2.Location = New System.Drawing.Point(0, 0)
         Me.RichTextBox2.Margin = New System.Windows.Forms.Padding(0)
@@ -230,7 +230,7 @@ Partial Class StatTextForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(172, 35)
         Me.Button5.TabIndex = 13
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -244,7 +244,7 @@ Partial Class StatTextForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(173, 35)
         Me.Button6.TabIndex = 14
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'PictureBox1
@@ -293,7 +293,7 @@ Partial Class StatTextForm
         '
         'Column1
         '
-        Me.Column1.HeaderText = "이전 이름"
+        Me.Column1.HeaderText = "原名称"
         Me.Column1.Name = "Column1"
         Me.Column1.ReadOnly = True
         Me.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -301,7 +301,7 @@ Partial Class StatTextForm
         '
         'Column2
         '
-        Me.Column2.HeaderText = "새 이름"
+        Me.Column2.HeaderText = "新名称"
         Me.Column2.Name = "Column2"
         Me.Column2.ReadOnly = True
         Me.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -314,7 +314,7 @@ Partial Class StatTextForm
         Me.ClientSize = New System.Drawing.Size(504, 375)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.FlowLayoutPanel1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

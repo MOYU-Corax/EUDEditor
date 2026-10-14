@@ -77,7 +77,7 @@ Partial Class SettingForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(103, 15)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "스타크래프트버전"
+        Me.Label1.Text = "星际争霸版本"
         '
         'ComboBox1
         '
@@ -98,7 +98,7 @@ Partial Class SettingForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(79, 15)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "스타실행파일"
+        Me.Label2.Text = "星际执行文件"
         '
         'Button1
         '
@@ -107,7 +107,7 @@ Partial Class SettingForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(50, 25)
         Me.Button1.TabIndex = 4
-        Me.Button1.Text = "설정"
+        Me.Button1.Text = "设置"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -135,7 +135,7 @@ Partial Class SettingForm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(50, 25)
         Me.Button2.TabIndex = 7
-        Me.Button2.Text = "설정"
+        Me.Button2.Text = "设置"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Label3
@@ -170,7 +170,7 @@ Partial Class SettingForm
         Me.GroupBox1.Size = New System.Drawing.Size(308, 265)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "프로젝트 세팅"
+        Me.GroupBox1.Text = "项目设置"
         '
         'CheckBox5
         '
@@ -193,7 +193,7 @@ Partial Class SettingForm
         Me.GroupBox3.Size = New System.Drawing.Size(292, 69)
         Me.GroupBox3.TabIndex = 14
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "트리거 출력 설정"
+        Me.GroupBox3.Text = "触发器输出设置"
         Me.GroupBox3.Visible = False
         '
         'Label7
@@ -204,7 +204,7 @@ Partial Class SettingForm
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(95, 15)
         Me.Label7.TabIndex = 5
-        Me.Label7.Text = "트리거 플레이어"
+        Me.Label7.Text = "触发器玩家"
         '
         'ComboBox2
         '
@@ -228,7 +228,7 @@ Partial Class SettingForm
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(76, 19)
         Me.CheckBox2.TabIndex = 3
-        Me.CheckBox2.Text = "SeTo사용"
+        Me.CheckBox2.Text = "启用SeTo"
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
         'GroupBox4
@@ -240,7 +240,7 @@ Partial Class SettingForm
         Me.GroupBox4.Size = New System.Drawing.Size(292, 53)
         Me.GroupBox4.TabIndex = 15
         Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "기타 설정"
+        Me.GroupBox4.Text = "其他设置"
         '
         'CheckBox3
         '
@@ -249,7 +249,7 @@ Partial Class SettingForm
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(114, 19)
         Me.CheckBox3.TabIndex = 14
-        Me.CheckBox3.Text = "Debug기능 사용"
+        Me.CheckBox3.Text = "启用Debug功能"
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'CheckBox1
@@ -259,7 +259,7 @@ Partial Class SettingForm
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(138, 19)
         Me.CheckBox1.TabIndex = 13
-        Me.CheckBox1.Text = "CHK데이터 읽어오기"
+        Me.CheckBox1.Text = "读取CHK数据"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'CheckedListBox2
@@ -291,7 +291,7 @@ Partial Class SettingForm
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(50, 25)
         Me.Button4.TabIndex = 10
-        Me.Button4.Text = "설정"
+        Me.Button4.Text = "设置"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Label6
@@ -301,7 +301,7 @@ Partial Class SettingForm
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(47, 15)
         Me.Label6.TabIndex = 9
-        Me.Label6.Text = "저장 맵"
+        Me.Label6.Text = "保存地图"
         '
         'TextBox3
         '
@@ -319,7 +319,7 @@ Partial Class SettingForm
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(50, 25)
         Me.Button3.TabIndex = 7
-        Me.Button3.Text = "설정"
+        Me.Button3.Text = "设置"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Label5
@@ -329,7 +329,7 @@ Partial Class SettingForm
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(59, 15)
         Me.Label5.TabIndex = 6
-        Me.Label5.Text = "연결된 맵"
+        Me.Label5.Text = "已连接地图"
         '
         'Label4
         '
@@ -338,7 +338,7 @@ Partial Class SettingForm
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(101, 15)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "사용 & 삽입 설정"
+        Me.Label4.Text = "启用 & 插入设置"
         Me.Label4.UseMnemonic = False
         '
         'CheckedListBox1
@@ -364,7 +364,7 @@ Partial Class SettingForm
         Me.RadioButton2.Size = New System.Drawing.Size(118, 19)
         Me.RadioButton2.TabIndex = 2
         Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "euddraft사용안함"
+        Me.RadioButton2.Text = "禁用euddraft"
         Me.RadioButton2.UseVisualStyleBackColor = True
         Me.RadioButton2.Visible = False
         '
@@ -377,7 +377,7 @@ Partial Class SettingForm
         Me.RadioButton1.Size = New System.Drawing.Size(94, 19)
         Me.RadioButton1.TabIndex = 1
         Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "euddraft사용"
+        Me.RadioButton1.Text = "启用euddraft"
         Me.RadioButton1.UseVisualStyleBackColor = True
         Me.RadioButton1.Visible = False
         '
@@ -400,7 +400,7 @@ Partial Class SettingForm
         Me.GroupBox2.Size = New System.Drawing.Size(308, 156)
         Me.GroupBox2.TabIndex = 10
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "프로그램 세팅"
+        Me.GroupBox2.Text = "程序设置"
         '
         'CheckBox4
         '
@@ -409,7 +409,7 @@ Partial Class SettingForm
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(86, 19)
         Me.CheckBox4.TabIndex = 14
-        Me.CheckBox4.Text = "자동컴파일"
+        Me.CheckBox4.Text = "自动编译"
         Me.CheckBox4.UseVisualStyleBackColor = True
         '
         'Label8
@@ -419,7 +419,7 @@ Partial Class SettingForm
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(84, 15)
         Me.Label8.TabIndex = 9
-        Me.Label8.Text = "언어(Langage)"
+        Me.Label8.Text = "语言(Langage)"
         '
         'ComboBox3
         '
@@ -443,20 +443,20 @@ Partial Class SettingForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(154, 30)
         Me.Button5.TabIndex = 11
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'euddraftOFD
         '
         Me.euddraftOFD.FileName = "eudddraft.exe"
         Me.euddraftOFD.Filter = "eudddraft.exe|euddraft.exe"
-        Me.euddraftOFD.Title = "euddraft.exe 선택"
+        Me.euddraftOFD.Title = "选择 euddraft.exe"
         '
         'StarCraftOFD
         '
         Me.StarCraftOFD.FileName = "StarCraft.exe"
         Me.StarCraftOFD.Filter = "StarCraft.exe|StarCraft.exe"
-        Me.StarCraftOFD.Title = "StarCraft.exe 선택"
+        Me.StarCraftOFD.Title = "选择 StarCraft.exe"
         '
         'SaveFileDialog1
         '
@@ -481,7 +481,7 @@ Partial Class SettingForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(154, 30)
         Me.Button6.TabIndex = 12
-        Me.Button6.Text = "취소"
+        Me.Button6.Text = "取消"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'FlowLayoutPanel1
@@ -521,7 +521,7 @@ Partial Class SettingForm
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.RadioButton2)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

@@ -90,7 +90,7 @@ Partial Class DebugViewUnitForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(598, 35)
         Me.Button5.TabIndex = 14
-        Me.Button5.Text = "확인"
+        Me.Button5.Text = "确定"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'TableLayoutPanel1
@@ -158,7 +158,7 @@ Partial Class DebugViewUnitForm
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage1.Size = New System.Drawing.Size(406, 387)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "간단보기"
+        Me.TabPage1.Text = "简单视图"
         '
         'CheckedListBox1
         '
@@ -195,7 +195,7 @@ Partial Class DebugViewUnitForm
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(31, 15)
         Me.Label6.TabIndex = 13
-        Me.Label6.Text = "위치"
+        Me.Label6.Text = "位置"
         '
         'TextBox4
         '
@@ -259,7 +259,7 @@ Partial Class DebugViewUnitForm
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(43, 15)
         Me.Label5.TabIndex = 5
-        Me.Label5.Text = "자원량"
+        Me.Label5.Text = "资源量"
         '
         'Label4
         '
@@ -268,7 +268,7 @@ Partial Class DebugViewUnitForm
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(31, 15)
         Me.Label4.TabIndex = 4
-        Me.Label4.Text = "쉴드"
+        Me.Label4.Text = "护盾"
         '
         'Label3
         '
@@ -277,7 +277,7 @@ Partial Class DebugViewUnitForm
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(31, 15)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "마나"
+        Me.Label3.Text = "魔法"
         '
         'Label2
         '
@@ -286,7 +286,7 @@ Partial Class DebugViewUnitForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(31, 15)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "체력"
+        Me.Label2.Text = "生命值"
         '
         'ComboBox1
         '
@@ -306,7 +306,7 @@ Partial Class DebugViewUnitForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(55, 15)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "소유권자"
+        Me.Label1.Text = "所有者"
         '
         'TabPage2
         '
@@ -316,7 +316,7 @@ Partial Class DebugViewUnitForm
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage2.Size = New System.Drawing.Size(406, 387)
         Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "모두보기"
+        Me.TabPage2.Text = "全部视图"
         '
         'DataGridView1
         '
@@ -352,7 +352,7 @@ Partial Class DebugViewUnitForm
         '
         'Column2
         '
-        Me.Column2.HeaderText = "이름"
+        Me.Column2.HeaderText = "名称"
         Me.Column2.Name = "Column2"
         Me.Column2.ReadOnly = True
         Me.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -362,7 +362,7 @@ Partial Class DebugViewUnitForm
         'Column3
         '
         Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column3.HeaderText = "값"
+        Me.Column3.HeaderText = "值"
         Me.Column3.Name = "Column3"
         Me.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
@@ -374,7 +374,7 @@ Partial Class DebugViewUnitForm
         Me.CancelButton = Me.Button5
         Me.ClientSize = New System.Drawing.Size(598, 450)
         Me.Controls.Add(Me.TableLayoutPanel2)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MinimumSize = New System.Drawing.Size(614, 489)
         Me.Name = "DebugViewUnitForm"

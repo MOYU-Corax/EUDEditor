@@ -160,7 +160,7 @@ Partial Class PluginForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(71, 15)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "초기화 조건"
+        Me.Label1.Text = "重置条件"
         '
         'Button1
         '
@@ -169,7 +169,7 @@ Partial Class PluginForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 1
-        Me.Button1.Text = "넣기"
+        Me.Button1.Text = "添加"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button3
@@ -179,7 +179,7 @@ Partial Class PluginForm
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "수정"
+        Me.Button3.Text = "修改"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
@@ -189,7 +189,7 @@ Partial Class PluginForm
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "삭제"
+        Me.Button4.Text = "删除"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'ListBox1
@@ -211,7 +211,7 @@ Partial Class PluginForm
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(50, 19)
         Me.CheckBox1.TabIndex = 6
-        Me.CheckBox1.Text = "사용"
+        Me.CheckBox1.Text = "启用"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'GroupBox5
@@ -250,7 +250,7 @@ Partial Class PluginForm
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(89, 15)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "추가 eds텍스트"
+        Me.Label3.Text = "附加 eds文本"
         '
         'RichTextBox1
         '
@@ -269,7 +269,7 @@ Partial Class PluginForm
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(50, 19)
         Me.CheckBox2.TabIndex = 7
-        Me.CheckBox2.Text = "사용"
+        Me.CheckBox2.Text = "启用"
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
         'GroupBox1
@@ -326,7 +326,7 @@ Partial Class PluginForm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(52, 29)
         Me.Button2.TabIndex = 7
-        Me.Button2.Text = "열기"
+        Me.Button2.Text = "打开"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'GroupBox4
@@ -380,7 +380,7 @@ Partial Class PluginForm
         '
         'DataGridViewTextBoxColumn1
         '
-        Me.DataGridViewTextBoxColumn1.HeaderText = "파일 명"
+        Me.DataGridViewTextBoxColumn1.HeaderText = "文件名"
         Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
         Me.DataGridViewTextBoxColumn1.ReadOnly = True
         Me.DataGridViewTextBoxColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -389,15 +389,15 @@ Partial Class PluginForm
         '
         'DataGridViewComboBoxColumn1
         '
-        Me.DataGridViewComboBoxColumn1.HeaderText = "파일 주소"
+        Me.DataGridViewComboBoxColumn1.HeaderText = "文件地址"
         Me.DataGridViewComboBoxColumn1.Name = "DataGridViewComboBoxColumn1"
         Me.DataGridViewComboBoxColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.DataGridViewComboBoxColumn1.Width = 195
         '
         'Column3
         '
-        Me.Column3.HeaderText = "상태"
-        Me.Column3.Items.AddRange(New Object() {"사용안함", "사용(기본)", "사용(copy)", "사용(unpatcher)"})
+        Me.Column3.HeaderText = "状态"
+        Me.Column3.Items.AddRange(New Object() {"禁用", "启用(默认)", "启用(copy)", "启用(unpatcher)"})
         Me.Column3.Name = "Column3"
         Me.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.Column3.Width = 110
@@ -436,7 +436,7 @@ Partial Class PluginForm
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(102, 15)
         Me.Label5.TabIndex = 0
-        Me.Label5.Text = "추가 dataDumper"
+        Me.Label5.Text = "附加 dataDumper"
         '
         'Button5
         '
@@ -445,7 +445,7 @@ Partial Class PluginForm
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
         Me.Button5.TabIndex = 1
-        Me.Button5.Text = "넣기"
+        Me.Button5.Text = "添加"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -455,7 +455,7 @@ Partial Class PluginForm
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(75, 23)
         Me.Button6.TabIndex = 2
-        Me.Button6.Text = "수정"
+        Me.Button6.Text = "修改"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Button7
@@ -465,7 +465,7 @@ Partial Class PluginForm
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(75, 23)
         Me.Button7.TabIndex = 3
-        Me.Button7.Text = "삭제"
+        Me.Button7.Text = "删除"
         Me.Button7.UseVisualStyleBackColor = True
         '
         'ListBox2
@@ -487,7 +487,7 @@ Partial Class PluginForm
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(50, 19)
         Me.CheckBox3.TabIndex = 8
-        Me.CheckBox3.Text = "사용"
+        Me.CheckBox3.Text = "启用"
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'FlowLayoutPanel3
@@ -560,7 +560,7 @@ Partial Class PluginForm
         '
         'Column1
         '
-        Me.Column1.HeaderText = "파일 명"
+        Me.Column1.HeaderText = "文件名"
         Me.Column1.Name = "Column1"
         Me.Column1.ReadOnly = True
         Me.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
@@ -569,7 +569,7 @@ Partial Class PluginForm
         '
         'Column2
         '
-        Me.Column2.HeaderText = "파일 주소"
+        Me.Column2.HeaderText = "文件地址"
         Me.Column2.Name = "Column2"
         Me.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.Column2.Width = 265
@@ -588,7 +588,7 @@ Partial Class PluginForm
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(50, 19)
         Me.CheckBox4.TabIndex = 8
-        Me.CheckBox4.Text = "사용"
+        Me.CheckBox4.Text = "启用"
         Me.CheckBox4.UseVisualStyleBackColor = True
         '
         'GroupBox6
@@ -629,7 +629,7 @@ Partial Class PluginForm
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(59, 15)
         Me.Label4.TabIndex = 0
-        Me.Label4.Text = "인식 유닛"
+        Me.Label4.Text = "识别单位"
         '
         'EasyCompletionComboBox1
         '
@@ -661,7 +661,7 @@ Partial Class PluginForm
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(31, 15)
         Me.Label6.TabIndex = 0
-        Me.Label6.Text = "인식"
+        Me.Label6.Text = "识别"
         '
         'Button8
         '
@@ -670,7 +670,7 @@ Partial Class PluginForm
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(75, 23)
         Me.Button8.TabIndex = 1
-        Me.Button8.Text = "넣기"
+        Me.Button8.Text = "添加"
         Me.Button8.UseVisualStyleBackColor = True
         '
         'Button9
@@ -680,7 +680,7 @@ Partial Class PluginForm
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(75, 23)
         Me.Button9.TabIndex = 2
-        Me.Button9.Text = "수정"
+        Me.Button9.Text = "修改"
         Me.Button9.UseVisualStyleBackColor = True
         '
         'Button10
@@ -690,7 +690,7 @@ Partial Class PluginForm
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(75, 23)
         Me.Button10.TabIndex = 3
-        Me.Button10.Text = "삭제"
+        Me.Button10.Text = "删除"
         Me.Button10.UseVisualStyleBackColor = True
         '
         'Button11
@@ -700,7 +700,7 @@ Partial Class PluginForm
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(99, 23)
         Me.Button11.TabIndex = 4
-        Me.Button11.Text = "마우스로케이션"
+        Me.Button11.Text = "鼠标定位"
         Me.Button11.UseVisualStyleBackColor = True
         '
         'ListBox3
@@ -722,12 +722,12 @@ Partial Class PluginForm
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(50, 19)
         Me.CheckBox5.TabIndex = 7
-        Me.CheckBox5.Text = "사용"
+        Me.CheckBox5.Text = "启用"
         Me.CheckBox5.UseVisualStyleBackColor = True
         '
         'OpenFileDialog1
         '
-        Me.OpenFileDialog1.Filter = "스크립트파일|*.bin"
+        Me.OpenFileDialog1.Filter = "脚本文件|*.bin"
         '
         'OpenFileDialog2
         '
@@ -741,7 +741,7 @@ Partial Class PluginForm
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.ClientSize = New System.Drawing.Size(910, 561)
         Me.Controls.Add(Me.FlowLayoutPanel3)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

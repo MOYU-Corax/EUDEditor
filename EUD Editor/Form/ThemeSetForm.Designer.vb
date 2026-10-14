@@ -50,7 +50,7 @@ Partial Class ThemeSetForm
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"사용자 정의", "DatEdit 테마", "EUD Editor 테마", "EUD Editor2 테마"})
+        Me.ComboBox1.Items.AddRange(New Object() {"自定义", "DatEdit 主题", "EUD Editor 主题", "EUD Editor2 主题"})
         Me.ComboBox1.Location = New System.Drawing.Point(65, 10)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox1.Name = "ComboBox1"
@@ -64,7 +64,7 @@ Partial Class ThemeSetForm
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 2
-        Me.Button1.Text = "설정"
+        Me.Button1.Text = "设置"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Label1
@@ -73,7 +73,7 @@ Partial Class ThemeSetForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(53, 13)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "테마"
+        Me.Label1.Text = "主题"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label2
@@ -82,7 +82,7 @@ Partial Class ThemeSetForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(50, 13)
         Me.Label2.TabIndex = 4
-        Me.Label2.Text = "글씨색"
+        Me.Label2.Text = "文字颜色"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox1
@@ -150,7 +150,7 @@ Partial Class ThemeSetForm
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 12
-        Me.Button4.Text = "설정"
+        Me.Button4.Text = "设置"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Label5
@@ -159,7 +159,7 @@ Partial Class ThemeSetForm
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(50, 13)
         Me.Label5.TabIndex = 13
-        Me.Label5.Text = "체크색"
+        Me.Label5.Text = "勾选颜色"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Button3
@@ -169,7 +169,7 @@ Partial Class ThemeSetForm
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 9
-        Me.Button3.Text = "설정"
+        Me.Button3.Text = "设置"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Label4
@@ -178,7 +178,7 @@ Partial Class ThemeSetForm
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(50, 13)
         Me.Label4.TabIndex = 10
-        Me.Label4.Text = "수정색"
+        Me.Label4.Text = "修改颜色"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Button2
@@ -188,7 +188,7 @@ Partial Class ThemeSetForm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 6
-        Me.Button2.Text = "설정"
+        Me.Button2.Text = "设置"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Label3
@@ -197,7 +197,7 @@ Partial Class ThemeSetForm
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(50, 13)
         Me.Label3.TabIndex = 7
-        Me.Label3.Text = "배경색"
+        Me.Label3.Text = "背景颜色"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'ThemeSetForm
@@ -208,7 +208,7 @@ Partial Class ThemeSetForm
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ComboBox1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False

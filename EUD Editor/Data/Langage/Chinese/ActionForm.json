@@ -1,0 +1,19 @@
+﻿{
+    "Button5": "确定",
+    "Button6": "取消",
+    "TabPage4": "经典",
+    "TabPage5": "EUD",
+    "TabPage6": "结构偏移",
+    "TabPage7": "自定义",
+    "TabPage1": "推荐",
+    "Button2": "在新窗口打开",
+    "Button1": "在新窗口打开",
+    "Label1": "hitpoint",
+    "Label2": "shield",
+    "Label3": "energy",
+    "Label4": "resource",
+    "Label5": "hanger",
+    "TabPage2": "变量",
+    "TabPage3": "直接输入",
+    "Button3": "获取值"
+}

@@ -157,7 +157,7 @@ Partial Class PlayerdataForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(43, 15)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "미네랄"
+        Me.Label1.Text = "水晶"
         '
         'Label2
         '
@@ -166,7 +166,7 @@ Partial Class PlayerdataForm
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(31, 15)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "가스"
+        Me.Label2.Text = "瓦斯"
         '
         'CheckedListBox1
         '
@@ -187,7 +187,7 @@ Partial Class PlayerdataForm
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(31, 15)
         Me.Label4.TabIndex = 7
-        Me.Label4.Text = "시야"
+        Me.Label4.Text = "视野"
         '
         'NumericUpDown1
         '
@@ -224,7 +224,7 @@ Partial Class PlayerdataForm
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(31, 15)
         Me.Label6.TabIndex = 13
-        Me.Label6.Text = "동맹"
+        Me.Label6.Text = "同盟"
         '
         'Label3
         '
@@ -233,7 +233,7 @@ Partial Class PlayerdataForm
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(31, 15)
         Me.Label3.TabIndex = 14
-        Me.Label3.Text = "상태"
+        Me.Label3.Text = "状态"
         '
         'TextBox1
         '
@@ -264,7 +264,7 @@ Partial Class PlayerdataForm
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TabControl1)
-        Me.Font = New System.Drawing.Font("맑은 고딕", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False
