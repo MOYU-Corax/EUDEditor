@@ -1,10 +1,10 @@
-»õ·Î ±×¸®Áö¾Ê±â
-ofire.pcx (¿À·£Áö)
-gfire.pcx (³ì»ö)
-bfire.pcx (ÆÄ¶û)
-bexpl.pcx (ÆÄ¶û2)
-Special (ÀÚ±âÀÚ½Å Å¬·ÎÅ·)
+ï»¿ä¸é‡ç»˜
+ofire.pcx (æ©™è‰²)
+gfire.pcx (ç»¿è‰²)
+bfire.pcx (è“è‰²)
+bexpl.pcx (è“è‰²2)
+Special (è‡ªèº«éšå½¢)
 (crash)
 (crash)
-¾Ë¼ö¾øÀ½8 (?)
-¾Ë¼ö¾øÀ½9 (?)
+æœªçŸ¥8 (?)
+æœªçŸ¥9 (?)
